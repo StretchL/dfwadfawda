@@ -1,845 +1,821 @@
- --[[ 
- 				██╗  ██╗ █████╗ ███████╗███████╗
- 				██║  ██║██╔══██╗╚══███╔╝██╔════╝
- 				███████║███████║  ███╔╝ █████╗  
- 				██╔══██║██╔══██║ ███╔╝  ██╔══╝  
- 				██║  ██║██║  ██║███████╗███████╗
- 				╚═╝  ╚═╝╚═╝  ╚═╝╚══════╝╚══════╝
-[A] This Script Source Was Protected By Hazeッ#9889 Any Attempts To Leak Will Result In A Blacklist
-[B] This Script Can Be Sold/Given Out By The Owner. Alls I Did Was Protect The Source Lol
-[C] You Cant Crack It.
-[D] To Purchase The Obfuscation Tool Dm Me Or For Support Im Working On A Script For It
-                                
-                                                   ]]
+local Box = loadstring(game:HttpGet("https://pastebin.com/raw/VAwgKt3q", true))()
+local Lines = loadstring(game:HttpGet("https://pastebin.com/raw/VAwgKt3q", true))()
+local Name = loadstring(game:HttpGet("https://pastebin.com/raw/VAwgKt3q", true))()
 
-
-local HazeLocalChangerLol1_ = loadstring(game:HttpGet("https://pastebin.com/raw/VAwgKt3q", true))()
-local HazeLocalChangerLol2_ = loadstring(game:HttpGet("https://pastebin.com/raw/VAwgKt3q", true))()
-local HazeLocalChangerLol3_ = loadstring(game:HttpGet("https://pastebin.com/raw/VAwgKt3q", true))()
-
-local HazeLocalChangerLol4_ = Instance.new("ScreenGui")
-local HazeLocalChangerLol5_ = Instance.new("Frame")
-local HazeLocalChangerLol6_ = Instance.new("Frame")
-local HazeLocalChangerLol7_ = Instance.new("Frame")
-local HazeLocalChangerLol8_ = Instance.new("UIGradient")
-local HazeLocalChangerLol9_ = Instance.new("Frame")
-local HazeLocalChangerLol10_ = Instance.new("Frame")
-local HazeLocalChangerLol11_ = Instance.new("UIListLayout")
-local HazeLocalChangerLol12_ = Instance.new("TextLabel")
-local HazeLocalChangerLol13_ = Instance.new("TextButton")
-local HazeLocalChangerLol14_ = Instance.new("ImageLabel")
-local HazeLocalChangerLol15_ = Instance.new("TextLabel")
-local HazeLocalChangerLol16_ = Instance.new("TextButton")
-local HazeLocalChangerLol17_ = Instance.new("ImageLabel")
-local HazeLocalChangerLol18_ = Instance.new("TextLabel")
-local HazeLocalChangerLol19_ = Instance.new("TextButton")
-local HazeLocalChangerLol20_ = Instance.new("ImageLabel")
-local HazeLocalChangerLol21_ = Instance.new("TextLabel")
-local HazeLocalChangerLol22_ = Instance.new("TextButton")
-local HazeLocalChangerLol23_ = Instance.new("ImageLabel")
-local HazeLocalChangerLol24_ = Instance.new("Frame")
-local HazeLocalChangerLol25_ = Instance.new("Frame")
-local HazeLocalChangerLol26_ = Instance.new("TextLabel")
-local HazeLocalChangerLol27_ = Instance.new("TextButton")
-local HazeLocalChangerLol28_ = Instance.new("TextLabel")
-local HazeLocalChangerLol29_ = Instance.new("Frame")
-local HazeLocalChangerLol30_ = Instance.new("TextLabel")
-local HazeLocalChangerLol31_ = Instance.new("TextButton")
-local HazeLocalChangerLol32_ = Instance.new("TextLabel")
-local HazeLocalChangerLol33_ = Instance.new("Frame")
-local HazeLocalChangerLol34_ = Instance.new("Frame")
-local HazeLocalChangerLol35_ = Instance.new("UIGradient")
-local HazeLocalChangerLol36_ = Instance.new("TextLabel")
-local HazeLocalChangerLol37_ = Instance.new("Frame")
-local HazeLocalChangerLol38_ = Instance.new("Frame")
-local HazeLocalChangerLol39_ = Instance.new("Frame")
-local HazeLocalChangerLol40_ = Instance.new("Frame")
-local HazeLocalChangerLol41_ = Instance.new("Frame")
-local HazeLocalChangerLol42_ = Instance.new("Frame")
-local HazeLocalChangerLol43_ = Instance.new("Frame")
-local HazeLocalChangerLol44_ = Instance.new("TextLabel")
-local HazeLocalChangerLol45_ = Instance.new("TextButton")
-local HazeLocalChangerLol46_ = Instance.new("TextLabel")
-local HazeLocalChangerLol47_ = Instance.new("TextButton")
-local HazeLocalChangerLol48_ = Instance.new("TextLabel")
-local HazeLocalChangerLol49_ = Instance.new("TextButton")
-local HazeLocalChangerLol50_ = Instance.new("TextLabel")
-local HazeLocalChangerLol51_ = Instance.new("Frame")
-local HazeLocalChangerLol52_ = Instance.new("TextLabel")
-local HazeLocalChangerLol53_ = Instance.new("Frame")
-local HazeLocalChangerLol54_ = Instance.new("Frame")
-local HazeLocalChangerLol55_ = Instance.new("TextLabel")
-local HazeLocalChangerLol56_ = Instance.new("TextButton")
-local HazeLocalChangerLol57_ = Instance.new("TextLabel")
-local HazeLocalChangerLol58_ = Instance.new("TextBox")
-local HazeLocalChangerLol59_ = Instance.new("Frame")
-local HazeLocalChangerLol60_ = Instance.new("TextLabel")
-local HazeLocalChangerLol61_ = Instance.new("TextButton")
-local HazeLocalChangerLol62_ = Instance.new("TextLabel")
-local HazeLocalChangerLol63_ = Instance.new("Frame")
-local HazeLocalChangerLol64_ = Instance.new("Frame")
-local HazeLocalChangerLol65_ = Instance.new("TextLabel")
-local HazeLocalChangerLol66_ = Instance.new("ImageLabel")
-local HazeLocalChangerLol67_ = Instance.new("UICorner")
-local HazeLocalChangerLol68_ = Instance.new("Frame")
-local HazeLocalChangerLol69_ = Instance.new("TextLabel")
-local HazeLocalChangerLol70_ = Instance.new("TextButton")
-local HazeLocalChangerLol71_ = Instance.new("TextLabel")
-local HazeLocalChangerLol72_ = Instance.new("UIGradient")
+local ManyIsWelcome = Instance.new("ScreenGui")
+local NotPasted = Instance.new("Frame")
+local ScriptFrame = Instance.new("Frame")
+local Colouring = Instance.new("Frame")
+local UIGradient = Instance.new("UIGradient")
+local Frame = Instance.new("Frame")
+local ShitCunt = Instance.new("Frame")
+local UIListLayout = Instance.new("UIListLayout")
+local AimbotT = Instance.new("TextLabel")
+local AimbotB = Instance.new("TextButton")
+local ImageLabel = Instance.new("ImageLabel")
+local VisualT = Instance.new("TextLabel")
+local VisualB = Instance.new("TextButton")
+local ImageLabel_2 = Instance.new("ImageLabel")
+local VisualT_2 = Instance.new("TextLabel")
+local VisualB_2 = Instance.new("TextButton")
+local ImageLabel_3 = Instance.new("ImageLabel")
+local VisualT_3 = Instance.new("TextLabel")
+local VisualB_3 = Instance.new("TextButton")
+local ImageLabel_4 = Instance.new("ImageLabel")
+local Main = Instance.new("Frame")
+local Frame_2 = Instance.new("Frame")
+local TextLabel = Instance.new("TextLabel")
+local AimbotButton = Instance.new("TextButton")
+local TextLabel_2 = Instance.new("TextLabel")
+local Frame_3 = Instance.new("Frame")
+local TextLabel_3 = Instance.new("TextLabel")
+local FovButton = Instance.new("TextButton")
+local TextLabel_4 = Instance.new("TextLabel")
+local Slider = Instance.new("Frame")
+local Slide = Instance.new("Frame")
+local UIGradient_2 = Instance.new("UIGradient")
+local stuff = Instance.new("TextLabel")
+local Frame_4 = Instance.new("Frame")
+local Frame_5 = Instance.new("Frame")
+local Frame_6 = Instance.new("Frame")
+local Frame_7 = Instance.new("Frame")
+local Frame_8 = Instance.new("Frame")
+local Visual = Instance.new("Frame")
+local Frame_9 = Instance.new("Frame")
+local TextLabel_5 = Instance.new("TextLabel")
+local Boxes = Instance.new("TextButton")
+local TextLabel_6 = Instance.new("TextLabel")
+local Tracers = Instance.new("TextButton")
+local TextLabel_7 = Instance.new("TextLabel")
+local Names = Instance.new("TextButton")
+local TextLabel_8 = Instance.new("TextLabel")
+local Frame_10 = Instance.new("Frame")
+local TextLabel_9 = Instance.new("TextLabel")
+local Settings = Instance.new("Frame")
+local Frame_11 = Instance.new("Frame")
+local TextLabel_10 = Instance.new("TextLabel")
+local AimbotButton_2 = Instance.new("TextButton")
+local TextLabel_11 = Instance.new("TextLabel")
+local TextBox = Instance.new("TextBox")
+local Frame_12 = Instance.new("Frame")
+local TextLabel_12 = Instance.new("TextLabel")
+local FovButton_2 = Instance.new("TextButton")
+local TextLabel_13 = Instance.new("TextLabel")
+local Account = Instance.new("Frame")
+local Frame_13 = Instance.new("Frame")
+local TextLabel_14 = Instance.new("TextLabel")
+local User = Instance.new("ImageLabel")
+local UICorner = Instance.new("UICorner")
+local Frame_14 = Instance.new("Frame")
+local TextLabel_15 = Instance.new("TextLabel")
+local FovButton_3 = Instance.new("TextButton")
+local TextLabel_16 = Instance.new("TextLabel")
+local UIGradient_3 = Instance.new("UIGradient")
 
 --Properties:
 
-HazeLocalChangerLol4_.Name = "Many Is Welcome"
-HazeLocalChangerLol4_.Parent = game.CoreGui
-HazeLocalChangerLol4_.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
-
-HazeLocalChangerLol5_.Name = "NotPasted"
-HazeLocalChangerLol5_.Parent = HazeLocalChangerLol4_
-HazeLocalChangerLol5_.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-HazeLocalChangerLol5_.BackgroundTransparency = 0.950
-HazeLocalChangerLol5_.BorderColor3 = Color3.fromRGB(27, 42, 53)
-HazeLocalChangerLol5_.Position = UDim2.new(0.32427606, 0, 0.421656042, 0)
-HazeLocalChangerLol5_.Size = UDim2.new(0, 535, 0, 7)
-HazeLocalChangerLol5_.ZIndex = 10
-
-HazeLocalChangerLol6_.Name = "ScriptFrame"
-HazeLocalChangerLol6_.Parent = HazeLocalChangerLol5_
-HazeLocalChangerLol6_.BackgroundColor3 = Color3.fromRGB(20, 20, 20)
-HazeLocalChangerLol6_.BorderColor3 = Color3.fromRGB(0, 0, 0)
-HazeLocalChangerLol6_.Position = UDim2.new(-0.00139737129, 0, -0.110191047, 0)
-HazeLocalChangerLol6_.Size = UDim2.new(0, 535, 0, 411)
-
-HazeLocalChangerLol7_.Name = "Colouring"
-HazeLocalChangerLol7_.Parent = HazeLocalChangerLol6_
-HazeLocalChangerLol7_.BackgroundColor3 = Color3.fromRGB(85, 0, 255)
-HazeLocalChangerLol7_.BorderColor3 = Color3.fromRGB(0, 0, 0)
-HazeLocalChangerLol7_.Size = UDim2.new(0, 535, 0, 6)
-
-HazeLocalChangerLol8_.Color = ColorSequence.new{
-	ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 238, 238)),
-	ColorSequenceKeypoint.new(1.00, Color3.fromRGB(212, 163, 255))
-}
-HazeLocalChangerLol8_.Parent = HazeLocalChangerLol7_
-
-HazeLocalChangerLol9_.Parent = HazeLocalChangerLol6_
-HazeLocalChangerLol9_.BackgroundColor3 = Color3.fromRGB(24, 24, 24)
-HazeLocalChangerLol9_.BorderColor3 = Color3.fromRGB(50, 50, 50)
-HazeLocalChangerLol9_.Position = UDim2.new(0.0149532715, 0, 0.0389294401, 0)
-HazeLocalChangerLol9_.Size = UDim2.new(0, 123, 0, 385)
-
-HazeLocalChangerLol10_.Name = "ShitCunt"
-HazeLocalChangerLol10_.Parent = HazeLocalChangerLol9_
-HazeLocalChangerLol10_.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-HazeLocalChangerLol10_.BackgroundTransparency = 1.000
-HazeLocalChangerLol10_.Size = UDim2.new(0, 123, 0, 0)
-
-HazeLocalChangerLol11_.Parent = HazeLocalChangerLol9_
-HazeLocalChangerLol11_.SortOrder = Enum.SortOrder.LayoutOrder
-HazeLocalChangerLol11_.Padding = UDim.new(0, 9)
-
-HazeLocalChangerLol12_.Name = "AimbotT"
-HazeLocalChangerLol12_.Parent = HazeLocalChangerLol9_
-HazeLocalChangerLol12_.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-HazeLocalChangerLol12_.BackgroundTransparency = 1.000
-HazeLocalChangerLol12_.Position = UDim2.new(0, 0, 0.0831168815, 0)
-HazeLocalChangerLol12_.Size = UDim2.new(0, 123, 0, 17)
-HazeLocalChangerLol12_.Font = Enum.Font.Code
-HazeLocalChangerLol12_.Text = "Aimbot"
-HazeLocalChangerLol12_.TextColor3 = Color3.fromRGB(113, 113, 113)
-HazeLocalChangerLol12_.TextSize = 14.000
-HazeLocalChangerLol12_.TextStrokeTransparency = 0.000
-
-HazeLocalChangerLol13_.Name = "AimbotB"
-HazeLocalChangerLol13_.Parent = HazeLocalChangerLol12_
-HazeLocalChangerLol13_.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-HazeLocalChangerLol13_.BackgroundTransparency = 1.000
-HazeLocalChangerLol13_.Size = UDim2.new(0, 123, 0, 17)
-HazeLocalChangerLol13_.Font = Enum.Font.SourceSans
-HazeLocalChangerLol13_.Text = ""
-HazeLocalChangerLol13_.TextColor3 = Color3.fromRGB(0, 0, 0)
-HazeLocalChangerLol13_.TextSize = 14.000
-
-HazeLocalChangerLol14_.Parent = HazeLocalChangerLol13_
-HazeLocalChangerLol14_.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-HazeLocalChangerLol14_.BackgroundTransparency = 1.000
-HazeLocalChangerLol14_.Position = UDim2.new(0.0569105744, 0, 0, 0)
-HazeLocalChangerLol14_.Size = UDim2.new(0, 20, 0, 21)
-HazeLocalChangerLol14_.Image = "http://www.roblox.com/asset/?id=105540093"
-HazeLocalChangerLol14_.ScaleType = Enum.ScaleType.Fit
-
-HazeLocalChangerLol15_.Name = "VisualT"
-HazeLocalChangerLol15_.Parent = HazeLocalChangerLol9_
-HazeLocalChangerLol15_.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-HazeLocalChangerLol15_.BackgroundTransparency = 1.000
-HazeLocalChangerLol15_.Position = UDim2.new(0, 0, 0.0831168815, 0)
-HazeLocalChangerLol15_.Size = UDim2.new(0, 123, 0, 17)
-HazeLocalChangerLol15_.Font = Enum.Font.Code
-HazeLocalChangerLol15_.Text = "Visual"
-HazeLocalChangerLol15_.TextColor3 = Color3.fromRGB(113, 113, 113)
-HazeLocalChangerLol15_.TextSize = 14.000
-HazeLocalChangerLol15_.TextStrokeTransparency = 0.000
-
-HazeLocalChangerLol16_.Name = "VisualB"
-HazeLocalChangerLol16_.Parent = HazeLocalChangerLol15_
-HazeLocalChangerLol16_.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-HazeLocalChangerLol16_.BackgroundTransparency = 1.000
-HazeLocalChangerLol16_.Size = UDim2.new(0, 123, 0, 17)
-HazeLocalChangerLol16_.Font = Enum.Font.SourceSans
-HazeLocalChangerLol16_.Text = ""
-HazeLocalChangerLol16_.TextColor3 = Color3.fromRGB(0, 0, 0)
-HazeLocalChangerLol16_.TextSize = 14.000
-
-HazeLocalChangerLol17_.Parent = HazeLocalChangerLol15_
-HazeLocalChangerLol17_.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-HazeLocalChangerLol17_.BackgroundTransparency = 1.000
-HazeLocalChangerLol17_.Position = UDim2.new(0.0569105744, 0, -0.117647015, 0)
-HazeLocalChangerLol17_.Size = UDim2.new(0, 20, 0, 21)
-HazeLocalChangerLol17_.Image = "http://www.roblox.com/asset/?id=6034287594"
-HazeLocalChangerLol17_.ScaleType = Enum.ScaleType.Fit
-
-HazeLocalChangerLol18_.Name = "VisualT"
-HazeLocalChangerLol18_.Parent = HazeLocalChangerLol9_
-HazeLocalChangerLol18_.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-HazeLocalChangerLol18_.BackgroundTransparency = 1.000
-HazeLocalChangerLol18_.Position = UDim2.new(0, 0, 0.158441558, 0)
-HazeLocalChangerLol18_.Size = UDim2.new(0, 123, 0, 17)
-HazeLocalChangerLol18_.Font = Enum.Font.Code
-HazeLocalChangerLol18_.Text = "Account"
-HazeLocalChangerLol18_.TextColor3 = Color3.fromRGB(113, 113, 113)
-HazeLocalChangerLol18_.TextSize = 14.000
-HazeLocalChangerLol18_.TextStrokeTransparency = 0.000
-
-HazeLocalChangerLol19_.Name = "VisualB"
-HazeLocalChangerLol19_.Parent = HazeLocalChangerLol18_
-HazeLocalChangerLol19_.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-HazeLocalChangerLol19_.BackgroundTransparency = 1.000
-HazeLocalChangerLol19_.Size = UDim2.new(0, 123, 0, 17)
-HazeLocalChangerLol19_.Font = Enum.Font.SourceSans
-HazeLocalChangerLol19_.Text = ""
-HazeLocalChangerLol19_.TextColor3 = Color3.fromRGB(0, 0, 0)
-HazeLocalChangerLol19_.TextSize = 14.000
-
-HazeLocalChangerLol20_.Parent = HazeLocalChangerLol18_
-HazeLocalChangerLol20_.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-HazeLocalChangerLol20_.BackgroundTransparency = 1.000
-HazeLocalChangerLol20_.Position = UDim2.new(0.0569105744, 0, -0.117647015, 0)
-HazeLocalChangerLol20_.Size = UDim2.new(0, 20, 0, 21)
-HazeLocalChangerLol20_.Image = "http://www.roblox.com/asset/?id=6022668898"
-HazeLocalChangerLol20_.ScaleType = Enum.ScaleType.Fit
-
-HazeLocalChangerLol21_.Name = "VisualT"
-HazeLocalChangerLol21_.Parent = HazeLocalChangerLol9_
-HazeLocalChangerLol21_.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-HazeLocalChangerLol21_.BackgroundTransparency = 1.000
-HazeLocalChangerLol21_.Position = UDim2.new(2.17073178, 0, 0.28831169, 0)
-HazeLocalChangerLol21_.Size = UDim2.new(0, 123, 0, 17)
-HazeLocalChangerLol21_.Font = Enum.Font.Code
-HazeLocalChangerLol21_.Text = "Settings"
-HazeLocalChangerLol21_.TextColor3 = Color3.fromRGB(113, 113, 113)
-HazeLocalChangerLol21_.TextSize = 14.000
-HazeLocalChangerLol21_.TextStrokeTransparency = 0.000
-
-HazeLocalChangerLol22_.Name = "VisualB"
-HazeLocalChangerLol22_.Parent = HazeLocalChangerLol21_
-HazeLocalChangerLol22_.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-HazeLocalChangerLol22_.BackgroundTransparency = 1.000
-HazeLocalChangerLol22_.Size = UDim2.new(0, 123, 0, 17)
-HazeLocalChangerLol22_.Font = Enum.Font.SourceSans
-HazeLocalChangerLol22_.Text = ""
-HazeLocalChangerLol22_.TextColor3 = Color3.fromRGB(0, 0, 0)
-HazeLocalChangerLol22_.TextSize = 14.000
-
-HazeLocalChangerLol23_.Parent = HazeLocalChangerLol21_
-HazeLocalChangerLol23_.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-HazeLocalChangerLol23_.BackgroundTransparency = 1.000
-HazeLocalChangerLol23_.Position = UDim2.new(0.0569105744, 0, -0.117647015, 0)
-HazeLocalChangerLol23_.Size = UDim2.new(0, 20, 0, 21)
-HazeLocalChangerLol23_.Image = "http://www.roblox.com/asset/?id=6031280882"
-HazeLocalChangerLol23_.ScaleType = Enum.ScaleType.Fit
-
-HazeLocalChangerLol24_.Name = "Main"
-HazeLocalChangerLol24_.Parent = HazeLocalChangerLol6_
-HazeLocalChangerLol24_.BackgroundColor3 = Color3.fromRGB(24, 24, 24)
-HazeLocalChangerLol24_.BorderColor3 = Color3.fromRGB(50, 50, 50)
-HazeLocalChangerLol24_.Position = UDim2.new(0.276635498, 0, 0.0316301696, 0)
-HazeLocalChangerLol24_.Size = UDim2.new(0, 374, 0, 385)
-HazeLocalChangerLol24_.Visible = false
-
-HazeLocalChangerLol25_.Parent = HazeLocalChangerLol24_
-HazeLocalChangerLol25_.BackgroundColor3 = Color3.fromRGB(34, 34, 34)
-HazeLocalChangerLol25_.BackgroundTransparency = 0.950
-HazeLocalChangerLol25_.BorderSizePixel = 0
-HazeLocalChangerLol25_.Position = UDim2.new(0.0588235259, 0, 0.0337662324, 0)
-HazeLocalChangerLol25_.Size = UDim2.new(0, 176, 0, 120)
-
-HazeLocalChangerLol26_.Parent = HazeLocalChangerLol25_
-HazeLocalChangerLol26_.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-HazeLocalChangerLol26_.BackgroundTransparency = 1.000
-HazeLocalChangerLol26_.BorderColor3 = Color3.fromRGB(27, 42, 53)
-HazeLocalChangerLol26_.Position = UDim2.new(0, 0, -0.0500000007, 0)
-HazeLocalChangerLol26_.Size = UDim2.new(0, 47, 0, 26)
-HazeLocalChangerLol26_.Font = Enum.Font.Code
-HazeLocalChangerLol26_.Text = "Aimbot"
-HazeLocalChangerLol26_.TextColor3 = Color3.fromRGB(255, 255, 255)
-HazeLocalChangerLol26_.TextSize = 14.000
-HazeLocalChangerLol26_.TextXAlignment = Enum.TextXAlignment.Left
-
-HazeLocalChangerLol27_.Name = "AimbotButton"
-HazeLocalChangerLol27_.Parent = HazeLocalChangerLol25_
-HazeLocalChangerLol27_.BackgroundColor3 = Color3.fromRGB(29, 29, 29)
-HazeLocalChangerLol27_.BorderColor3 = Color3.fromRGB(0, 0, 0)
-HazeLocalChangerLol27_.Position = UDim2.new(0, 0, 0.183333337, 0)
-HazeLocalChangerLol27_.Size = UDim2.new(0, 12, 0, 12)
-HazeLocalChangerLol27_.Font = Enum.Font.SourceSans
-HazeLocalChangerLol27_.Text = ""
-HazeLocalChangerLol27_.TextColor3 = Color3.fromRGB(0, 0, 0)
-HazeLocalChangerLol27_.TextSize = 16.000
-
-HazeLocalChangerLol28_.Parent = HazeLocalChangerLol27_
-HazeLocalChangerLol28_.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-HazeLocalChangerLol28_.BackgroundTransparency = 1.000
-HazeLocalChangerLol28_.Position = UDim2.new(1.75, 0, 0, 0)
-HazeLocalChangerLol28_.Size = UDim2.new(0, 44, 0, 10)
-HazeLocalChangerLol28_.Font = Enum.Font.SourceSans
-HazeLocalChangerLol28_.Text = "Enabled"
-HazeLocalChangerLol28_.TextColor3 = Color3.fromRGB(255, 255, 255)
-HazeLocalChangerLol28_.TextSize = 14.000
-HazeLocalChangerLol28_.TextStrokeTransparency = 0.000
-HazeLocalChangerLol28_.TextXAlignment = Enum.TextXAlignment.Left
-
-HazeLocalChangerLol29_.Parent = HazeLocalChangerLol24_
-HazeLocalChangerLol29_.BackgroundColor3 = Color3.fromRGB(34, 34, 34)
-HazeLocalChangerLol29_.BackgroundTransparency = 0.950
-HazeLocalChangerLol29_.BorderSizePixel = 0
-HazeLocalChangerLol29_.Position = UDim2.new(0.497326195, 0, 0.0285714269, 0)
-HazeLocalChangerLol29_.Size = UDim2.new(0, 176, 0, 120)
-
-HazeLocalChangerLol30_.Parent = HazeLocalChangerLol29_
-HazeLocalChangerLol30_.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-HazeLocalChangerLol30_.BackgroundTransparency = 1.000
-HazeLocalChangerLol30_.BorderColor3 = Color3.fromRGB(27, 42, 53)
-HazeLocalChangerLol30_.Position = UDim2.new(0, 0, -0.0500000007, 0)
-HazeLocalChangerLol30_.Size = UDim2.new(0, 47, 0, 26)
-HazeLocalChangerLol30_.Font = Enum.Font.Code
-HazeLocalChangerLol30_.Text = "Fov Circle"
-HazeLocalChangerLol30_.TextColor3 = Color3.fromRGB(255, 255, 255)
-HazeLocalChangerLol30_.TextSize = 14.000
-HazeLocalChangerLol30_.TextXAlignment = Enum.TextXAlignment.Left
-
-HazeLocalChangerLol31_.Name = "FovButton"
-HazeLocalChangerLol31_.Parent = HazeLocalChangerLol29_
-HazeLocalChangerLol31_.BackgroundColor3 = Color3.fromRGB(29, 29, 29)
-HazeLocalChangerLol31_.BorderColor3 = Color3.fromRGB(0, 0, 0)
-HazeLocalChangerLol31_.Position = UDim2.new(0, 0, 0.183333337, 0)
-HazeLocalChangerLol31_.Size = UDim2.new(0, 12, 0, 12)
-HazeLocalChangerLol31_.Font = Enum.Font.SourceSans
-HazeLocalChangerLol31_.Text = ""
-HazeLocalChangerLol31_.TextColor3 = Color3.fromRGB(0, 0, 0)
-HazeLocalChangerLol31_.TextSize = 16.000
-
-HazeLocalChangerLol32_.Parent = HazeLocalChangerLol31_
-HazeLocalChangerLol32_.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-HazeLocalChangerLol32_.BackgroundTransparency = 1.000
-HazeLocalChangerLol32_.Position = UDim2.new(1.75, 0, 0, 0)
-HazeLocalChangerLol32_.Size = UDim2.new(0, 44, 0, 10)
-HazeLocalChangerLol32_.Font = Enum.Font.SourceSans
-HazeLocalChangerLol32_.Text = "Enabled"
-HazeLocalChangerLol32_.TextColor3 = Color3.fromRGB(255, 255, 255)
-HazeLocalChangerLol32_.TextSize = 14.000
-HazeLocalChangerLol32_.TextStrokeTransparency = 0.000
-HazeLocalChangerLol32_.TextXAlignment = Enum.TextXAlignment.Left
-
-HazeLocalChangerLol33_.Name = "Slider"
-HazeLocalChangerLol33_.Parent = HazeLocalChangerLol29_
-HazeLocalChangerLol33_.BackgroundColor3 = Color3.fromRGB(44, 44, 44)
-HazeLocalChangerLol33_.BorderColor3 = Color3.fromRGB(0, 0, 0)
-HazeLocalChangerLol33_.Position = UDim2.new(-0.00300008804, 0, 0.458333075, 0)
-HazeLocalChangerLol33_.Size = UDim2.new(0, 141, 0, 10)
-
-HazeLocalChangerLol34_.Name = "Slide"
-HazeLocalChangerLol34_.Parent = HazeLocalChangerLol33_
-HazeLocalChangerLol34_.BackgroundColor3 = Color3.fromRGB(85, 0, 255)
-HazeLocalChangerLol34_.BorderColor3 = Color3.fromRGB(0, 0, 0)
-HazeLocalChangerLol34_.Position = UDim2.new(-0.00169364398, 0, 0, 0)
-HazeLocalChangerLol34_.Size = UDim2.new(0, 40, 0, 10)
-
-HazeLocalChangerLol35_.Color = ColorSequence.new{
-	ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 255, 255)),
-	ColorSequenceKeypoint.new(1.00, Color3.fromRGB(167, 132, 255))
-}
-HazeLocalChangerLol35_.Rotation = 230.71058654785156
-HazeLocalChangerLol35_.Parent = HazeLocalChangerLol34_
-
-HazeLocalChangerLol36_.Name = "stuff"
-HazeLocalChangerLol36_.Parent = HazeLocalChangerLol33_
-HazeLocalChangerLol36_.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-HazeLocalChangerLol36_.BackgroundTransparency = 1.000
-HazeLocalChangerLol36_.Position = UDim2.new(-0.00331384991, 0, -1.60000002, 0)
-HazeLocalChangerLol36_.Size = UDim2.new(0, 84, 0, 16)
-HazeLocalChangerLol36_.Font = Enum.Font.Code
-HazeLocalChangerLol36_.Text = "Fov Size"
-HazeLocalChangerLol36_.TextColor3 = Color3.fromRGB(255, 255, 255)
-HazeLocalChangerLol36_.TextSize = 12.000
-HazeLocalChangerLol36_.TextXAlignment = Enum.TextXAlignment.Left
-
-HazeLocalChangerLol37_.Parent = HazeLocalChangerLol6_
-HazeLocalChangerLol37_.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-HazeLocalChangerLol37_.BorderColor3 = Color3.fromRGB(0, 0, 0)
-HazeLocalChangerLol37_.Size = UDim2.new(0, 0, 0, 411)
-
-HazeLocalChangerLol38_.Parent = HazeLocalChangerLol6_
-HazeLocalChangerLol38_.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-HazeLocalChangerLol38_.BorderColor3 = Color3.fromRGB(0, 0, 0)
-HazeLocalChangerLol38_.Position = UDim2.new(1, 0, 0, 0)
-HazeLocalChangerLol38_.Size = UDim2.new(0, 0, 0, 411)
-
-HazeLocalChangerLol39_.Parent = HazeLocalChangerLol6_
-HazeLocalChangerLol39_.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-HazeLocalChangerLol39_.BorderColor3 = Color3.fromRGB(0, 0, 0)
-HazeLocalChangerLol39_.Size = UDim2.new(0, 535, 0, 0)
-
-HazeLocalChangerLol40_.Parent = HazeLocalChangerLol6_
-HazeLocalChangerLol40_.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-HazeLocalChangerLol40_.BorderColor3 = Color3.fromRGB(0, 0, 0)
-HazeLocalChangerLol40_.Position = UDim2.new(0, 0, 0.997566938, 0)
-HazeLocalChangerLol40_.Size = UDim2.new(0, 535, 0, 0)
-
-HazeLocalChangerLol41_.Parent = HazeLocalChangerLol6_
-HazeLocalChangerLol41_.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-HazeLocalChangerLol41_.BorderColor3 = Color3.fromRGB(0, 0, 0)
-HazeLocalChangerLol41_.Position = UDim2.new(0, 0, 0.01459854, 0)
-HazeLocalChangerLol41_.Size = UDim2.new(0, 535, 0, 0)
-
-HazeLocalChangerLol42_.Name = "Visual"
-HazeLocalChangerLol42_.Parent = HazeLocalChangerLol6_
-HazeLocalChangerLol42_.BackgroundColor3 = Color3.fromRGB(24, 24, 24)
-HazeLocalChangerLol42_.BorderColor3 = Color3.fromRGB(50, 50, 50)
-HazeLocalChangerLol42_.Position = UDim2.new(0.276635498, 0, 0.0316301696, 0)
-HazeLocalChangerLol42_.Size = UDim2.new(0, 374, 0, 385)
-HazeLocalChangerLol42_.Visible = false
-
-HazeLocalChangerLol43_.Parent = HazeLocalChangerLol42_
-HazeLocalChangerLol43_.BackgroundColor3 = Color3.fromRGB(34, 34, 34)
-HazeLocalChangerLol43_.BackgroundTransparency = 0.950
-HazeLocalChangerLol43_.BorderSizePixel = 0
-HazeLocalChangerLol43_.Position = UDim2.new(0.0588235259, 0, 0.0337662324, 0)
-HazeLocalChangerLol43_.Size = UDim2.new(0, 176, 0, 120)
-
-HazeLocalChangerLol44_.Parent = HazeLocalChangerLol43_
-HazeLocalChangerLol44_.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-HazeLocalChangerLol44_.BackgroundTransparency = 1.000
-HazeLocalChangerLol44_.BorderColor3 = Color3.fromRGB(27, 42, 53)
-HazeLocalChangerLol44_.Position = UDim2.new(0, 0, -0.0500000007, 0)
-HazeLocalChangerLol44_.Size = UDim2.new(0, 47, 0, 26)
-HazeLocalChangerLol44_.Font = Enum.Font.Code
-HazeLocalChangerLol44_.Text = "Drawing"
-HazeLocalChangerLol44_.TextColor3 = Color3.fromRGB(255, 255, 255)
-HazeLocalChangerLol44_.TextSize = 14.000
-HazeLocalChangerLol44_.TextXAlignment = Enum.TextXAlignment.Left
-
-HazeLocalChangerLol45_.Name = "Boxes"
-HazeLocalChangerLol45_.Parent = HazeLocalChangerLol43_
-HazeLocalChangerLol45_.BackgroundColor3 = Color3.fromRGB(29, 29, 29)
-HazeLocalChangerLol45_.BorderColor3 = Color3.fromRGB(0, 0, 0)
-HazeLocalChangerLol45_.Position = UDim2.new(0, 0, 0.183333337, 0)
-HazeLocalChangerLol45_.Size = UDim2.new(0, 12, 0, 12)
-HazeLocalChangerLol45_.Font = Enum.Font.SourceSans
-HazeLocalChangerLol45_.Text = ""
-HazeLocalChangerLol45_.TextColor3 = Color3.fromRGB(0, 0, 0)
-HazeLocalChangerLol45_.TextSize = 16.000
-
-HazeLocalChangerLol46_.Parent = HazeLocalChangerLol45_
-HazeLocalChangerLol46_.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-HazeLocalChangerLol46_.BackgroundTransparency = 1.000
-HazeLocalChangerLol46_.Position = UDim2.new(1.75, 0, 0, 0)
-HazeLocalChangerLol46_.Size = UDim2.new(0, 44, 0, 10)
-HazeLocalChangerLol46_.Font = Enum.Font.SourceSans
-HazeLocalChangerLol46_.Text = "Boxes"
-HazeLocalChangerLol46_.TextColor3 = Color3.fromRGB(255, 255, 255)
-HazeLocalChangerLol46_.TextSize = 14.000
-HazeLocalChangerLol46_.TextStrokeTransparency = 0.000
-HazeLocalChangerLol46_.TextXAlignment = Enum.TextXAlignment.Left
-
-HazeLocalChangerLol47_.Name = "Tracers"
-HazeLocalChangerLol47_.Parent = HazeLocalChangerLol43_
-HazeLocalChangerLol47_.BackgroundColor3 = Color3.fromRGB(29, 29, 29)
-HazeLocalChangerLol47_.BorderColor3 = Color3.fromRGB(0, 0, 0)
-HazeLocalChangerLol47_.Position = UDim2.new(0, 0, 0.341666669, 0)
-HazeLocalChangerLol47_.Size = UDim2.new(0, 12, 0, 12)
-HazeLocalChangerLol47_.Font = Enum.Font.SourceSans
-HazeLocalChangerLol47_.Text = ""
-HazeLocalChangerLol47_.TextColor3 = Color3.fromRGB(0, 0, 0)
-HazeLocalChangerLol47_.TextSize = 16.000
-
-HazeLocalChangerLol48_.Parent = HazeLocalChangerLol47_
-HazeLocalChangerLol48_.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-HazeLocalChangerLol48_.BackgroundTransparency = 1.000
-HazeLocalChangerLol48_.Position = UDim2.new(1.75, 0, 0, 0)
-HazeLocalChangerLol48_.Size = UDim2.new(0, 44, 0, 10)
-HazeLocalChangerLol48_.Font = Enum.Font.SourceSans
-HazeLocalChangerLol48_.Text = "Tracers"
-HazeLocalChangerLol48_.TextColor3 = Color3.fromRGB(255, 255, 255)
-HazeLocalChangerLol48_.TextSize = 14.000
-HazeLocalChangerLol48_.TextStrokeTransparency = 0.000
-HazeLocalChangerLol48_.TextXAlignment = Enum.TextXAlignment.Left
-
-HazeLocalChangerLol49_.Name = "Names"
-HazeLocalChangerLol49_.Parent = HazeLocalChangerLol43_
-HazeLocalChangerLol49_.BackgroundColor3 = Color3.fromRGB(29, 29, 29)
-HazeLocalChangerLol49_.BorderColor3 = Color3.fromRGB(0, 0, 0)
-HazeLocalChangerLol49_.Position = UDim2.new(0, 0, 0.5, 0)
-HazeLocalChangerLol49_.Size = UDim2.new(0, 12, 0, 12)
-HazeLocalChangerLol49_.Font = Enum.Font.SourceSans
-HazeLocalChangerLol49_.Text = ""
-HazeLocalChangerLol49_.TextColor3 = Color3.fromRGB(0, 0, 0)
-HazeLocalChangerLol49_.TextSize = 16.000
-
-HazeLocalChangerLol50_.Parent = HazeLocalChangerLol49_
-HazeLocalChangerLol50_.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-HazeLocalChangerLol50_.BackgroundTransparency = 1.000
-HazeLocalChangerLol50_.Position = UDim2.new(1.75, 0, 0, 0)
-HazeLocalChangerLol50_.Size = UDim2.new(0, 44, 0, 10)
-HazeLocalChangerLol50_.Font = Enum.Font.SourceSans
-HazeLocalChangerLol50_.Text = "Names"
-HazeLocalChangerLol50_.TextColor3 = Color3.fromRGB(255, 255, 255)
-HazeLocalChangerLol50_.TextSize = 14.000
-HazeLocalChangerLol50_.TextStrokeTransparency = 0.000
-HazeLocalChangerLol50_.TextXAlignment = Enum.TextXAlignment.Left
-
-HazeLocalChangerLol51_.Parent = HazeLocalChangerLol42_
-HazeLocalChangerLol51_.BackgroundColor3 = Color3.fromRGB(34, 34, 34)
-HazeLocalChangerLol51_.BackgroundTransparency = 0.950
-HazeLocalChangerLol51_.BorderSizePixel = 0
-HazeLocalChangerLol51_.Position = UDim2.new(0.497326195, 0, 0.0285714269, 0)
-HazeLocalChangerLol51_.Size = UDim2.new(0, 176, 0, 120)
-
-HazeLocalChangerLol52_.Parent = HazeLocalChangerLol51_
-HazeLocalChangerLol52_.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-HazeLocalChangerLol52_.BackgroundTransparency = 1.000
-HazeLocalChangerLol52_.BorderColor3 = Color3.fromRGB(27, 42, 53)
-HazeLocalChangerLol52_.Position = UDim2.new(0, 0, -0.0500000007, 0)
-HazeLocalChangerLol52_.Size = UDim2.new(0, 94, 0, 26)
-HazeLocalChangerLol52_.Font = Enum.Font.Code
-HazeLocalChangerLol52_.Text = "Colouring"
-HazeLocalChangerLol52_.TextColor3 = Color3.fromRGB(255, 255, 255)
-HazeLocalChangerLol52_.TextSize = 14.000
-HazeLocalChangerLol52_.TextXAlignment = Enum.TextXAlignment.Left
-
-HazeLocalChangerLol53_.Name = "Settings"
-HazeLocalChangerLol53_.Parent = HazeLocalChangerLol6_
-HazeLocalChangerLol53_.BackgroundColor3 = Color3.fromRGB(24, 24, 24)
-HazeLocalChangerLol53_.BorderColor3 = Color3.fromRGB(50, 50, 50)
-HazeLocalChangerLol53_.Position = UDim2.new(0.276635498, 0, 0.0316301696, 0)
-HazeLocalChangerLol53_.Size = UDim2.new(0, 374, 0, 385)
-HazeLocalChangerLol53_.Visible = false
-
-HazeLocalChangerLol54_.Parent = HazeLocalChangerLol53_
-HazeLocalChangerLol54_.BackgroundColor3 = Color3.fromRGB(34, 34, 34)
-HazeLocalChangerLol54_.BackgroundTransparency = 0.950
-HazeLocalChangerLol54_.BorderSizePixel = 0
-HazeLocalChangerLol54_.Position = UDim2.new(0.0588235259, 0, 0.0337662324, 0)
-HazeLocalChangerLol54_.Size = UDim2.new(0, 176, 0, 120)
-
-HazeLocalChangerLol55_.Parent = HazeLocalChangerLol54_
-HazeLocalChangerLol55_.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-HazeLocalChangerLol55_.BackgroundTransparency = 1.000
-HazeLocalChangerLol55_.BorderColor3 = Color3.fromRGB(27, 42, 53)
-HazeLocalChangerLol55_.Position = UDim2.new(0, 0, -0.0500000007, 0)
-HazeLocalChangerLol55_.Size = UDim2.new(0, 47, 0, 26)
-HazeLocalChangerLol55_.Font = Enum.Font.Code
-HazeLocalChangerLol55_.Text = "Panic Button"
-HazeLocalChangerLol55_.TextColor3 = Color3.fromRGB(255, 255, 255)
-HazeLocalChangerLol55_.TextSize = 14.000
-HazeLocalChangerLol55_.TextXAlignment = Enum.TextXAlignment.Left
-
-HazeLocalChangerLol56_.Name = "AimbotButton"
-HazeLocalChangerLol56_.Parent = HazeLocalChangerLol54_
-HazeLocalChangerLol56_.BackgroundColor3 = Color3.fromRGB(29, 29, 29)
-HazeLocalChangerLol56_.BorderColor3 = Color3.fromRGB(0, 0, 0)
-HazeLocalChangerLol56_.Position = UDim2.new(0, 0, 0.183333337, 0)
-HazeLocalChangerLol56_.Size = UDim2.new(0, 12, 0, 12)
-HazeLocalChangerLol56_.Font = Enum.Font.SourceSans
-HazeLocalChangerLol56_.Text = ""
-HazeLocalChangerLol56_.TextColor3 = Color3.fromRGB(0, 0, 0)
-HazeLocalChangerLol56_.TextSize = 16.000
-
-HazeLocalChangerLol57_.Parent = HazeLocalChangerLol56_
-HazeLocalChangerLol57_.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-HazeLocalChangerLol57_.BackgroundTransparency = 1.000
-HazeLocalChangerLol57_.Position = UDim2.new(1.75, 0, 0, 0)
-HazeLocalChangerLol57_.Size = UDim2.new(0, 44, 0, 10)
-HazeLocalChangerLol57_.Font = Enum.Font.SourceSans
-HazeLocalChangerLol57_.Text = "Enabled"
-HazeLocalChangerLol57_.TextColor3 = Color3.fromRGB(255, 255, 255)
-HazeLocalChangerLol57_.TextSize = 14.000
-HazeLocalChangerLol57_.TextStrokeTransparency = 0.000
-HazeLocalChangerLol57_.TextXAlignment = Enum.TextXAlignment.Left
-
-HazeLocalChangerLol58_.Parent = HazeLocalChangerLol54_
-HazeLocalChangerLol58_.BackgroundColor3 = Color3.fromRGB(29, 29, 29)
-HazeLocalChangerLol58_.BorderColor3 = Color3.fromRGB(0, 0, 0)
-HazeLocalChangerLol58_.Position = UDim2.new(0, 0, 0.349999994, 0)
-HazeLocalChangerLol58_.Size = UDim2.new(0, 65, 0, 20)
-HazeLocalChangerLol58_.Font = Enum.Font.Code
-HazeLocalChangerLol58_.PlaceholderColor3 = Color3.fromRGB(113, 113, 113)
-HazeLocalChangerLol58_.PlaceholderText = "..."
-HazeLocalChangerLol58_.Text = ""
-HazeLocalChangerLol58_.TextColor3 = Color3.fromRGB(255, 255, 255)
-HazeLocalChangerLol58_.TextSize = 14.000
-
-HazeLocalChangerLol59_.Parent = HazeLocalChangerLol53_
-HazeLocalChangerLol59_.BackgroundColor3 = Color3.fromRGB(34, 34, 34)
-HazeLocalChangerLol59_.BackgroundTransparency = 0.950
-HazeLocalChangerLol59_.BorderSizePixel = 0
-HazeLocalChangerLol59_.Position = UDim2.new(0.497326195, 0, 0.0285714269, 0)
-HazeLocalChangerLol59_.Size = UDim2.new(0, 176, 0, 120)
-
-HazeLocalChangerLol60_.Parent = HazeLocalChangerLol59_
-HazeLocalChangerLol60_.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-HazeLocalChangerLol60_.BackgroundTransparency = 1.000
-HazeLocalChangerLol60_.BorderColor3 = Color3.fromRGB(27, 42, 53)
-HazeLocalChangerLol60_.Position = UDim2.new(0, 0, -0.0500000007, 0)
-HazeLocalChangerLol60_.Size = UDim2.new(0, 47, 0, 26)
-HazeLocalChangerLol60_.Font = Enum.Font.Code
-HazeLocalChangerLol60_.Text = "Fps"
-HazeLocalChangerLol60_.TextColor3 = Color3.fromRGB(255, 255, 255)
-HazeLocalChangerLol60_.TextSize = 14.000
-HazeLocalChangerLol60_.TextXAlignment = Enum.TextXAlignment.Left
-
-HazeLocalChangerLol61_.Name = "FovButton"
-HazeLocalChangerLol61_.Parent = HazeLocalChangerLol59_
-HazeLocalChangerLol61_.BackgroundColor3 = Color3.fromRGB(29, 29, 29)
-HazeLocalChangerLol61_.BorderColor3 = Color3.fromRGB(0, 0, 0)
-HazeLocalChangerLol61_.Position = UDim2.new(0, 0, 0.183333337, 0)
-HazeLocalChangerLol61_.Size = UDim2.new(0, 12, 0, 12)
-HazeLocalChangerLol61_.Font = Enum.Font.SourceSans
-HazeLocalChangerLol61_.Text = ""
-HazeLocalChangerLol61_.TextColor3 = Color3.fromRGB(0, 0, 0)
-HazeLocalChangerLol61_.TextSize = 16.000
-
-HazeLocalChangerLol62_.Parent = HazeLocalChangerLol61_
-HazeLocalChangerLol62_.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-HazeLocalChangerLol62_.BackgroundTransparency = 1.000
-HazeLocalChangerLol62_.Position = UDim2.new(1.75, 0, 0, 0)
-HazeLocalChangerLol62_.Size = UDim2.new(0, 44, 0, 10)
-HazeLocalChangerLol62_.Font = Enum.Font.SourceSans
-HazeLocalChangerLol62_.Text = "Unlock"
-HazeLocalChangerLol62_.TextColor3 = Color3.fromRGB(255, 255, 255)
-HazeLocalChangerLol62_.TextSize = 14.000
-HazeLocalChangerLol62_.TextStrokeTransparency = 0.000
-HazeLocalChangerLol62_.TextXAlignment = Enum.TextXAlignment.Left
-
-HazeLocalChangerLol63_.Name = "Account"
-HazeLocalChangerLol63_.Parent = HazeLocalChangerLol6_
-HazeLocalChangerLol63_.BackgroundColor3 = Color3.fromRGB(24, 24, 24)
-HazeLocalChangerLol63_.BorderColor3 = Color3.fromRGB(50, 50, 50)
-HazeLocalChangerLol63_.Position = UDim2.new(0.276635498, 0, 0.0316301696, 0)
-HazeLocalChangerLol63_.Size = UDim2.new(0, 374, 0, 385)
-
-HazeLocalChangerLol64_.Parent = HazeLocalChangerLol63_
-HazeLocalChangerLol64_.BackgroundColor3 = Color3.fromRGB(34, 34, 34)
-HazeLocalChangerLol64_.BackgroundTransparency = 0.950
-HazeLocalChangerLol64_.BorderSizePixel = 0
-HazeLocalChangerLol64_.Position = UDim2.new(0.0588235259, 0, 0.0337662324, 0)
-HazeLocalChangerLol64_.Size = UDim2.new(0, 176, 0, 120)
-
-HazeLocalChangerLol65_.Parent = HazeLocalChangerLol64_
-HazeLocalChangerLol65_.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-HazeLocalChangerLol65_.BackgroundTransparency = 1.000
-HazeLocalChangerLol65_.BorderColor3 = Color3.fromRGB(27, 42, 53)
-HazeLocalChangerLol65_.Position = UDim2.new(0, 0, -0.0500000007, 0)
-HazeLocalChangerLol65_.Size = UDim2.new(0, 47, 0, 26)
-HazeLocalChangerLol65_.Font = Enum.Font.Code
-HazeLocalChangerLol65_.Text = "Picture"
-HazeLocalChangerLol65_.TextColor3 = Color3.fromRGB(255, 255, 255)
-HazeLocalChangerLol65_.TextSize = 14.000
-HazeLocalChangerLol65_.TextXAlignment = Enum.TextXAlignment.Left
-
-HazeLocalChangerLol66_.Name = "User"
-HazeLocalChangerLol66_.Parent = HazeLocalChangerLol64_
-HazeLocalChangerLol66_.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-HazeLocalChangerLol66_.BackgroundTransparency = 1.000
-HazeLocalChangerLol66_.Position = UDim2.new(0, 0, 0.166666672, 0)
-HazeLocalChangerLol66_.Size = UDim2.new(0, 64, 0, 66)
-HazeLocalChangerLol66_.Image = "http://www.roblox.com/asset/?id=9677778338"
-
-HazeLocalChangerLol67_.CornerRadius = UDim.new(1, 0)
-HazeLocalChangerLol67_.Parent = HazeLocalChangerLol66_
-
-HazeLocalChangerLol68_.Parent = HazeLocalChangerLol63_
-HazeLocalChangerLol68_.BackgroundColor3 = Color3.fromRGB(34, 34, 34)
-HazeLocalChangerLol68_.BackgroundTransparency = 0.950
-HazeLocalChangerLol68_.BorderSizePixel = 0
-HazeLocalChangerLol68_.Position = UDim2.new(0.497326195, 0, 0.0285714269, 0)
-HazeLocalChangerLol68_.Size = UDim2.new(0, 176, 0, 120)
-
-HazeLocalChangerLol69_.Parent = HazeLocalChangerLol68_
-HazeLocalChangerLol69_.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-HazeLocalChangerLol69_.BackgroundTransparency = 1.000
-HazeLocalChangerLol69_.BorderColor3 = Color3.fromRGB(27, 42, 53)
-HazeLocalChangerLol69_.Position = UDim2.new(0, 0, -0.0500000007, 0)
-HazeLocalChangerLol69_.Size = UDim2.new(0, 47, 0, 26)
-HazeLocalChangerLol69_.Font = Enum.Font.Code
-HazeLocalChangerLol69_.Text = "Licensing"
-HazeLocalChangerLol69_.TextColor3 = Color3.fromRGB(255, 255, 255)
-HazeLocalChangerLol69_.TextSize = 14.000
-HazeLocalChangerLol69_.TextXAlignment = Enum.TextXAlignment.Left
-
-HazeLocalChangerLol70_.Name = "FovButton"
-HazeLocalChangerLol70_.Parent = HazeLocalChangerLol68_
-HazeLocalChangerLol70_.BackgroundColor3 = Color3.fromRGB(29, 29, 29)
-HazeLocalChangerLol70_.BorderColor3 = Color3.fromRGB(0, 0, 0)
-HazeLocalChangerLol70_.Position = UDim2.new(0, 0, 0.183333337, 0)
-HazeLocalChangerLol70_.Size = UDim2.new(0, 12, 0, 12)
-HazeLocalChangerLol70_.Font = Enum.Font.SourceSans
-HazeLocalChangerLol70_.Text = ""
-HazeLocalChangerLol70_.TextColor3 = Color3.fromRGB(0, 0, 0)
-HazeLocalChangerLol70_.TextSize = 16.000
-
-HazeLocalChangerLol71_.Parent = HazeLocalChangerLol70_
-HazeLocalChangerLol71_.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-HazeLocalChangerLol71_.BackgroundTransparency = 1.000
-HazeLocalChangerLol71_.Position = UDim2.new(1.75, 0, 0, 0)
-HazeLocalChangerLol71_.Size = UDim2.new(0, 44, 0, 10)
-HazeLocalChangerLol71_.Font = Enum.Font.SourceSans
-HazeLocalChangerLol71_.Text = "Print License Information"
-HazeLocalChangerLol71_.TextColor3 = Color3.fromRGB(255, 255, 255)
-HazeLocalChangerLol71_.TextSize = 14.000
-HazeLocalChangerLol71_.TextStrokeTransparency = 0.000
-HazeLocalChangerLol71_.TextXAlignment = Enum.TextXAlignment.Left
-
-HazeLocalChangerLol72_.Color = ColorSequence.new{
-	ColorSequenceKeypoint.new(0.00, Color3.fromRGB(8, 0, 255)),
-	ColorSequenceKeypoint.new(1.00, Color3.fromRGB(26, 81, 255))
-}
-HazeLocalChangerLol72_.Offset = Vector2.new(-0.0364485979, 0.333333343)
-HazeLocalChangerLol72_.Rotation = 154.16017150878906
-HazeLocalChangerLol72_.Parent = HazeLocalChangerLol5_
+ManyIsWelcome.Name = "Many Is Welcome"
+ManyIsWelcome.Parent = game.CoreGui
+ManyIsWelcome.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+
+NotPasted.Name = "NotPasted"
+NotPasted.Parent = ManyIsWelcome
+NotPasted.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+NotPasted.BackgroundTransparency = 0.950
+NotPasted.BorderColor3 = Color3.fromRGB(27, 42, 53)
+NotPasted.Position = UDim2.new(0.32427606, 0, 0.421656042, 0)
+NotPasted.Size = UDim2.new(0, 535, 0, 7)
+NotPasted.ZIndex = 10
+
+ScriptFrame.Name = "ScriptFrame"
+ScriptFrame.Parent = NotPasted
+ScriptFrame.BackgroundColor3 = Color3.fromRGB(20, 20, 20)
+ScriptFrame.BorderColor3 = Color3.fromRGB(0, 0, 0)
+ScriptFrame.Position = UDim2.new(-0.00139737129, 0, -0.110191047, 0)
+ScriptFrame.Size = UDim2.new(0, 535, 0, 411)
+
+Colouring.Name = "Colouring"
+Colouring.Parent = ScriptFrame
+Colouring.BackgroundColor3 = Color3.fromRGB(85, 0, 255)
+Colouring.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Colouring.Size = UDim2.new(0, 535, 0, 6)
+
+UIGradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 238, 238)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(212, 163, 255))}
+UIGradient.Parent = Colouring
+
+Frame.Parent = ScriptFrame
+Frame.BackgroundColor3 = Color3.fromRGB(24, 24, 24)
+Frame.BorderColor3 = Color3.fromRGB(50, 50, 50)
+Frame.Position = UDim2.new(0.0149532715, 0, 0.0389294401, 0)
+Frame.Size = UDim2.new(0, 123, 0, 385)
+
+ShitCunt.Name = "ShitCunt"
+ShitCunt.Parent = Frame
+ShitCunt.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ShitCunt.BackgroundTransparency = 1.000
+ShitCunt.Size = UDim2.new(0, 123, 0, 0)
+
+UIListLayout.Parent = Frame
+UIListLayout.SortOrder = Enum.SortOrder.LayoutOrder
+UIListLayout.Padding = UDim.new(0, 9)
+
+AimbotT.Name = "AimbotT"
+AimbotT.Parent = Frame
+AimbotT.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+AimbotT.BackgroundTransparency = 1.000
+AimbotT.Position = UDim2.new(0, 0, 0.0831168815, 0)
+AimbotT.Size = UDim2.new(0, 123, 0, 17)
+AimbotT.Font = Enum.Font.Code
+AimbotT.Text = "Aimbot"
+AimbotT.TextColor3 = Color3.fromRGB(113, 113, 113)
+AimbotT.TextSize = 14.000
+AimbotT.TextStrokeTransparency = 0.000
+
+AimbotB.Name = "AimbotB"
+AimbotB.Parent = AimbotT
+AimbotB.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+AimbotB.BackgroundTransparency = 1.000
+AimbotB.Size = UDim2.new(0, 123, 0, 17)
+AimbotB.Font = Enum.Font.SourceSans
+AimbotB.Text = ""
+AimbotB.TextColor3 = Color3.fromRGB(0, 0, 0)
+AimbotB.TextSize = 14.000
+
+ImageLabel.Parent = AimbotB
+ImageLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ImageLabel.BackgroundTransparency = 1.000
+ImageLabel.Position = UDim2.new(0.0569105744, 0, 0, 0)
+ImageLabel.Size = UDim2.new(0, 20, 0, 21)
+ImageLabel.Image = "http://www.roblox.com/asset/?id=105540093"
+ImageLabel.ScaleType = Enum.ScaleType.Fit
+
+VisualT.Name = "VisualT"
+VisualT.Parent = Frame
+VisualT.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+VisualT.BackgroundTransparency = 1.000
+VisualT.Position = UDim2.new(0, 0, 0.0831168815, 0)
+VisualT.Size = UDim2.new(0, 123, 0, 17)
+VisualT.Font = Enum.Font.Code
+VisualT.Text = "Visual"
+VisualT.TextColor3 = Color3.fromRGB(113, 113, 113)
+VisualT.TextSize = 14.000
+VisualT.TextStrokeTransparency = 0.000
+
+VisualB.Name = "VisualB"
+VisualB.Parent = VisualT
+VisualB.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+VisualB.BackgroundTransparency = 1.000
+VisualB.Size = UDim2.new(0, 123, 0, 17)
+VisualB.Font = Enum.Font.SourceSans
+VisualB.Text = ""
+VisualB.TextColor3 = Color3.fromRGB(0, 0, 0)
+VisualB.TextSize = 14.000
+
+ImageLabel_2.Parent = VisualT
+ImageLabel_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ImageLabel_2.BackgroundTransparency = 1.000
+ImageLabel_2.Position = UDim2.new(0.0569105744, 0, -0.117647015, 0)
+ImageLabel_2.Size = UDim2.new(0, 20, 0, 21)
+ImageLabel_2.Image = "http://www.roblox.com/asset/?id=6034287594"
+ImageLabel_2.ScaleType = Enum.ScaleType.Fit
+
+VisualT_2.Name = "VisualT"
+VisualT_2.Parent = Frame
+VisualT_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+VisualT_2.BackgroundTransparency = 1.000
+VisualT_2.Position = UDim2.new(0, 0, 0.158441558, 0)
+VisualT_2.Size = UDim2.new(0, 123, 0, 17)
+VisualT_2.Font = Enum.Font.Code
+VisualT_2.Text = "Account"
+VisualT_2.TextColor3 = Color3.fromRGB(113, 113, 113)
+VisualT_2.TextSize = 14.000
+VisualT_2.TextStrokeTransparency = 0.000
+
+VisualB_2.Name = "VisualB"
+VisualB_2.Parent = VisualT_2
+VisualB_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+VisualB_2.BackgroundTransparency = 1.000
+VisualB_2.Size = UDim2.new(0, 123, 0, 17)
+VisualB_2.Font = Enum.Font.SourceSans
+VisualB_2.Text = ""
+VisualB_2.TextColor3 = Color3.fromRGB(0, 0, 0)
+VisualB_2.TextSize = 14.000
+
+ImageLabel_3.Parent = VisualT_2
+ImageLabel_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ImageLabel_3.BackgroundTransparency = 1.000
+ImageLabel_3.Position = UDim2.new(0.0569105744, 0, -0.117647015, 0)
+ImageLabel_3.Size = UDim2.new(0, 20, 0, 21)
+ImageLabel_3.Image = "http://www.roblox.com/asset/?id=6022668898"
+ImageLabel_3.ScaleType = Enum.ScaleType.Fit
+
+VisualT_3.Name = "VisualT"
+VisualT_3.Parent = Frame
+VisualT_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+VisualT_3.BackgroundTransparency = 1.000
+VisualT_3.Position = UDim2.new(2.17073178, 0, 0.28831169, 0)
+VisualT_3.Size = UDim2.new(0, 123, 0, 17)
+VisualT_3.Font = Enum.Font.Code
+VisualT_3.Text = "Settings"
+VisualT_3.TextColor3 = Color3.fromRGB(113, 113, 113)
+VisualT_3.TextSize = 14.000
+VisualT_3.TextStrokeTransparency = 0.000
+
+VisualB_3.Name = "VisualB"
+VisualB_3.Parent = VisualT_3
+VisualB_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+VisualB_3.BackgroundTransparency = 1.000
+VisualB_3.Size = UDim2.new(0, 123, 0, 17)
+VisualB_3.Font = Enum.Font.SourceSans
+VisualB_3.Text = ""
+VisualB_3.TextColor3 = Color3.fromRGB(0, 0, 0)
+VisualB_3.TextSize = 14.000
+
+ImageLabel_4.Parent = VisualT_3
+ImageLabel_4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ImageLabel_4.BackgroundTransparency = 1.000
+ImageLabel_4.Position = UDim2.new(0.0569105744, 0, -0.117647015, 0)
+ImageLabel_4.Size = UDim2.new(0, 20, 0, 21)
+ImageLabel_4.Image = "http://www.roblox.com/asset/?id=6031280882"
+ImageLabel_4.ScaleType = Enum.ScaleType.Fit
+
+Main.Name = "Main"
+Main.Parent = ScriptFrame
+Main.BackgroundColor3 = Color3.fromRGB(24, 24, 24)
+Main.BorderColor3 = Color3.fromRGB(50, 50, 50)
+Main.Position = UDim2.new(0.276635498, 0, 0.0316301696, 0)
+Main.Size = UDim2.new(0, 374, 0, 385)
+Main.Visible = false
+
+Frame_2.Parent = Main
+Frame_2.BackgroundColor3 = Color3.fromRGB(34, 34, 34)
+Frame_2.BackgroundTransparency = 0.950
+Frame_2.BorderSizePixel = 0
+Frame_2.Position = UDim2.new(0.0588235259, 0, 0.0337662324, 0)
+Frame_2.Size = UDim2.new(0, 176, 0, 120)
+
+TextLabel.Parent = Frame_2
+TextLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel.BackgroundTransparency = 1.000
+TextLabel.BorderColor3 = Color3.fromRGB(27, 42, 53)
+TextLabel.Position = UDim2.new(0, 0, -0.0500000007, 0)
+TextLabel.Size = UDim2.new(0, 47, 0, 26)
+TextLabel.Font = Enum.Font.Code
+TextLabel.Text = "Aimbot"
+TextLabel.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel.TextSize = 14.000
+TextLabel.TextXAlignment = Enum.TextXAlignment.Left
+
+AimbotButton.Name = "AimbotButton"
+AimbotButton.Parent = Frame_2
+AimbotButton.BackgroundColor3 = Color3.fromRGB(29, 29, 29)
+AimbotButton.BorderColor3 = Color3.fromRGB(0, 0, 0)
+AimbotButton.Position = UDim2.new(0, 0, 0.183333337, 0)
+AimbotButton.Size = UDim2.new(0, 12, 0, 12)
+AimbotButton.Font = Enum.Font.SourceSans
+AimbotButton.Text = ""
+AimbotButton.TextColor3 = Color3.fromRGB(0, 0, 0)
+AimbotButton.TextSize = 16.000
+
+TextLabel_2.Parent = AimbotButton
+TextLabel_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_2.BackgroundTransparency = 1.000
+TextLabel_2.Position = UDim2.new(1.75, 0, 0, 0)
+TextLabel_2.Size = UDim2.new(0, 44, 0, 10)
+TextLabel_2.Font = Enum.Font.SourceSans
+TextLabel_2.Text = "Enabled"
+TextLabel_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_2.TextSize = 14.000
+TextLabel_2.TextStrokeTransparency = 0.000
+TextLabel_2.TextXAlignment = Enum.TextXAlignment.Left
+
+Frame_3.Parent = Main
+Frame_3.BackgroundColor3 = Color3.fromRGB(34, 34, 34)
+Frame_3.BackgroundTransparency = 0.950
+Frame_3.BorderSizePixel = 0
+Frame_3.Position = UDim2.new(0.497326195, 0, 0.0285714269, 0)
+Frame_3.Size = UDim2.new(0, 176, 0, 120)
+
+TextLabel_3.Parent = Frame_3
+TextLabel_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_3.BackgroundTransparency = 1.000
+TextLabel_3.BorderColor3 = Color3.fromRGB(27, 42, 53)
+TextLabel_3.Position = UDim2.new(0, 0, -0.0500000007, 0)
+TextLabel_3.Size = UDim2.new(0, 47, 0, 26)
+TextLabel_3.Font = Enum.Font.Code
+TextLabel_3.Text = "Fov Circle"
+TextLabel_3.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_3.TextSize = 14.000
+TextLabel_3.TextXAlignment = Enum.TextXAlignment.Left
+
+FovButton.Name = "FovButton"
+FovButton.Parent = Frame_3
+FovButton.BackgroundColor3 = Color3.fromRGB(29, 29, 29)
+FovButton.BorderColor3 = Color3.fromRGB(0, 0, 0)
+FovButton.Position = UDim2.new(0, 0, 0.183333337, 0)
+FovButton.Size = UDim2.new(0, 12, 0, 12)
+FovButton.Font = Enum.Font.SourceSans
+FovButton.Text = ""
+FovButton.TextColor3 = Color3.fromRGB(0, 0, 0)
+FovButton.TextSize = 16.000
+
+TextLabel_4.Parent = FovButton
+TextLabel_4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_4.BackgroundTransparency = 1.000
+TextLabel_4.Position = UDim2.new(1.75, 0, 0, 0)
+TextLabel_4.Size = UDim2.new(0, 44, 0, 10)
+TextLabel_4.Font = Enum.Font.SourceSans
+TextLabel_4.Text = "Enabled"
+TextLabel_4.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_4.TextSize = 14.000
+TextLabel_4.TextStrokeTransparency = 0.000
+TextLabel_4.TextXAlignment = Enum.TextXAlignment.Left
+
+Slider.Name = "Slider"
+Slider.Parent = Frame_3
+Slider.BackgroundColor3 = Color3.fromRGB(44, 44, 44)
+Slider.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Slider.Position = UDim2.new(-0.00300008804, 0, 0.458333075, 0)
+Slider.Size = UDim2.new(0, 141, 0, 10)
+
+Slide.Name = "Slide"
+Slide.Parent = Slider
+Slide.BackgroundColor3 = Color3.fromRGB(85, 0, 255)
+Slide.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Slide.Position = UDim2.new(-0.00169364398, 0, 0, 0)
+Slide.Size = UDim2.new(0, 40, 0, 10)
+
+UIGradient_2.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 255, 255)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(167, 132, 255))}
+UIGradient_2.Rotation = 230.71058654785156
+UIGradient_2.Parent = Slide
+
+stuff.Name = "stuff"
+stuff.Parent = Slider
+stuff.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+stuff.BackgroundTransparency = 1.000
+stuff.Position = UDim2.new(-0.00331384991, 0, -1.60000002, 0)
+stuff.Size = UDim2.new(0, 84, 0, 16)
+stuff.Font = Enum.Font.Code
+stuff.Text = "Fov Size"
+stuff.TextColor3 = Color3.fromRGB(255, 255, 255)
+stuff.TextSize = 12.000
+stuff.TextXAlignment = Enum.TextXAlignment.Left
+
+Frame_4.Parent = ScriptFrame
+Frame_4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Frame_4.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Frame_4.Size = UDim2.new(0, 0, 0, 411)
+
+Frame_5.Parent = ScriptFrame
+Frame_5.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Frame_5.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Frame_5.Position = UDim2.new(1, 0, 0, 0)
+Frame_5.Size = UDim2.new(0, 0, 0, 411)
+
+Frame_6.Parent = ScriptFrame
+Frame_6.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Frame_6.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Frame_6.Size = UDim2.new(0, 535, 0, 0)
+
+Frame_7.Parent = ScriptFrame
+Frame_7.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Frame_7.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Frame_7.Position = UDim2.new(0, 0, 0.997566938, 0)
+Frame_7.Size = UDim2.new(0, 535, 0, 0)
+
+Frame_8.Parent = ScriptFrame
+Frame_8.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Frame_8.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Frame_8.Position = UDim2.new(0, 0, 0.01459854, 0)
+Frame_8.Size = UDim2.new(0, 535, 0, 0)
+
+Visual.Name = "Visual"
+Visual.Parent = ScriptFrame
+Visual.BackgroundColor3 = Color3.fromRGB(24, 24, 24)
+Visual.BorderColor3 = Color3.fromRGB(50, 50, 50)
+Visual.Position = UDim2.new(0.276635498, 0, 0.0316301696, 0)
+Visual.Size = UDim2.new(0, 374, 0, 385)
+Visual.Visible = false
+
+Frame_9.Parent = Visual
+Frame_9.BackgroundColor3 = Color3.fromRGB(34, 34, 34)
+Frame_9.BackgroundTransparency = 0.950
+Frame_9.BorderSizePixel = 0
+Frame_9.Position = UDim2.new(0.0588235259, 0, 0.0337662324, 0)
+Frame_9.Size = UDim2.new(0, 176, 0, 120)
+
+TextLabel_5.Parent = Frame_9
+TextLabel_5.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_5.BackgroundTransparency = 1.000
+TextLabel_5.BorderColor3 = Color3.fromRGB(27, 42, 53)
+TextLabel_5.Position = UDim2.new(0, 0, -0.0500000007, 0)
+TextLabel_5.Size = UDim2.new(0, 47, 0, 26)
+TextLabel_5.Font = Enum.Font.Code
+TextLabel_5.Text = "Drawing"
+TextLabel_5.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_5.TextSize = 14.000
+TextLabel_5.TextXAlignment = Enum.TextXAlignment.Left
+
+Boxes.Name = "Boxes"
+Boxes.Parent = Frame_9
+Boxes.BackgroundColor3 = Color3.fromRGB(29, 29, 29)
+Boxes.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Boxes.Position = UDim2.new(0, 0, 0.183333337, 0)
+Boxes.Size = UDim2.new(0, 12, 0, 12)
+Boxes.Font = Enum.Font.SourceSans
+Boxes.Text = ""
+Boxes.TextColor3 = Color3.fromRGB(0, 0, 0)
+Boxes.TextSize = 16.000
+
+TextLabel_6.Parent = Boxes
+TextLabel_6.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_6.BackgroundTransparency = 1.000
+TextLabel_6.Position = UDim2.new(1.75, 0, 0, 0)
+TextLabel_6.Size = UDim2.new(0, 44, 0, 10)
+TextLabel_6.Font = Enum.Font.SourceSans
+TextLabel_6.Text = "Boxes"
+TextLabel_6.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_6.TextSize = 14.000
+TextLabel_6.TextStrokeTransparency = 0.000
+TextLabel_6.TextXAlignment = Enum.TextXAlignment.Left
+
+Tracers.Name = "Tracers"
+Tracers.Parent = Frame_9
+Tracers.BackgroundColor3 = Color3.fromRGB(29, 29, 29)
+Tracers.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Tracers.Position = UDim2.new(0, 0, 0.341666669, 0)
+Tracers.Size = UDim2.new(0, 12, 0, 12)
+Tracers.Font = Enum.Font.SourceSans
+Tracers.Text = ""
+Tracers.TextColor3 = Color3.fromRGB(0, 0, 0)
+Tracers.TextSize = 16.000
+
+TextLabel_7.Parent = Tracers
+TextLabel_7.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_7.BackgroundTransparency = 1.000
+TextLabel_7.Position = UDim2.new(1.75, 0, 0, 0)
+TextLabel_7.Size = UDim2.new(0, 44, 0, 10)
+TextLabel_7.Font = Enum.Font.SourceSans
+TextLabel_7.Text = "Tracers"
+TextLabel_7.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_7.TextSize = 14.000
+TextLabel_7.TextStrokeTransparency = 0.000
+TextLabel_7.TextXAlignment = Enum.TextXAlignment.Left
+
+Names.Name = "Names"
+Names.Parent = Frame_9
+Names.BackgroundColor3 = Color3.fromRGB(29, 29, 29)
+Names.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Names.Position = UDim2.new(0, 0, 0.5, 0)
+Names.Size = UDim2.new(0, 12, 0, 12)
+Names.Font = Enum.Font.SourceSans
+Names.Text = ""
+Names.TextColor3 = Color3.fromRGB(0, 0, 0)
+Names.TextSize = 16.000
+
+TextLabel_8.Parent = Names
+TextLabel_8.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_8.BackgroundTransparency = 1.000
+TextLabel_8.Position = UDim2.new(1.75, 0, 0, 0)
+TextLabel_8.Size = UDim2.new(0, 44, 0, 10)
+TextLabel_8.Font = Enum.Font.SourceSans
+TextLabel_8.Text = "Names"
+TextLabel_8.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_8.TextSize = 14.000
+TextLabel_8.TextStrokeTransparency = 0.000
+TextLabel_8.TextXAlignment = Enum.TextXAlignment.Left
+
+Frame_10.Parent = Visual
+Frame_10.BackgroundColor3 = Color3.fromRGB(34, 34, 34)
+Frame_10.BackgroundTransparency = 0.950
+Frame_10.BorderSizePixel = 0
+Frame_10.Position = UDim2.new(0.497326195, 0, 0.0285714269, 0)
+Frame_10.Size = UDim2.new(0, 176, 0, 120)
+
+TextLabel_9.Parent = Frame_10
+TextLabel_9.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_9.BackgroundTransparency = 1.000
+TextLabel_9.BorderColor3 = Color3.fromRGB(27, 42, 53)
+TextLabel_9.Position = UDim2.new(0, 0, -0.0500000007, 0)
+TextLabel_9.Size = UDim2.new(0, 94, 0, 26)
+TextLabel_9.Font = Enum.Font.Code
+TextLabel_9.Text = "Colouring"
+TextLabel_9.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_9.TextSize = 14.000
+TextLabel_9.TextXAlignment = Enum.TextXAlignment.Left
+
+Settings.Name = "Settings"
+Settings.Parent = ScriptFrame
+Settings.BackgroundColor3 = Color3.fromRGB(24, 24, 24)
+Settings.BorderColor3 = Color3.fromRGB(50, 50, 50)
+Settings.Position = UDim2.new(0.276635498, 0, 0.0316301696, 0)
+Settings.Size = UDim2.new(0, 374, 0, 385)
+Settings.Visible = false
+
+Frame_11.Parent = Settings
+Frame_11.BackgroundColor3 = Color3.fromRGB(34, 34, 34)
+Frame_11.BackgroundTransparency = 0.950
+Frame_11.BorderSizePixel = 0
+Frame_11.Position = UDim2.new(0.0588235259, 0, 0.0337662324, 0)
+Frame_11.Size = UDim2.new(0, 176, 0, 120)
+
+TextLabel_10.Parent = Frame_11
+TextLabel_10.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_10.BackgroundTransparency = 1.000
+TextLabel_10.BorderColor3 = Color3.fromRGB(27, 42, 53)
+TextLabel_10.Position = UDim2.new(0, 0, -0.0500000007, 0)
+TextLabel_10.Size = UDim2.new(0, 47, 0, 26)
+TextLabel_10.Font = Enum.Font.Code
+TextLabel_10.Text = "Panic Button"
+TextLabel_10.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_10.TextSize = 14.000
+TextLabel_10.TextXAlignment = Enum.TextXAlignment.Left
+
+AimbotButton_2.Name = "AimbotButton"
+AimbotButton_2.Parent = Frame_11
+AimbotButton_2.BackgroundColor3 = Color3.fromRGB(29, 29, 29)
+AimbotButton_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+AimbotButton_2.Position = UDim2.new(0, 0, 0.183333337, 0)
+AimbotButton_2.Size = UDim2.new(0, 12, 0, 12)
+AimbotButton_2.Font = Enum.Font.SourceSans
+AimbotButton_2.Text = ""
+AimbotButton_2.TextColor3 = Color3.fromRGB(0, 0, 0)
+AimbotButton_2.TextSize = 16.000
+
+TextLabel_11.Parent = AimbotButton_2
+TextLabel_11.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_11.BackgroundTransparency = 1.000
+TextLabel_11.Position = UDim2.new(1.75, 0, 0, 0)
+TextLabel_11.Size = UDim2.new(0, 44, 0, 10)
+TextLabel_11.Font = Enum.Font.SourceSans
+TextLabel_11.Text = "Enabled"
+TextLabel_11.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_11.TextSize = 14.000
+TextLabel_11.TextStrokeTransparency = 0.000
+TextLabel_11.TextXAlignment = Enum.TextXAlignment.Left
+
+TextBox.Parent = Frame_11
+TextBox.BackgroundColor3 = Color3.fromRGB(29, 29, 29)
+TextBox.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextBox.Position = UDim2.new(0, 0, 0.349999994, 0)
+TextBox.Size = UDim2.new(0, 65, 0, 20)
+TextBox.Font = Enum.Font.Code
+TextBox.PlaceholderColor3 = Color3.fromRGB(113, 113, 113)
+TextBox.PlaceholderText = "..."
+TextBox.Text = ""
+TextBox.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextBox.TextSize = 14.000
+
+Frame_12.Parent = Settings
+Frame_12.BackgroundColor3 = Color3.fromRGB(34, 34, 34)
+Frame_12.BackgroundTransparency = 0.950
+Frame_12.BorderSizePixel = 0
+Frame_12.Position = UDim2.new(0.497326195, 0, 0.0285714269, 0)
+Frame_12.Size = UDim2.new(0, 176, 0, 120)
+
+TextLabel_12.Parent = Frame_12
+TextLabel_12.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_12.BackgroundTransparency = 1.000
+TextLabel_12.BorderColor3 = Color3.fromRGB(27, 42, 53)
+TextLabel_12.Position = UDim2.new(0, 0, -0.0500000007, 0)
+TextLabel_12.Size = UDim2.new(0, 47, 0, 26)
+TextLabel_12.Font = Enum.Font.Code
+TextLabel_12.Text = "Fps"
+TextLabel_12.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_12.TextSize = 14.000
+TextLabel_12.TextXAlignment = Enum.TextXAlignment.Left
+
+FovButton_2.Name = "FovButton"
+FovButton_2.Parent = Frame_12
+FovButton_2.BackgroundColor3 = Color3.fromRGB(29, 29, 29)
+FovButton_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+FovButton_2.Position = UDim2.new(0, 0, 0.183333337, 0)
+FovButton_2.Size = UDim2.new(0, 12, 0, 12)
+FovButton_2.Font = Enum.Font.SourceSans
+FovButton_2.Text = ""
+FovButton_2.TextColor3 = Color3.fromRGB(0, 0, 0)
+FovButton_2.TextSize = 16.000
+
+TextLabel_13.Parent = FovButton_2
+TextLabel_13.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_13.BackgroundTransparency = 1.000
+TextLabel_13.Position = UDim2.new(1.75, 0, 0, 0)
+TextLabel_13.Size = UDim2.new(0, 44, 0, 10)
+TextLabel_13.Font = Enum.Font.SourceSans
+TextLabel_13.Text = "Unlock"
+TextLabel_13.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_13.TextSize = 14.000
+TextLabel_13.TextStrokeTransparency = 0.000
+TextLabel_13.TextXAlignment = Enum.TextXAlignment.Left
+
+Account.Name = "Account"
+Account.Parent = ScriptFrame
+Account.BackgroundColor3 = Color3.fromRGB(24, 24, 24)
+Account.BorderColor3 = Color3.fromRGB(50, 50, 50)
+Account.Position = UDim2.new(0.276635498, 0, 0.0316301696, 0)
+Account.Size = UDim2.new(0, 374, 0, 385)
+
+Frame_13.Parent = Account
+Frame_13.BackgroundColor3 = Color3.fromRGB(34, 34, 34)
+Frame_13.BackgroundTransparency = 0.950
+Frame_13.BorderSizePixel = 0
+Frame_13.Position = UDim2.new(0.0588235259, 0, 0.0337662324, 0)
+Frame_13.Size = UDim2.new(0, 176, 0, 120)
+
+TextLabel_14.Parent = Frame_13
+TextLabel_14.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_14.BackgroundTransparency = 1.000
+TextLabel_14.BorderColor3 = Color3.fromRGB(27, 42, 53)
+TextLabel_14.Position = UDim2.new(0, 0, -0.0500000007, 0)
+TextLabel_14.Size = UDim2.new(0, 47, 0, 26)
+TextLabel_14.Font = Enum.Font.Code
+TextLabel_14.Text = "Picture"
+TextLabel_14.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_14.TextSize = 14.000
+TextLabel_14.TextXAlignment = Enum.TextXAlignment.Left
+
+User.Name = "User"
+User.Parent = Frame_13
+User.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+User.BackgroundTransparency = 1.000
+User.Position = UDim2.new(0, 0, 0.166666672, 0)
+User.Size = UDim2.new(0, 64, 0, 66)
+User.Image = "http://www.roblox.com/asset/?id=9677778338"
+
+UICorner.CornerRadius = UDim.new(1, 0)
+UICorner.Parent = User
+
+Frame_14.Parent = Account
+Frame_14.BackgroundColor3 = Color3.fromRGB(34, 34, 34)
+Frame_14.BackgroundTransparency = 0.950
+Frame_14.BorderSizePixel = 0
+Frame_14.Position = UDim2.new(0.497326195, 0, 0.0285714269, 0)
+Frame_14.Size = UDim2.new(0, 176, 0, 120)
+
+TextLabel_15.Parent = Frame_14
+TextLabel_15.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_15.BackgroundTransparency = 1.000
+TextLabel_15.BorderColor3 = Color3.fromRGB(27, 42, 53)
+TextLabel_15.Position = UDim2.new(0, 0, -0.0500000007, 0)
+TextLabel_15.Size = UDim2.new(0, 47, 0, 26)
+TextLabel_15.Font = Enum.Font.Code
+TextLabel_15.Text = "Licensing"
+TextLabel_15.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_15.TextSize = 14.000
+TextLabel_15.TextXAlignment = Enum.TextXAlignment.Left
+
+FovButton_3.Name = "FovButton"
+FovButton_3.Parent = Frame_14
+FovButton_3.BackgroundColor3 = Color3.fromRGB(29, 29, 29)
+FovButton_3.BorderColor3 = Color3.fromRGB(0, 0, 0)
+FovButton_3.Position = UDim2.new(0, 0, 0.183333337, 0)
+FovButton_3.Size = UDim2.new(0, 12, 0, 12)
+FovButton_3.Font = Enum.Font.SourceSans
+FovButton_3.Text = ""
+FovButton_3.TextColor3 = Color3.fromRGB(0, 0, 0)
+FovButton_3.TextSize = 16.000
+
+TextLabel_16.Parent = FovButton_3
+TextLabel_16.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_16.BackgroundTransparency = 1.000
+TextLabel_16.Position = UDim2.new(1.75, 0, 0, 0)
+TextLabel_16.Size = UDim2.new(0, 44, 0, 10)
+TextLabel_16.Font = Enum.Font.SourceSans
+TextLabel_16.Text = "Print License Information"
+TextLabel_16.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_16.TextSize = 14.000
+TextLabel_16.TextStrokeTransparency = 0.000
+TextLabel_16.TextXAlignment = Enum.TextXAlignment.Left
+
+UIGradient_3.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(8, 0, 255)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(26, 81, 255))}
+UIGradient_3.Offset = Vector2.new(-0.0364485979, 0.333333343)
+UIGradient_3.Rotation = 154.16017150878906
+UIGradient_3.Parent = NotPasted
 
 -- Scripts:
 
-local function HazeLocalChangerLol73_func() -- AimbotT.ColourHover 
-	local HazeLocalChangerLol102_ = Instance.new('LocalScript', HazeLocalChangerLol12_)
+local function JHPSBNI_fake_script() -- AimbotT.ColourHover 
+	local script = Instance.new('LocalScript', AimbotT)
 
-	HazeLocalChangerLol102_.Parent.MouseEnter:Connect(function()
-		HazeLocalChangerLol102_.Parent.TextColor3 = Color3.fromRGB(60, 0, 180)
+	script.Parent.MouseEnter:Connect(function()
+		script.Parent.TextColor3 = Color3.fromRGB(60, 0, 180)
 	end)
 	
-	HazeLocalChangerLol102_.Parent.MouseLeave:Connect(function()
-		HazeLocalChangerLol102_.Parent.TextColor3 = Color3.fromRGB(113, 113, 113)
+	script.Parent.MouseLeave:Connect(function()
+		script.Parent.TextColor3 = Color3.fromRGB(113, 113, 113)
 	end)
 end
-coroutine.wrap(HazeLocalChangerLol73_func)()
-local function HazeLocalChangerLol74_func() -- AimbotB.LocalScript 
-	local HazeLocalChangerLol103_ = Instance.new('LocalScript', HazeLocalChangerLol13_)
+coroutine.wrap(JHPSBNI_fake_script)()
+local function JZGTDVN_fake_script() -- AimbotB.LocalScript 
+	local script = Instance.new('LocalScript', AimbotB)
 
-	HazeLocalChangerLol103_.Parent.MouseButton1Click:Connect(function()
-		HazeLocalChangerLol103_.Parent.Parent.Parent.Parent.Main.Visible = true
-		HazeLocalChangerLol103_.Parent.Parent.Parent.Parent.Visual.Visible = false
-		HazeLocalChangerLol103_.Parent.Parent.Parent.Parent.Settings.Visible = false
-		HazeLocalChangerLol103_.Parent.Parent.Parent.Parent.Account.Visible = false
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.Parent.Parent.Parent.Main.Visible = true
+		script.Parent.Parent.Parent.Parent.Visual.Visible = false
+		script.Parent.Parent.Parent.Parent.Settings.Visible = false
+		script.Parent.Parent.Parent.Parent.Account.Visible = false
 	end)
 end
-coroutine.wrap(HazeLocalChangerLol74_func)()
-local function HazeLocalChangerLol75_func() -- VisualT.ColourHover 
-	local HazeLocalChangerLol104_ = Instance.new('LocalScript', HazeLocalChangerLol15_)
+coroutine.wrap(JZGTDVN_fake_script)()
+local function SHMUPN_fake_script() -- VisualT.ColourHover 
+	local script = Instance.new('LocalScript', VisualT)
 
-	HazeLocalChangerLol104_.Parent.MouseEnter:Connect(function()
-		HazeLocalChangerLol104_.Parent.TextColor3 = Color3.fromRGB(60, 0, 180)
+	script.Parent.MouseEnter:Connect(function()
+		script.Parent.TextColor3 = Color3.fromRGB(60, 0, 180)
 	end)
 	
-	HazeLocalChangerLol104_.Parent.MouseLeave:Connect(function()
-		HazeLocalChangerLol104_.Parent.TextColor3 = Color3.fromRGB(113, 113, 113)
+	script.Parent.MouseLeave:Connect(function()
+		script.Parent.TextColor3 = Color3.fromRGB(113, 113, 113)
 	end)
 end
-coroutine.wrap(HazeLocalChangerLol75_func)()
-local function HazeLocalChangerLol76_func() -- VisualB.LocalScript 
-	local HazeLocalChangerLol105_ = Instance.new('LocalScript', HazeLocalChangerLol16_)
+coroutine.wrap(SHMUPN_fake_script)()
+local function JMJZA_fake_script() -- VisualB.LocalScript 
+	local script = Instance.new('LocalScript', VisualB)
 
-	HazeLocalChangerLol105_.Parent.MouseButton1Click:Connect(function()
-		HazeLocalChangerLol105_.Parent.Parent.Parent.Parent.Main.Visible = false
-		HazeLocalChangerLol105_.Parent.Parent.Parent.Parent.Visual.Visible = true
-		HazeLocalChangerLol105_.Parent.Parent.Parent.Parent.Settings.Visible = false
-		HazeLocalChangerLol105_.Parent.Parent.Parent.Parent.Account.Visible = false
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.Parent.Parent.Parent.Main.Visible = false
+		script.Parent.Parent.Parent.Parent.Visual.Visible = true
+		script.Parent.Parent.Parent.Parent.Settings.Visible = false
+		script.Parent.Parent.Parent.Parent.Account.Visible = false
 	end)
 end
-coroutine.wrap(HazeLocalChangerLol76_func)()
-local function HazeLocalChangerLol77_func() -- VisualT_2.ColourHover 
-	local HazeLocalChangerLol106_ = Instance.new('LocalScript', HazeLocalChangerLol18_)
+coroutine.wrap(JMJZA_fake_script)()
+local function UBABAHY_fake_script() -- VisualT_2.ColourHover 
+	local script = Instance.new('LocalScript', VisualT_2)
 
-	HazeLocalChangerLol106_.Parent.MouseEnter:Connect(function()
-		HazeLocalChangerLol106_.Parent.TextColor3 = Color3.fromRGB(60, 0, 180)
+	script.Parent.MouseEnter:Connect(function()
+		script.Parent.TextColor3 = Color3.fromRGB(60, 0, 180)
 	end)
 	
-	HazeLocalChangerLol106_.Parent.MouseLeave:Connect(function()
-		HazeLocalChangerLol106_.Parent.TextColor3 = Color3.fromRGB(113, 113, 113)
+	script.Parent.MouseLeave:Connect(function()
+		script.Parent.TextColor3 = Color3.fromRGB(113, 113, 113)
 	end)
 end
-coroutine.wrap(HazeLocalChangerLol77_func)()
-local function HazeLocalChangerLol78_func() -- VisualB_2.LocalScript 
-	local HazeLocalChangerLol107_ = Instance.new('LocalScript', HazeLocalChangerLol19_)
+coroutine.wrap(UBABAHY_fake_script)()
+local function CWUC_fake_script() -- VisualB_2.LocalScript 
+	local script = Instance.new('LocalScript', VisualB_2)
 
-	HazeLocalChangerLol107_.Parent.MouseButton1Click:Connect(function()
-		HazeLocalChangerLol107_.Parent.Parent.Parent.Parent.Main.Visible = false
-		HazeLocalChangerLol107_.Parent.Parent.Parent.Parent.Visual.Visible = false
-		HazeLocalChangerLol107_.Parent.Parent.Parent.Parent.Settings.Visible = false
-		HazeLocalChangerLol107_.Parent.Parent.Parent.Parent.Account.Visible = true
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.Parent.Parent.Parent.Main.Visible = false
+		script.Parent.Parent.Parent.Parent.Visual.Visible = false
+		script.Parent.Parent.Parent.Parent.Settings.Visible = false
+		script.Parent.Parent.Parent.Parent.Account.Visible = true
 	end)
 end
-coroutine.wrap(HazeLocalChangerLol78_func)()
-local function HazeLocalChangerLol79_func() -- VisualT_3.ColourHover 
-	local HazeLocalChangerLol108_ = Instance.new('LocalScript', HazeLocalChangerLol21_)
+coroutine.wrap(CWUC_fake_script)()
+local function NBGVPQT_fake_script() -- VisualT_3.ColourHover 
+	local script = Instance.new('LocalScript', VisualT_3)
 
-	HazeLocalChangerLol108_.Parent.MouseEnter:Connect(function()
-		HazeLocalChangerLol108_.Parent.TextColor3 = Color3.fromRGB(60, 0, 180)
+	script.Parent.MouseEnter:Connect(function()
+		script.Parent.TextColor3 = Color3.fromRGB(60, 0, 180)
 	end)
 	
-	HazeLocalChangerLol108_.Parent.MouseLeave:Connect(function()
-		HazeLocalChangerLol108_.Parent.TextColor3 = Color3.fromRGB(113, 113, 113)
+	script.Parent.MouseLeave:Connect(function()
+		script.Parent.TextColor3 = Color3.fromRGB(113, 113, 113)
 	end)
 end
-coroutine.wrap(HazeLocalChangerLol79_func)()
-local function HazeLocalChangerLol80_func() -- VisualB_3.LocalScript 
-	local HazeLocalChangerLol109_ = Instance.new('LocalScript', HazeLocalChangerLol22_)
+coroutine.wrap(NBGVPQT_fake_script)()
+local function CCVBA_fake_script() -- VisualB_3.LocalScript 
+	local script = Instance.new('LocalScript', VisualB_3)
 
-	HazeLocalChangerLol109_.Parent.MouseButton1Click:Connect(function()
-		HazeLocalChangerLol109_.Parent.Parent.Parent.Parent.Main.Visible = false
-		HazeLocalChangerLol109_.Parent.Parent.Parent.Parent.Visual.Visible = false
-		HazeLocalChangerLol109_.Parent.Parent.Parent.Parent.Settings.Visible = true
-		HazeLocalChangerLol109_.Parent.Parent.Parent.Parent.Account.Visible = false
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.Parent.Parent.Parent.Main.Visible = false
+		script.Parent.Parent.Parent.Parent.Visual.Visible = false
+		script.Parent.Parent.Parent.Parent.Settings.Visible = true
+		script.Parent.Parent.Parent.Parent.Account.Visible = false
 	end)
 end
-coroutine.wrap(HazeLocalChangerLol80_func)()
-local function HazeLocalChangerLol81_func() -- AimbotButton.LocalScript 
-	local HazeLocalChangerLol110_ = Instance.new('LocalScript', HazeLocalChangerLol27_)
+coroutine.wrap(CCVBA_fake_script)()
+local function TKEL_fake_script() -- AimbotButton.LocalScript 
+	local script = Instance.new('LocalScript', AimbotButton)
 
-	HazeLocalChangerLol110_.Parent.MouseEnter:Connect(function()
-		HazeLocalChangerLol110_.Parent.BorderColor3 = Color3.fromRGB(60, 0, 180)
-		HazeLocalChangerLol110_.Parent.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
-		HazeLocalChangerLol110_.Parent.BorderSizePixel = 2
+	script.Parent.MouseEnter:Connect(function()
+		script.Parent.BorderColor3 = Color3.fromRGB(60, 0, 180)
+		script.Parent.BackgroundColor3 = Color3.fromRGB(35,35,35)
+		script.Parent.BorderSizePixel = 2
 	end)
 	
-	HazeLocalChangerLol110_.Parent.MouseLeave:Connect(function()
-		HazeLocalChangerLol110_.Parent.BorderSizePixel = 1
-		HazeLocalChangerLol110_.Parent.BackgroundColor3 = Color3.fromRGB(29, 29, 29)
-		HazeLocalChangerLol110_.Parent.BorderColor3 = Color3.fromRGB(0, 0, 0)
+	script.Parent.MouseLeave:Connect(function()
+		script.Parent.BorderSizePixel = 1
+		script.Parent.BackgroundColor3 = Color3.fromRGB(29,29,29)
+		script.Parent.BorderColor3 = Color3.fromRGB(0, 0, 0)
 	end)
 	
-	HazeLocalChangerLol110_.Parent.MouseEnter:Connect(function()
-		local HazeLocalChangerLol111_ = game.Players.LocalPlayer
-		local HazeLocalChangerLol112_ = HazeLocalChangerLol111_:GetMouse()
+	script.Parent.MouseEnter:Connect(function()
+		local player = game.Players.LocalPlayer
+		local mouse = player:GetMouse()
 	
-		HazeLocalChangerLol112_.Icon = "rbxassetid://5992580992"
-		HazeLocalChangerLol112_.Color = Color3.fromRGB(255, 0, 0)
+		mouse.Icon = "rbxassetid://5992580992"
+		mouse.Color = Color3.fromRGB(255, 0, 0)
 	
 	end)
 end
-coroutine.wrap(HazeLocalChangerLol81_func)()
-local function HazeLocalChangerLol82_func() -- AimbotButton.LocalScript 
-	local HazeLocalChangerLol113_ = Instance.new('LocalScript', HazeLocalChangerLol27_)
+coroutine.wrap(TKEL_fake_script)()
+local function REBMV_fake_script() -- AimbotButton.LocalScript 
+	local script = Instance.new('LocalScript', AimbotButton)
 
 	cream = false
-	HazeLocalChangerLol113_.Parent.MouseButton1Down:connect(function()
+	script.Parent.MouseButton1Down:connect(function()
 	
 		if cream == true then 
 			cream = false 
@@ -847,20 +823,20 @@ local function HazeLocalChangerLol82_func() -- AimbotButton.LocalScript
 			cream = true
 		end
 		if cream == true then 
-			HazeLocalChangerLol113_.Parent.Text = "✓"
+			script.Parent.Text = "✓"
 		end
 		if cream == false then 
-			HazeLocalChangerLol113_.Parent.Text = ""
+			script.Parent.Text = ""
 		end
 	
 		if cream == true then
 			if game.PlaceId == 286090429 then
-				local HazeLocalChangerLol133_ = workspace.CurrentCamera
-				local HazeLocalChangerLol134_ = game:GetService("RunService")
-				local HazeLocalChangerLol135_ = game:GetService("UserInputService")
-				local HazeLocalChangerLol136_ = game:GetService("Players")
-				local HazeLocalChangerLol137_ = HazeLocalChangerLol136_.LocalPlayer
-				local HazeLocalChangerLol138_ = HazeLocalChangerLol137_:GetMouse()
+				local dwCamera = workspace.CurrentCamera
+				local dwRunService = game:GetService("RunService")
+				local dwUIS = game:GetService("UserInputService")
+				local dwEntities = game:GetService("Players")
+				local dwLocalPlayer = dwEntities.LocalPlayer
+				local dwMouse = dwLocalPlayer:GetMouse()
 	
 				getgenv().aimsettings = {
 					Aimbot = true,
@@ -869,61 +845,61 @@ local function HazeLocalChangerLol82_func() -- AimbotButton.LocalScript
 					Aimbot_TeamCheck = true,
 					Aimbot_Draw_FOV = false,
 					Aimbot_FOV_Radius = 200,
-					Aimbot_FOV_Color = Color3.fromRGB(255, 255, 255)
+					Aimbot_FOV_Color = Color3.fromRGB(255,255,255)
 				}
 	
-				local HazeLocalChangerLol139_ = Drawing.new("Circle")
-				HazeLocalChangerLol139_.Visible = getgenv().aimsettings.Aimbot_Draw_FOV
-				HazeLocalChangerLol139_.Radius = getgenv().aimsettings.Aimbot_FOV_Radius
-				HazeLocalChangerLol139_.Color = getgenv().aimsettings.Aimbot_FOV_Color
-				HazeLocalChangerLol139_.Thickness = 1
-				HazeLocalChangerLol139_.Filled = false
-				HazeLocalChangerLol139_.Transparency = 1
+				local fovcircle = Drawing.new("Circle")
+				fovcircle.Visible = getgenv().aimsettings.Aimbot_Draw_FOV
+				fovcircle.Radius = getgenv().aimsettings.Aimbot_FOV_Radius
+				fovcircle.Color = getgenv().aimsettings.Aimbot_FOV_Color
+				fovcircle.Thickness = 1
+				fovcircle.Filled = false
+				fovcircle.Transparency = 1
 	
-				HazeLocalChangerLol139_.Position = Vector2.new(HazeLocalChangerLol133_.ViewportSize.X / 2, HazeLocalChangerLol133_.ViewportSize.Y / 2)
+				fovcircle.Position = Vector2.new(dwCamera.ViewportSize.X / 2, dwCamera.ViewportSize.Y / 2)
 	
-				HazeLocalChangerLol135_.InputBegan:Connect(function(HazeLocalChangerLol140_arg0)
-					if HazeLocalChangerLol140_arg0.UserInputType == Enum.UserInputType.MouseButton2 then
+				dwUIS.InputBegan:Connect(function(i)
+					if i.UserInputType == Enum.UserInputType.MouseButton2 then
 						getgenv().aimsettings.Aiming = true
 					end
 				end)
 	
-				HazeLocalChangerLol135_.InputEnded:Connect(function(HazeLocalChangerLol141_arg0)
-					if HazeLocalChangerLol141_arg0.UserInputType == Enum.UserInputType.MouseButton2 then
+				dwUIS.InputEnded:Connect(function(i)
+					if i.UserInputType == Enum.UserInputType.MouseButton2 then
 						getgenv().aimsettings.Aiming = false
 					end
 				end)
 	
-				HazeLocalChangerLol134_.RenderStepped:Connect(function()
+				dwRunService.RenderStepped:Connect(function()
 	
-					local HazeLocalChangerLol142_ = math.huge
-					local HazeLocalChangerLol143_ = nil
+					local dist = math.huge
+					local closest_char = nil
 	
 					if getgenv().aimsettings.Aiming then
 	
-						for HazeLocalChangerLol144_forvar0, HazeLocalChangerLol145_forvar1 in next, HazeLocalChangerLol136_:GetChildren() do 
+						for i,v in next, dwEntities:GetChildren() do 
 	
-							if HazeLocalChangerLol145_forvar1 ~= HazeLocalChangerLol137_ and
-								HazeLocalChangerLol145_forvar1.Character and
-								HazeLocalChangerLol145_forvar1.Character:FindFirstChild("HumanoidRootPart") and
-								HazeLocalChangerLol145_forvar1.Character:FindFirstChild("Humanoid") and
-								HazeLocalChangerLol145_forvar1.Character:FindFirstChild("Humanoid").Health > 0 then
+							if v ~= dwLocalPlayer and
+								v.Character and
+								v.Character:FindFirstChild("HumanoidRootPart") and
+								v.Character:FindFirstChild("Humanoid") and
+								v.Character:FindFirstChild("Humanoid").Health > 0 then
 	
 								if getgenv().aimsettings.Aimbot_TeamCheck == true and
-									HazeLocalChangerLol145_forvar1.Team ~= HazeLocalChangerLol137_.Team or
+									v.Team ~= dwLocalPlayer.Team or
 									getgenv().aimsettings.Aimbot_TeamCheck == false then
 	
-									local HazeLocalChangerLol146_ = HazeLocalChangerLol145_forvar1.Character
-									local HazeLocalChangerLol147_, HazeLocalChangerLol148_ = HazeLocalChangerLol133_:WorldToViewportPoint(HazeLocalChangerLol146_[getgenv().aimsettings.Aimbot_AimPart].Position)
+									local char = v.Character
+									local char_part_pos, is_onscreen = dwCamera:WorldToViewportPoint(char[getgenv().aimsettings.Aimbot_AimPart].Position)
 	
-									if HazeLocalChangerLol148_ then
+									if is_onscreen then
 	
-										local HazeLocalChangerLol149_ = (Vector2.new(HazeLocalChangerLol138_.X, HazeLocalChangerLol138_.Y) - Vector2.new(HazeLocalChangerLol147_.X, HazeLocalChangerLol147_.Y)).Magnitude
+										local mag = (Vector2.new(dwMouse.X, dwMouse.Y) - Vector2.new(char_part_pos.X, char_part_pos.Y)).Magnitude
 	
-										if HazeLocalChangerLol149_ < HazeLocalChangerLol142_ and HazeLocalChangerLol149_ < getgenv().aimsettings.Aimbot_FOV_Radius then
+										if mag < dist and mag < getgenv().aimsettings.Aimbot_FOV_Radius then
 	
-											HazeLocalChangerLol142_ = HazeLocalChangerLol149_
-											HazeLocalChangerLol143_ = HazeLocalChangerLol146_
+											dist = mag
+											closest_char = char
 	
 										end
 									end
@@ -931,12 +907,12 @@ local function HazeLocalChangerLol82_func() -- AimbotButton.LocalScript
 							end
 						end
 	
-						if HazeLocalChangerLol143_ ~= nil and
-							HazeLocalChangerLol143_:FindFirstChild("HumanoidRootPart") and
-							HazeLocalChangerLol143_:FindFirstChild("Humanoid") and
-							HazeLocalChangerLol143_:FindFirstChild("Humanoid").Health > 0 then
+						if closest_char ~= nil and
+							closest_char:FindFirstChild("HumanoidRootPart") and
+							closest_char:FindFirstChild("Humanoid") and
+							closest_char:FindFirstChild("Humanoid").Health > 0 then
 	
-							HazeLocalChangerLol133_.CFrame = CFrame.new(HazeLocalChangerLol133_.CFrame.Position, HazeLocalChangerLol143_[getgenv().aimsettings.Aimbot_AimPart].Position)
+							dwCamera.CFrame = CFrame.new(dwCamera.CFrame.Position, closest_char[getgenv().aimsettings.Aimbot_AimPart].Position)
 						end
 					end
 				end)
@@ -944,22 +920,22 @@ local function HazeLocalChangerLol82_func() -- AimbotButton.LocalScript
 		else
 	
 	
-			local HazeLocalChangerLol150_ = game:GetService("Workspace")
-			local HazeLocalChangerLol151_ = game:GetService("RunService")
-			local HazeLocalChangerLol152_ = game:GetService("UserInputService")
-			local HazeLocalChangerLol153_ = game:GetService("Players")
-			local HazeLocalChangerLol154_ = HazeLocalChangerLol153_.LocalPlayer
-			local HazeLocalChangerLol155_ = HazeLocalChangerLol154_.Character
-			local HazeLocalChangerLol156_ = HazeLocalChangerLol155_:FindFirstChild("HumanoidRootPart")
-			local HazeLocalChangerLol157_ = HazeLocalChangerLol155_:FindFirstChild("Humanoid")
-			local HazeLocalChangerLol158_ = HazeLocalChangerLol154_:GetMouse()
-			local HazeLocalChangerLol159_ = HazeLocalChangerLol150_.CurrentCamera
-			local HazeLocalChangerLol160_ = HazeLocalChangerLol154_.TeamColor
-			local HazeLocalChangerLol161_ = false
-			local HazeLocalChangerLol162_ = false
-			local HazeLocalChangerLol163_ = false
-			local HazeLocalChangerLol164_ = .100 ---Note: The Bigger The Number, The More Prediction.
-			local HazeLocalChangerLol165_ = Vector3.new(0, .1, 0)
+			local Area = game:GetService("Workspace")
+			local RunService = game:GetService("RunService")
+			local UIS = game:GetService("UserInputService")
+			local Players = game:GetService("Players")
+			local LocalPlayer = Players.LocalPlayer
+			local MyCharacter = LocalPlayer.Character
+			local MyRoot = MyCharacter:FindFirstChild("HumanoidRootPart")
+			local MyHumanoid = MyCharacter:FindFirstChild("Humanoid")
+			local Mouse = LocalPlayer:GetMouse()
+			local MyView = Area.CurrentCamera
+			local MyTeamColor = LocalPlayer.TeamColor
+			local HoldingM2 = false
+			local Active = false
+			local Lock = false
+			local Epitaph = .100 ---Note: The Bigger The Number, The More Prediction.
+			local HeadOffset = Vector3.new(0, .1, 0)
 	
 			_G.TeamCheck = false
 			_G.AimPart = "HumanoidRootPart"
@@ -972,78 +948,75 @@ local function HazeLocalChangerLol82_func() -- AimbotButton.LocalScript
 			_G.CircleVisible = true
 			_G.CircleThickness = 1
 	
-			local HazeLocalChangerLol166_ = Drawing.new("Circle")
-			HazeLocalChangerLol166_.Position = Vector2.new(HazeLocalChangerLol159_.ViewportSize.X / 2, HazeLocalChangerLol159_.ViewportSize.Y / 2)
-			HazeLocalChangerLol166_.Radius = _G.CircleRadius
-			HazeLocalChangerLol166_.Filled = _G.CircleFilled
-			HazeLocalChangerLol166_.Color = _G.CircleColor
-			HazeLocalChangerLol166_.Visible = _G.CircleVisible
-			HazeLocalChangerLol166_.Transparency = _G.CircleTransparency
-			HazeLocalChangerLol166_.NumSides = _G.CircleSides
-			HazeLocalChangerLol166_.Thickness = _G.CircleThickness
+			local FOVCircle = Drawing.new("Circle")
+			FOVCircle.Position = Vector2.new(MyView.ViewportSize.X / 2, MyView.ViewportSize.Y / 2)
+			FOVCircle.Radius = _G.CircleRadius
+			FOVCircle.Filled = _G.CircleFilled
+			FOVCircle.Color = _G.CircleColor
+			FOVCircle.Visible = _G.CircleVisible
+			FOVCircle.Transparency = _G.CircleTransparency
+			FOVCircle.NumSides = _G.CircleSides
+			FOVCircle.Thickness = _G.CircleThickness
 	
-			local function HazeLocalChangerLol167_func()
-				HazeLocalChangerLol152_.MouseBehavior = Enum.MouseBehavior.LockCenter
+			local function CursorLock()
+				UIS.MouseBehavior = Enum.MouseBehavior.LockCenter
 			end
-			local function HazeLocalChangerLol168_func()
-				HazeLocalChangerLol161_ = false
-				HazeLocalChangerLol162_ = false
-				HazeLocalChangerLol163_ = false 
-				HazeLocalChangerLol152_.MouseBehavior = Enum.MouseBehavior.Default
+			local function UnLockCursor()
+				HoldingM2 = false Active = false Lock = false 
+				UIS.MouseBehavior = Enum.MouseBehavior.Default
 			end
 			function FindNearestPlayer()
-				local HazeLocalChangerLol169_ = math.huge
-				local HazeLocalChangerLol170_ = nil
-				for HazeLocalChangerLol171_forvar0, HazeLocalChangerLol172_forvar1 in pairs(HazeLocalChangerLol153_:GetPlayers()) do
-					if HazeLocalChangerLol172_forvar1 ~= HazeLocalChangerLol154_ and HazeLocalChangerLol172_forvar1.Character:FindFirstChild("Humanoid") and HazeLocalChangerLol172_forvar1.Character:FindFirstChild("Humanoid").Health > 0 and HazeLocalChangerLol172_forvar1.Character:FindFirstChild("HumanoidRootPart") and HazeLocalChangerLol172_forvar1 then
-						local HazeLocalChangerLol173_ = HazeLocalChangerLol172_forvar1.Character
-						local HazeLocalChangerLol174_, HazeLocalChangerLol175_ = HazeLocalChangerLol159_:WorldToViewportPoint(HazeLocalChangerLol173_[_G.AimPart].Position)
-						if HazeLocalChangerLol175_ then
-							local HazeLocalChangerLol176_ = (Vector2.new(HazeLocalChangerLol158_.X, HazeLocalChangerLol158_.Y) - Vector2.new(HazeLocalChangerLol174_.X, HazeLocalChangerLol174_.Y)).Magnitude
-							if HazeLocalChangerLol176_ < HazeLocalChangerLol169_ and HazeLocalChangerLol176_ < HazeLocalChangerLol166_.Radius then
-								HazeLocalChangerLol169_ = HazeLocalChangerLol176_
-								HazeLocalChangerLol170_ = HazeLocalChangerLol173_
+				local dist = math.huge
+				local Target = nil
+				for _, v in pairs(Players:GetPlayers()) do
+					if v ~= LocalPlayer and v.Character:FindFirstChild("Humanoid") and v.Character:FindFirstChild("Humanoid").Health > 0 and v.Character:FindFirstChild("HumanoidRootPart") and v then
+						local TheirCharacter = v.Character
+						local CharacterRoot, Visible = MyView:WorldToViewportPoint(TheirCharacter[_G.AimPart].Position)
+						if Visible then
+							local RealMag = (Vector2.new(Mouse.X, Mouse.Y) - Vector2.new(CharacterRoot.X, CharacterRoot.Y)).Magnitude
+							if RealMag < dist and RealMag < FOVCircle.Radius then
+								dist = RealMag
+								Target = TheirCharacter
 							end
 						end
 					end
 				end
-				return HazeLocalChangerLol170_
+				return Target
 			end
 	
-			HazeLocalChangerLol152_.InputBegan:Connect(function(HazeLocalChangerLol177_arg0)
-				if HazeLocalChangerLol177_arg0.UserInputType == Enum.UserInputType.MouseButton2 then
-					HazeLocalChangerLol161_ = true
-					HazeLocalChangerLol162_ = true
-					HazeLocalChangerLol163_ = true
-					if HazeLocalChangerLol162_ then
-						local HazeLocalChangerLol178_ = FindNearestPlayer()
+			UIS.InputBegan:Connect(function(Input)
+				if Input.UserInputType == Enum.UserInputType.MouseButton2 then
+					HoldingM2 = true
+					Active = true
+					Lock = true
+					if Active then
+						local The_Enemy = FindNearestPlayer()
 	
-						while HazeLocalChangerLol161_ do
-							task.wait(.000001)
-							if HazeLocalChangerLol163_ and HazeLocalChangerLol178_ ~= nil then
-								local HazeLocalChangerLol179_ = HazeLocalChangerLol178_.HumanoidRootPart.CFrame + (HazeLocalChangerLol178_.HumanoidRootPart.Velocity * HazeLocalChangerLol164_ + HazeLocalChangerLol165_)
-								HazeLocalChangerLol159_.CFrame = CFrame.lookAt(HazeLocalChangerLol159_.CFrame.Position, HazeLocalChangerLol179_.Position)
-								HazeLocalChangerLol167_func()
+						while HoldingM2 do task.wait(.000001)
+							if Lock and The_Enemy ~= nil then
+								local Future = The_Enemy.HumanoidRootPart.CFrame + (The_Enemy.HumanoidRootPart.Velocity * Epitaph + HeadOffset)
+								MyView.CFrame = CFrame.lookAt(MyView.CFrame.Position, Future.Position)
+								CursorLock()
 							end
 						end
 					end
 				end
 			end)
-			HazeLocalChangerLol152_.InputEnded:Connect(function(HazeLocalChangerLol180_arg0)
-				if HazeLocalChangerLol180_arg0.UserInputType == Enum.UserInputType.MouseButton2 then
+			UIS.InputEnded:Connect(function(Input)
+				if Input.UserInputType == Enum.UserInputType.MouseButton2 then
 	
-					HazeLocalChangerLol168_func()
+					UnLockCursor()
 				end
 			end)
 	
 		end
 		if cream == false then 
-			local HazeLocalChangerLol181_ = workspace.CurrentCamera
-			local HazeLocalChangerLol182_ = game:GetService("RunService")
-			local HazeLocalChangerLol183_ = game:GetService("UserInputService")
-			local HazeLocalChangerLol184_ = game:GetService("Players")
-			local HazeLocalChangerLol185_ = HazeLocalChangerLol184_.LocalPlayer
-			local HazeLocalChangerLol186_ = HazeLocalChangerLol185_:GetMouse()
+			local dwCamera = workspace.CurrentCamera
+			local dwRunService = game:GetService("RunService")
+			local dwUIS = game:GetService("UserInputService")
+			local dwEntities = game:GetService("Players")
+			local dwLocalPlayer = dwEntities.LocalPlayer
+			local dwMouse = dwLocalPlayer:GetMouse()
 	
 			getgenv().aimsettings = {
 				Aimbot = true,
@@ -1052,61 +1025,61 @@ local function HazeLocalChangerLol82_func() -- AimbotButton.LocalScript
 				Aimbot_TeamCheck = true,
 				Aimbot_Draw_FOV = false,
 				Aimbot_FOV_Radius = 200,
-				Aimbot_FOV_Color = Color3.fromRGB(255, 255, 255)
+				Aimbot_FOV_Color = Color3.fromRGB(255,255,255)
 			}
 	
-			local HazeLocalChangerLol187_ = Drawing.new("Circle")
-			HazeLocalChangerLol187_.Visible = getgenv().aimsettings.Aimbot_Draw_FOV
-			HazeLocalChangerLol187_.Radius = getgenv().aimsettings.Aimbot_FOV_Radius
-			HazeLocalChangerLol187_.Color = getgenv().aimsettings.Aimbot_FOV_Color
-			HazeLocalChangerLol187_.Thickness = 1
-			HazeLocalChangerLol187_.Filled = false
-			HazeLocalChangerLol187_.Transparency = 1
+			local fovcircle = Drawing.new("Circle")
+			fovcircle.Visible = getgenv().aimsettings.Aimbot_Draw_FOV
+			fovcircle.Radius = getgenv().aimsettings.Aimbot_FOV_Radius
+			fovcircle.Color = getgenv().aimsettings.Aimbot_FOV_Color
+			fovcircle.Thickness = 1
+			fovcircle.Filled = false
+			fovcircle.Transparency = 1
 	
-			HazeLocalChangerLol187_.Position = Vector2.new(HazeLocalChangerLol181_.ViewportSize.X / 2, HazeLocalChangerLol181_.ViewportSize.Y / 2)
+			fovcircle.Position = Vector2.new(dwCamera.ViewportSize.X / 2, dwCamera.ViewportSize.Y / 2)
 	
-			HazeLocalChangerLol183_.InputBegan:Connect(function(HazeLocalChangerLol188_arg0)
-				if HazeLocalChangerLol188_arg0.UserInputType == Enum.UserInputType.MouseButton2 then
+			dwUIS.InputBegan:Connect(function(i)
+				if i.UserInputType == Enum.UserInputType.MouseButton2 then
 					getgenv().aimsettings.Aiming = true
 				end
 			end)
 	
-			HazeLocalChangerLol183_.InputEnded:Connect(function(HazeLocalChangerLol189_arg0)
-				if HazeLocalChangerLol189_arg0.UserInputType == Enum.UserInputType.MouseButton2 then
+			dwUIS.InputEnded:Connect(function(i)
+				if i.UserInputType == Enum.UserInputType.MouseButton2 then
 					getgenv().aimsettings.Aiming = false
 				end
 			end)
 	
-			HazeLocalChangerLol182_.RenderStepped:Connect(function()
+			dwRunService.RenderStepped:Connect(function()
 	
-				local HazeLocalChangerLol190_ = math.huge
-				local HazeLocalChangerLol191_ = nil
+				local dist = math.huge
+				local closest_char = nil
 	
 				if getgenv().aimsettings.Aiming then
 	
-					for HazeLocalChangerLol192_forvar0, HazeLocalChangerLol193_forvar1 in next, HazeLocalChangerLol184_:GetChildren() do 
+					for i,v in next, dwEntities:GetChildren() do 
 	
-						if HazeLocalChangerLol193_forvar1 ~= HazeLocalChangerLol185_ and
-							HazeLocalChangerLol193_forvar1.Character and
-							HazeLocalChangerLol193_forvar1.Character:FindFirstChild("HumanoidRootPart") and
-							HazeLocalChangerLol193_forvar1.Character:FindFirstChild("Humanoid") and
-							HazeLocalChangerLol193_forvar1.Character:FindFirstChild("Humanoid").Health > 0 then
+						if v ~= dwLocalPlayer and
+							v.Character and
+							v.Character:FindFirstChild("HumanoidRootPart") and
+							v.Character:FindFirstChild("Humanoid") and
+							v.Character:FindFirstChild("Humanoid").Health > 0 then
 	
 							if getgenv().aimsettings.Aimbot_TeamCheck == true and
-								HazeLocalChangerLol193_forvar1.Team ~= HazeLocalChangerLol185_.Team or
+								v.Team ~= dwLocalPlayer.Team or
 								getgenv().aimsettings.Aimbot_TeamCheck == false then
 	
-								local HazeLocalChangerLol194_ = HazeLocalChangerLol193_forvar1.Character
-								local HazeLocalChangerLol195_, HazeLocalChangerLol196_ = HazeLocalChangerLol181_:WorldToViewportPoint(HazeLocalChangerLol194_[getgenv().aimsettings.Aimbot_AimPart].Position)
+								local char = v.Character
+								local char_part_pos, is_onscreen = dwCamera:WorldToViewportPoint(char[getgenv().aimsettings.Aimbot_AimPart].Position)
 	
-								if HazeLocalChangerLol196_ then
+								if is_onscreen then
 	
-									local HazeLocalChangerLol197_ = (Vector2.new(HazeLocalChangerLol186_.X, HazeLocalChangerLol186_.Y) - Vector2.new(HazeLocalChangerLol195_.X, HazeLocalChangerLol195_.Y)).Magnitude
+									local mag = (Vector2.new(dwMouse.X, dwMouse.Y) - Vector2.new(char_part_pos.X, char_part_pos.Y)).Magnitude
 	
-									if HazeLocalChangerLol197_ < HazeLocalChangerLol190_ and HazeLocalChangerLol197_ < getgenv().aimsettings.Aimbot_FOV_Radius then
+									if mag < dist and mag < getgenv().aimsettings.Aimbot_FOV_Radius then
 	
-										HazeLocalChangerLol190_ = HazeLocalChangerLol197_
-										HazeLocalChangerLol191_ = HazeLocalChangerLol194_
+										dist = mag
+										closest_char = char
 	
 									end
 								end
@@ -1114,135 +1087,138 @@ local function HazeLocalChangerLol82_func() -- AimbotButton.LocalScript
 						end
 					end
 	
-					if HazeLocalChangerLol191_ ~= nil and
-						HazeLocalChangerLol191_:FindFirstChild("HumanoidRootPart") and
-						HazeLocalChangerLol191_:FindFirstChild("Humanoid") and
-						HazeLocalChangerLol191_:FindFirstChild("Humanoid").Health > 0 then
+					if closest_char ~= nil and
+						closest_char:FindFirstChild("HumanoidRootPart") and
+						closest_char:FindFirstChild("Humanoid") and
+						closest_char:FindFirstChild("Humanoid").Health > 0 then
 	
-						HazeLocalChangerLol181_.CFrame = CFrame.new(HazeLocalChangerLol181_.CFrame.Position, HazeLocalChangerLol191_[getgenv().aimsettings.Aimbot_AimPart].Position)
+						dwCamera.CFrame = CFrame.new(dwCamera.CFrame.Position, closest_char[getgenv().aimsettings.Aimbot_AimPart].Position)
 					end
 				end
 			end)
 		end
-		local HazeLocalChangerLol114_ = game:GetService("Workspace")
-		local HazeLocalChangerLol115_ = game:GetService("RunService")
-		local HazeLocalChangerLol116_ = game:GetService("UserInputService")
-		local HazeLocalChangerLol117_ = game:GetService("Players")
-		local HazeLocalChangerLol118_ = HazeLocalChangerLol117_.LocalPlayer
-		local HazeLocalChangerLol119_ = HazeLocalChangerLol118_.Character
-		local HazeLocalChangerLol120_ = HazeLocalChangerLol119_:FindFirstChild("HumanoidRootPart")
-		local HazeLocalChangerLol121_ = HazeLocalChangerLol119_:FindFirstChild("Humanoid")
-		local HazeLocalChangerLol122_ = HazeLocalChangerLol118_:GetMouse()
-		local HazeLocalChangerLol123_ = HazeLocalChangerLol114_.CurrentCamera
-		local HazeLocalChangerLol124_ = HazeLocalChangerLol118_.TeamColor
-		local HazeLocalChangerLol125_ = false
-		local HazeLocalChangerLol126_ = false
-		local HazeLocalChangerLol127_ = false
-		local HazeLocalChangerLol128_ = .100 ---Note: The Bigger The Number, The More Prediction.
-		local HazeLocalChangerLol129_ = Vector3.new(0, .1, 0)
-		_G.TeamCheck = false
-		_G.AimPart = ""
-		_G.Sensitivity = 0
-		_G.CircleSides = 64
-		_G.CircleColor = Color3.fromRGB(255, 0, 130)
-		_G.CircleTransparency = 0
-		_G.CircleRadius = 200
-		_G.CircleFilled = false
-		_G.CircleVisible = true
-		_G.CircleThickness = 1
-		local HazeLocalChangerLol130_ = Drawing.new("Circle")
-		HazeLocalChangerLol130_.Position = Vector2.new(HazeLocalChangerLol123_.ViewportSize.X / 2, HazeLocalChangerLol123_.ViewportSize.Y / 2)
-		HazeLocalChangerLol130_.Radius = _G.CircleRadius
-		HazeLocalChangerLol130_.Filled = _G.CircleFilled
-		HazeLocalChangerLol130_.Color = _G.CircleColor
-		HazeLocalChangerLol130_.Visible = _G.CircleVisible
-		HazeLocalChangerLol130_.Transparency = _G.CircleTransparency
-		HazeLocalChangerLol130_.NumSides = _G.CircleSides
-		HazeLocalChangerLol130_.Thickness = _G.CircleThickness
-		local function HazeLocalChangerLol131_func()
-			HazeLocalChangerLol116_.MouseBehavior = Enum.MouseBehavior.LockCenter
-		end
-		local function HazeLocalChangerLol132_func()
-			HazeLocalChangerLol125_ = false
-			HazeLocalChangerLol126_ = false
-			HazeLocalChangerLol127_ = false
-			HazeLocalChangerLol116_.MouseBehavior = Enum.MouseBehavior.Default
-		end
-		function FindNearestPlayer()
-			local HazeLocalChangerLol198_ = math.huge
-			local HazeLocalChangerLol199_ = nil
-			for HazeLocalChangerLol200_forvar0, HazeLocalChangerLol201_forvar1 in pairs(HazeLocalChangerLol117_:GetPlayers()) do
-				if HazeLocalChangerLol201_forvar1 ~= HazeLocalChangerLol118_ and HazeLocalChangerLol201_forvar1.Character:FindFirstChild("Humanoid") and HazeLocalChangerLol201_forvar1.Character:FindFirstChild("Humanoid").Health > 0 and HazeLocalChangerLol201_forvar1.Character:FindFirstChild("HumanoidRootPart") and HazeLocalChangerLol201_forvar1 then
-					local HazeLocalChangerLol202_ = HazeLocalChangerLol201_forvar1.Character
-					local HazeLocalChangerLol203_, HazeLocalChangerLol204_ = HazeLocalChangerLol123_:WorldToViewportPoint(HazeLocalChangerLol202_[_G.AimPart].Position)
-					if HazeLocalChangerLol204_ then
-						local HazeLocalChangerLol205_ = (Vector2.new(HazeLocalChangerLol122_.X, HazeLocalChangerLol122_.Y) - Vector2.new(HazeLocalChangerLol203_.X, HazeLocalChangerLol203_.Y)).Magnitude
-						if HazeLocalChangerLol205_ < HazeLocalChangerLol198_ and HazeLocalChangerLol205_ < HazeLocalChangerLol130_.Radius then
-							HazeLocalChangerLol198_ = HazeLocalChangerLol205_
-							HazeLocalChangerLol199_ = HazeLocalChangerLol202_
+	
+	
+			local Area = game:GetService("Workspace")
+			local RunService = game:GetService("RunService")
+			local UIS = game:GetService("UserInputService")
+			local Players = game:GetService("Players")
+			local LocalPlayer = Players.LocalPlayer
+			local MyCharacter = LocalPlayer.Character
+			local MyRoot = MyCharacter:FindFirstChild("HumanoidRootPart")
+			local MyHumanoid = MyCharacter:FindFirstChild("Humanoid")
+			local Mouse = LocalPlayer:GetMouse()
+			local MyView = Area.CurrentCamera
+			local MyTeamColor = LocalPlayer.TeamColor
+			local HoldingM2 = false
+			local Active = false
+			local Lock = false
+			local Epitaph = .100 ---Note: The Bigger The Number, The More Prediction.
+			local HeadOffset = Vector3.new(0, .1, 0)
+	
+			_G.TeamCheck = false
+			_G.AimPart = ""
+			_G.Sensitivity = 0
+			_G.CircleSides = 64
+			_G.CircleColor = Color3.fromRGB(255, 0, 130)
+			_G.CircleTransparency = 0
+			_G.CircleRadius = 200
+			_G.CircleFilled = false
+			_G.CircleVisible = true
+			_G.CircleThickness = 1
+	
+			local Fre = Drawing.new("Circle")
+			Fre.Position = Vector2.new(MyView.ViewportSize.X / 2, MyView.ViewportSize.Y / 2)
+			Fre.Radius = _G.CircleRadius
+			Fre.Filled = _G.CircleFilled
+			Fre.Color = _G.CircleColor
+			Fre.Visible = _G.CircleVisible
+			Fre.Transparency = _G.CircleTransparency
+			Fre.NumSides = _G.CircleSides
+			Fre.Thickness = _G.CircleThickness
+	
+			local function CursorLock()
+				UIS.MouseBehavior = Enum.MouseBehavior.LockCenter
+			end
+			local function UnLockCursor()
+				HoldingM2 = false Active = false Lock = false 
+				UIS.MouseBehavior = Enum.MouseBehavior.Default
+			end
+			function FindNearestPlayer()
+				local dist = math.huge
+				local Target = nil
+				for _, v in pairs(Players:GetPlayers()) do
+					if v ~= LocalPlayer and v.Character:FindFirstChild("Humanoid") and v.Character:FindFirstChild("Humanoid").Health > 0 and v.Character:FindFirstChild("HumanoidRootPart") and v then
+						local TheirCharacter = v.Character
+						local CharacterRoot, Visible = MyView:WorldToViewportPoint(TheirCharacter[_G.AimPart].Position)
+						if Visible then
+							local RealMag = (Vector2.new(Mouse.X, Mouse.Y) - Vector2.new(CharacterRoot.X, CharacterRoot.Y)).Magnitude
+							if RealMag < dist and RealMag < Fre.Radius then
+								dist = RealMag
+								Target = TheirCharacter
+							end
 						end
 					end
 				end
+				return Target
 			end
-			return HazeLocalChangerLol199_
-		end
-		HazeLocalChangerLol116_.InputBegan:Connect(function(HazeLocalChangerLol206_arg0)
-			if HazeLocalChangerLol206_arg0.UserInputType == Enum.UserInputType.MouseButton2 then
-				HazeLocalChangerLol125_ = true
-				HazeLocalChangerLol126_ = true
-				HazeLocalChangerLol127_ = true
-				if HazeLocalChangerLol126_ then
-					local HazeLocalChangerLol207_ = FindNearestPlayer()
-					while HazeLocalChangerLol125_ do
-						task.wait(.000001)
-						if HazeLocalChangerLol127_ and HazeLocalChangerLol207_ ~= nil then
-							local HazeLocalChangerLol208_ = HazeLocalChangerLol207_.HumanoidRootPart.CFrame + (HazeLocalChangerLol207_.HumanoidRootPart.Velocity * HazeLocalChangerLol128_ + HazeLocalChangerLol129_)
-							HazeLocalChangerLol123_.CFrame = CFrame.lookAt(HazeLocalChangerLol123_.CFrame.Position, HazeLocalChangerLol208_.Position)
-							HazeLocalChangerLol131_func()
+	
+			UIS.InputBegan:Connect(function(Input)
+				if Input.UserInputType == Enum.UserInputType.MouseButton2 then
+					HoldingM2 = true
+					Active = true
+					Lock = true
+					if Active then
+						local The_Enemy = FindNearestPlayer()
+						while HoldingM2 do task.wait(.000001)
+							if Lock and The_Enemy ~= nil then
+								local Future = The_Enemy.HumanoidRootPart.CFrame + (The_Enemy.HumanoidRootPart.Velocity * Epitaph + HeadOffset)
+								MyView.CFrame = CFrame.lookAt(MyView.CFrame.Position, Future.Position)
+								CursorLock()
+							end
 						end
 					end
 				end
-			end
-		end)
-		HazeLocalChangerLol116_.InputEnded:Connect(function(HazeLocalChangerLol209_arg0)
-			if HazeLocalChangerLol209_arg0.UserInputType == Enum.UserInputType.MouseButton2 then
-				HazeLocalChangerLol132_func()
-			end
-		end)
+			end)
+			UIS.InputEnded:Connect(function(Input)
+				if Input.UserInputType == Enum.UserInputType.MouseButton2 then
+					UnLockCursor()
+				end
+			end)
 	end)
 	
 end
-coroutine.wrap(HazeLocalChangerLol82_func)()
-local function HazeLocalChangerLol83_func() -- FovButton.Colours 
-	local HazeLocalChangerLol210_ = Instance.new('LocalScript', HazeLocalChangerLol31_)
+coroutine.wrap(REBMV_fake_script)()
+local function PMVH_fake_script() -- FovButton.Colours 
+	local script = Instance.new('LocalScript', FovButton)
 
-	HazeLocalChangerLol210_.Parent.MouseEnter:Connect(function()
-		HazeLocalChangerLol210_.Parent.BorderColor3 = Color3.fromRGB(60, 0, 180)
-		HazeLocalChangerLol210_.Parent.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
-		HazeLocalChangerLol210_.Parent.BorderSizePixel = 2
+	script.Parent.MouseEnter:Connect(function()
+		script.Parent.BorderColor3 = Color3.fromRGB(60, 0, 180)
+		script.Parent.BackgroundColor3 = Color3.fromRGB(35,35,35)
+		script.Parent.BorderSizePixel = 2
 	end)
 	
-	HazeLocalChangerLol210_.Parent.MouseLeave:Connect(function()
-		HazeLocalChangerLol210_.Parent.BorderSizePixel = 1
-		HazeLocalChangerLol210_.Parent.BackgroundColor3 = Color3.fromRGB(29, 29, 29)
-		HazeLocalChangerLol210_.Parent.BorderColor3 = Color3.fromRGB(0, 0, 0)
+	script.Parent.MouseLeave:Connect(function()
+		script.Parent.BorderSizePixel = 1
+		script.Parent.BackgroundColor3 = Color3.fromRGB(29,29,29)
+		script.Parent.BorderColor3 = Color3.fromRGB(0, 0, 0)
 	end)
 	
-	HazeLocalChangerLol210_.Parent.MouseEnter:Connect(function()
-		local HazeLocalChangerLol211_ = game.Players.LocalPlayer
-		local HazeLocalChangerLol212_ = HazeLocalChangerLol211_:GetMouse()
+	script.Parent.MouseEnter:Connect(function()
+		local player = game.Players.LocalPlayer
+		local mouse = player:GetMouse()
 	
-		HazeLocalChangerLol212_.Icon = "rbxassetid://5992580992"
-		HazeLocalChangerLol212_.Color = Color3.fromRGB(255, 0, 0)
+		mouse.Icon = "rbxassetid://5992580992"
+		mouse.Color = Color3.fromRGB(255, 0, 0)
 	
 	end)
 end
-coroutine.wrap(HazeLocalChangerLol83_func)()
-local function HazeLocalChangerLol84_func() -- FovButton.NormalCircle 
-	local HazeLocalChangerLol213_ = Instance.new('LocalScript', HazeLocalChangerLol31_)
+coroutine.wrap(PMVH_fake_script)()
+local function IWMTU_fake_script() -- FovButton.NormalCircle 
+	local script = Instance.new('LocalScript', FovButton)
 
 	normal = false
-	HazeLocalChangerLol213_.Parent.MouseButton1Down:Connect(function()
+	script.Parent.MouseButton1Down:Connect(function()
 	
 		if normal == true then 
 			normal = false 
@@ -1250,19 +1226,19 @@ local function HazeLocalChangerLol84_func() -- FovButton.NormalCircle
 			normal = true
 		end
 		if normal == true then 
-			HazeLocalChangerLol213_.Parent.Text = "✓"
+			script.Parent.Text = "✓"
 		end
 		if normal == false then 
-			HazeLocalChangerLol213_.Parent.Text = ""
+			script.Parent.Text = ""
 		end
 	
 		if normal == true then
 			getgenv().Fov = true
 			while getgenv().Fov  and wait() do
-				local HazeLocalChangerLol214_ = game:GetService("Players")
-				local HazeLocalChangerLol215_ = HazeLocalChangerLol214_.LocalPlayer
-				local HazeLocalChangerLol216_ = HazeLocalChangerLol215_:GetMouse()
-				local HazeLocalChangerLol217_ = workspace.CurrentCamera
+				local dwEntities = game:GetService("Players")
+				local dwLocalPlayer = dwEntities.LocalPlayer
+				local dwMouse = dwLocalPlayer:GetMouse()
+				local dwCamera = workspace.CurrentCamera
 	
 	
 				_G.fovcircle = Drawing.new("Circle")
@@ -1276,7 +1252,7 @@ local function HazeLocalChangerLol84_func() -- FovButton.NormalCircle
 	
 				repeat
 					wait(0)
-					_G.fovcircle.Position = Vector2.new(HazeLocalChangerLol217_.ViewportSize.X / 2, HazeLocalChangerLol217_.ViewportSize.Y / 2)
+					_G.fovcircle.Position = Vector2.new(dwCamera.ViewportSize.X / 2, dwCamera.ViewportSize.Y / 2)
 				until normal == false
 			end
 		end
@@ -1287,104 +1263,102 @@ local function HazeLocalChangerLol84_func() -- FovButton.NormalCircle
 		end
 	end)
 end
-coroutine.wrap(HazeLocalChangerLol84_func)()
-local function HazeLocalChangerLol85_func() -- Slider.LocalScript 
-	local HazeLocalChangerLol218_ = Instance.new('LocalScript', HazeLocalChangerLol33_)
+coroutine.wrap(IWMTU_fake_script)()
+local function WBFYJQH_fake_script() -- Slider.LocalScript 
+	local script = Instance.new('LocalScript', Slider)
 
-	function newSlider(HazeLocalChangerLol219_arg0, HazeLocalChangerLol220_arg1, HazeLocalChangerLol221_arg2, HazeLocalChangerLol222_arg3, HazeLocalChangerLol223_arg4)
-		local HazeLocalChangerLol224_ = false;
-		local HazeLocalChangerLol225_ = HazeLocalChangerLol218_.Parent.Parent.Slider
-		local HazeLocalChangerLol226_ = HazeLocalChangerLol218_.Parent.Slide
-		local HazeLocalChangerLol227_ = HazeLocalChangerLol218_.Parent.stuff
-		local function HazeLocalChangerLol228_func(HazeLocalChangerLol229_arg0)
-			local HazeLocalChangerLol230_ = UDim2.new(math.clamp((HazeLocalChangerLol229_arg0.Position.X - HazeLocalChangerLol225_.AbsolutePosition.X) / HazeLocalChangerLol225_.AbsoluteSize.X, 0, 1), 0, 1, 0);
-			HazeLocalChangerLol226_:TweenSize(HazeLocalChangerLol230_, Enum.EasingDirection.Out, Enum.EasingStyle.Quad, 0.2, true);
-			local HazeLocalChangerLol231_ = math.floor(((HazeLocalChangerLol230_.X.Scale * HazeLocalChangerLol222_arg3) / HazeLocalChangerLol222_arg3) * (HazeLocalChangerLol222_arg3 - HazeLocalChangerLol221_arg2) + HazeLocalChangerLol221_arg2);
-			HazeLocalChangerLol227_.Text = HazeLocalChangerLol219_arg0 .. " | " .. tostring(HazeLocalChangerLol231_);
-			HazeLocalChangerLol220_arg1(HazeLocalChangerLol231_);
+	function newSlider(title, callback, min, max, startPoint)
+		local dragging = false;
+		local sliderFrame = script.Parent.Parent.Slider
+		local slidingFrame = script.Parent.Slide
+		local titleLabel = script.Parent.stuff
+		local function slide(input)
+			local pos = UDim2.new(math.clamp((input.Position.X - sliderFrame.AbsolutePosition.X) / sliderFrame.AbsoluteSize.X, 0, 1), 0, 1, 0);
+			slidingFrame:TweenSize(pos, Enum.EasingDirection.Out, Enum.EasingStyle.Quad, 0.2, true);
+			local value = math.floor(((pos.X.Scale * max) / max) * (max - min) + min);
+			titleLabel.Text = title .. " | " .. tostring(value);
+			callback(value);
 		end;
 	
-		HazeLocalChangerLol225_.InputBegan:Connect(function(HazeLocalChangerLol232_arg0)
-			if HazeLocalChangerLol232_arg0.UserInputType == Enum.UserInputType.MouseButton1 then
-				HazeLocalChangerLol224_ = true;
+		sliderFrame.InputBegan:Connect(function(input)
+			if input.UserInputType == Enum.UserInputType.MouseButton1 then
+				dragging = true;
 			end;
 		end);
 	
-		HazeLocalChangerLol225_.InputEnded:Connect(function(HazeLocalChangerLol233_arg0)
-			if HazeLocalChangerLol233_arg0.UserInputType == Enum.UserInputType.MouseButton1 then
-				HazeLocalChangerLol224_ = false;
+		sliderFrame.InputEnded:Connect(function(input)
+			if input.UserInputType == Enum.UserInputType.MouseButton1 then
+				dragging = false;
 			end;
 		end);
 	
-		HazeLocalChangerLol225_.InputBegan:Connect(function(HazeLocalChangerLol234_arg0)
-			if HazeLocalChangerLol234_arg0.UserInputType == Enum.UserInputType.MouseButton1 then
-				HazeLocalChangerLol228_func(HazeLocalChangerLol234_arg0);
+		sliderFrame.InputBegan:Connect(function(input)
+			if input.UserInputType == Enum.UserInputType.MouseButton1 then
+				slide(input);
 			end;
 		end);
 	
-		game:GetService("UserInputService").InputChanged:Connect(function(HazeLocalChangerLol235_arg0)
-			if HazeLocalChangerLol224_ and HazeLocalChangerLol235_arg0.UserInputType == Enum.UserInputType.MouseMovement then
-				HazeLocalChangerLol228_func(HazeLocalChangerLol235_arg0);
+		game:GetService("UserInputService").InputChanged:Connect(function(input)
+			if dragging and input.UserInputType == Enum.UserInputType.MouseMovement then
+				slide(input);
 			end;
 		end);
 	end;
-	newSlider("Fov Size", function(HazeLocalChangerLol236_arg0)
-		_G.fovcircle.Radius = HazeLocalChangerLol236_arg0
-	end, 1, 300, 80);
+	newSlider("Fov Size", function(value) _G.fovcircle.Radius = value end, 1, 300, 80);
 end
-coroutine.wrap(HazeLocalChangerLol85_func)()
-local function HazeLocalChangerLol86_func() -- ScriptFrame.LocalScript 
-	local HazeLocalChangerLol237_ = Instance.new('LocalScript', HazeLocalChangerLol6_)
+coroutine.wrap(WBFYJQH_fake_script)()
+local function XBOF_fake_script() -- ScriptFrame.LocalScript 
+	local script = Instance.new('LocalScript', ScriptFrame)
 
-	HazeLocalChangerLol237_.Parent.MouseEnter:Connect(function()
-		local HazeLocalChangerLol238_ = game.Players.LocalPlayer
-		local HazeLocalChangerLol239_ = HazeLocalChangerLol238_:GetMouse()
+	script.Parent.MouseEnter:Connect(function()
+		local player = game.Players.LocalPlayer
+		local mouse = player:GetMouse()
 	
-		HazeLocalChangerLol239_.Icon = "rbxassetid://5992580992"
-		HazeLocalChangerLol239_.Color = Color3.fromRGB(255, 0, 0)
+		mouse.Icon = "rbxassetid://5992580992"
+		mouse.Color = Color3.fromRGB(255, 0, 0)
 	
 	end)
 	
-	HazeLocalChangerLol237_.Parent.MouseLeave:Connect(function()
-		local HazeLocalChangerLol240_ = game.Players.LocalPlayer
-		local HazeLocalChangerLol241_ = HazeLocalChangerLol240_:GetMouse()
+	script.Parent.MouseLeave:Connect(function()
+		local player = game.Players.LocalPlayer
+		local mouse = player:GetMouse()
 	
-		HazeLocalChangerLol241_.Icon = [[ ]]
-		HazeLocalChangerLol241_.Color = Color3.fromRGB(255, 255, 255)
+		mouse.Icon = [[ ]]
+		mouse.Color = Color3.fromRGB(255, 255, 255)
 	
 	end)
 end
-coroutine.wrap(HazeLocalChangerLol86_func)()
-local function HazeLocalChangerLol87_func() -- Boxes.LocalScript 
-	local HazeLocalChangerLol242_ = Instance.new('LocalScript', HazeLocalChangerLol45_)
+coroutine.wrap(XBOF_fake_script)()
+local function LQNMW_fake_script() -- Boxes.LocalScript 
+	local script = Instance.new('LocalScript', Boxes)
 
-	HazeLocalChangerLol242_.Parent.MouseEnter:Connect(function()
-		HazeLocalChangerLol242_.Parent.BorderColor3 = Color3.fromRGB(60, 0, 180)
-		HazeLocalChangerLol242_.Parent.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
-		HazeLocalChangerLol242_.Parent.BorderSizePixel = 2
+	script.Parent.MouseEnter:Connect(function()
+		script.Parent.BorderColor3 = Color3.fromRGB(60, 0, 180)
+		script.Parent.BackgroundColor3 = Color3.fromRGB(35,35,35)
+		script.Parent.BorderSizePixel = 2
 	end)
 	
-	HazeLocalChangerLol242_.Parent.MouseLeave:Connect(function()
-		HazeLocalChangerLol242_.Parent.BorderSizePixel = 1
-		HazeLocalChangerLol242_.Parent.BackgroundColor3 = Color3.fromRGB(29, 29, 29)
-		HazeLocalChangerLol242_.Parent.BorderColor3 = Color3.fromRGB(0, 0, 0)
+	script.Parent.MouseLeave:Connect(function()
+		script.Parent.BorderSizePixel = 1
+		script.Parent.BackgroundColor3 = Color3.fromRGB(29,29,29)
+		script.Parent.BorderColor3 = Color3.fromRGB(0, 0, 0)
 	end)
 	
-	HazeLocalChangerLol242_.Parent.MouseEnter:Connect(function()
-		local HazeLocalChangerLol243_ = game.Players.LocalPlayer
-		local HazeLocalChangerLol244_ = HazeLocalChangerLol243_:GetMouse()
+	script.Parent.MouseEnter:Connect(function()
+		local player = game.Players.LocalPlayer
+		local mouse = player:GetMouse()
 	
-		HazeLocalChangerLol244_.Icon = "rbxassetid://5992580992"
-		HazeLocalChangerLol244_.Color = Color3.fromRGB(255, 0, 0)
+		mouse.Icon = "rbxassetid://5992580992"
+		mouse.Color = Color3.fromRGB(255, 0, 0)
 	
 	end)
 end
-coroutine.wrap(HazeLocalChangerLol87_func)()
-local function HazeLocalChangerLol88_func() -- Boxes.LocalScript 
-	local HazeLocalChangerLol245_ = Instance.new('LocalScript', HazeLocalChangerLol45_)
+coroutine.wrap(LQNMW_fake_script)()
+local function JNWBAZ_fake_script() -- Boxes.LocalScript 
+	local script = Instance.new('LocalScript', Boxes)
 
 	boxes = false
-	HazeLocalChangerLol245_.Parent.MouseButton1Down:Connect(function()
+	script.Parent.MouseButton1Down:Connect(function()
 	
 		if boxes == true then 
 			boxes = false 
@@ -1392,58 +1366,58 @@ local function HazeLocalChangerLol88_func() -- Boxes.LocalScript
 			boxes = true
 		end
 		if boxes == true then 
-			HazeLocalChangerLol245_.Parent.Text = "✓"
+			script.Parent.Text = "✓"
 		end
 		if boxes == false then 
-			HazeLocalChangerLol245_.Parent.Text = ""
+			script.Parent.Text = ""
 		end
 	
 		if boxes == true then
-			HazeLocalChangerLol1_:Toggle(true)
-			HazeLocalChangerLol1_.Boxes = true
+			Box:Toggle(true)
+			Box.Boxes = true
 			repeat
 				wait(.1)
-				HazeLocalChangerLol1_.Color = HazeLocalChangerLol245_.Parent.Parent.Parent.Parent.Colouring.BackgroundColor3
+				Box.Color = script.Parent.Parent.Parent.Parent.Colouring.BackgroundColor3
 			until boxes == false
 		end
 	
 		if boxes == false then
-			HazeLocalChangerLol1_:Toggle(false)
-			HazeLocalChangerLol1_.Tracers = false
+			Box:Toggle(false)
+			Box.Tracers = false
 		end
 	end)
 end
-coroutine.wrap(HazeLocalChangerLol88_func)()
-local function HazeLocalChangerLol89_func() -- Tracers.LocalScript 
-	local HazeLocalChangerLol246_ = Instance.new('LocalScript', HazeLocalChangerLol47_)
+coroutine.wrap(JNWBAZ_fake_script)()
+local function SEEUUM_fake_script() -- Tracers.LocalScript 
+	local script = Instance.new('LocalScript', Tracers)
 
-	HazeLocalChangerLol246_.Parent.MouseEnter:Connect(function()
-		HazeLocalChangerLol246_.Parent.BorderColor3 = Color3.fromRGB(60, 0, 180)
-		HazeLocalChangerLol246_.Parent.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
-		HazeLocalChangerLol246_.Parent.BorderSizePixel = 2
+	script.Parent.MouseEnter:Connect(function()
+		script.Parent.BorderColor3 = Color3.fromRGB(60, 0, 180)
+		script.Parent.BackgroundColor3 = Color3.fromRGB(35,35,35)
+		script.Parent.BorderSizePixel = 2
 	end)
 	
-	HazeLocalChangerLol246_.Parent.MouseLeave:Connect(function()
-		HazeLocalChangerLol246_.Parent.BorderSizePixel = 1
-		HazeLocalChangerLol246_.Parent.BackgroundColor3 = Color3.fromRGB(29, 29, 29)
-		HazeLocalChangerLol246_.Parent.BorderColor3 = Color3.fromRGB(0, 0, 0)
+	script.Parent.MouseLeave:Connect(function()
+		script.Parent.BorderSizePixel = 1
+		script.Parent.BackgroundColor3 = Color3.fromRGB(29,29,29)
+		script.Parent.BorderColor3 = Color3.fromRGB(0, 0, 0)
 	end)
 	
-	HazeLocalChangerLol246_.Parent.MouseEnter:Connect(function()
-		local HazeLocalChangerLol247_ = game.Players.LocalPlayer
-		local HazeLocalChangerLol248_ = HazeLocalChangerLol247_:GetMouse()
+	script.Parent.MouseEnter:Connect(function()
+		local player = game.Players.LocalPlayer
+		local mouse = player:GetMouse()
 	
-		HazeLocalChangerLol248_.Icon = "rbxassetid://5992580992"
-		HazeLocalChangerLol248_.Color = Color3.fromRGB(255, 0, 0)
+		mouse.Icon = "rbxassetid://5992580992"
+		mouse.Color = Color3.fromRGB(255, 0, 0)
 	
 	end)
 end
-coroutine.wrap(HazeLocalChangerLol89_func)()
-local function HazeLocalChangerLol90_func() -- Tracers.LocalScript 
-	local HazeLocalChangerLol249_ = Instance.new('LocalScript', HazeLocalChangerLol47_)
+coroutine.wrap(SEEUUM_fake_script)()
+local function LYEZ_fake_script() -- Tracers.LocalScript 
+	local script = Instance.new('LocalScript', Tracers)
 
 	Trace = false
-	HazeLocalChangerLol249_.Parent.MouseButton1Down:Connect(function()
+	script.Parent.MouseButton1Down:Connect(function()
 	
 		if Trace == true then 
 			Trace = false 
@@ -1451,117 +1425,117 @@ local function HazeLocalChangerLol90_func() -- Tracers.LocalScript
 			Trace = true
 		end
 		if Trace == true then 
-			HazeLocalChangerLol249_.Parent.Text = "✓"
+			script.Parent.Text = "✓"
 		end
 		if Trace == false then 
-			HazeLocalChangerLol249_.Parent.Text = ""
+			script.Parent.Text = ""
 		end
 	
 		if Trace == true then
-			HazeLocalChangerLol2_:Toggle(true)
-			HazeLocalChangerLol2_.Tracers = true
+			Lines:Toggle(true)
+			Lines.Tracers = true
 			repeat
 				wait(.1)
-				HazeLocalChangerLol2_.Color = HazeLocalChangerLol249_.Parent.Parent.Parent.Parent.Colouring.BackgroundColor3
+				Lines.Color = script.Parent.Parent.Parent.Parent.Colouring.BackgroundColor3
 			until Trace == false
 		end
 	
 		if Trace == false then
-			HazeLocalChangerLol2_:Toggle(false)
-			HazeLocalChangerLol2_.Tracers = false
+			Lines:Toggle(false)
+			Lines.Tracers = false
 		end
 	end)
 end
-coroutine.wrap(HazeLocalChangerLol90_func)()
-local function HazeLocalChangerLol91_func() -- Names.LocalScript 
-	local HazeLocalChangerLol250_ = Instance.new('LocalScript', HazeLocalChangerLol49_)
+coroutine.wrap(LYEZ_fake_script)()
+local function PUJXA_fake_script() -- Names.LocalScript 
+	local script = Instance.new('LocalScript', Names)
 
-	HazeLocalChangerLol250_.Parent.MouseEnter:Connect(function()
-		HazeLocalChangerLol250_.Parent.BorderColor3 = Color3.fromRGB(60, 0, 180)
-		HazeLocalChangerLol250_.Parent.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
-		HazeLocalChangerLol250_.Parent.BorderSizePixel = 2
+	script.Parent.MouseEnter:Connect(function()
+		script.Parent.BorderColor3 = Color3.fromRGB(60, 0, 180)
+		script.Parent.BackgroundColor3 = Color3.fromRGB(35,35,35)
+		script.Parent.BorderSizePixel = 2
 	end)
 	
-	HazeLocalChangerLol250_.Parent.MouseLeave:Connect(function()
-		HazeLocalChangerLol250_.Parent.BorderSizePixel = 1
-		HazeLocalChangerLol250_.Parent.BackgroundColor3 = Color3.fromRGB(29, 29, 29)
-		HazeLocalChangerLol250_.Parent.BorderColor3 = Color3.fromRGB(0, 0, 0)
+	script.Parent.MouseLeave:Connect(function()
+		script.Parent.BorderSizePixel = 1
+		script.Parent.BackgroundColor3 = Color3.fromRGB(29,29,29)
+		script.Parent.BorderColor3 = Color3.fromRGB(0, 0, 0)
 	end)
 	
-	HazeLocalChangerLol250_.Parent.MouseEnter:Connect(function()
-		local HazeLocalChangerLol251_ = game.Players.LocalPlayer
-		local HazeLocalChangerLol252_ = HazeLocalChangerLol251_:GetMouse()
+	script.Parent.MouseEnter:Connect(function()
+		local player = game.Players.LocalPlayer
+		local mouse = player:GetMouse()
 	
-		HazeLocalChangerLol252_.Icon = "rbxassetid://5992580992"
-		HazeLocalChangerLol252_.Color = Color3.fromRGB(255, 0, 0)
+		mouse.Icon = "rbxassetid://5992580992"
+		mouse.Color = Color3.fromRGB(255, 0, 0)
 	
 	end)
 end
-coroutine.wrap(HazeLocalChangerLol91_func)()
-local function HazeLocalChangerLol92_func() -- Names.LocalScript 
-	local HazeLocalChangerLol253_ = Instance.new('LocalScript', HazeLocalChangerLol49_)
+coroutine.wrap(PUJXA_fake_script)()
+local function OPOCWPF_fake_script() -- Names.LocalScript 
+	local script = Instance.new('LocalScript', Names)
 
-	HazeLocalChangerLol49_ = false
-	HazeLocalChangerLol253_.Parent.MouseButton1Down:Connect(function()
+	Names = false
+	script.Parent.MouseButton1Down:Connect(function()
 	
-		if HazeLocalChangerLol49_ == true then 
-			HazeLocalChangerLol49_ = false 
+		if Names == true then 
+			Names = false 
 		else
-			HazeLocalChangerLol49_ = true
+			Names = true
 		end
-		if HazeLocalChangerLol49_ == true then 
-			HazeLocalChangerLol253_.Parent.Text = "✓"
+		if Names == true then 
+			script.Parent.Text = "✓"
 		end
-		if HazeLocalChangerLol49_ == false then 
-			HazeLocalChangerLol253_.Parent.Text = ""
+		if Names == false then 
+			script.Parent.Text = ""
 		end
 	
-		if HazeLocalChangerLol49_ == true then
-			HazeLocalChangerLol3_:Toggle(true)
-			HazeLocalChangerLol3_.Names = true
+		if Names == true then
+			Name:Toggle(true)
+			Name.Names = true
 			repeat
 				wait(.1)
-				HazeLocalChangerLol3_.Color = HazeLocalChangerLol253_.Parent.Parent.Parent.Parent.Colouring.BackgroundColor3
-			until HazeLocalChangerLol49_ == false
+				Name.Color = script.Parent.Parent.Parent.Parent.Colouring.BackgroundColor3
+			until Names == false
 		end
 	
-		if HazeLocalChangerLol49_ == false then
-			HazeLocalChangerLol3_:Toggle(false)
-			HazeLocalChangerLol3_.Tracers = false
+		if Names == false then
+			Name:Toggle(false)
+			Name.Tracers = false
 		end
 	end)
 end
-coroutine.wrap(HazeLocalChangerLol92_func)()
-local function HazeLocalChangerLol93_func() -- AimbotButton_2.LocalScript 
-	local HazeLocalChangerLol254_ = Instance.new('LocalScript', HazeLocalChangerLol56_)
+coroutine.wrap(OPOCWPF_fake_script)()
+local function TLBR_fake_script() -- AimbotButton_2.LocalScript 
+	local script = Instance.new('LocalScript', AimbotButton_2)
 
-	HazeLocalChangerLol254_.Parent.MouseEnter:Connect(function()
-		HazeLocalChangerLol254_.Parent.BorderColor3 = Color3.fromRGB(60, 0, 180)
-		HazeLocalChangerLol254_.Parent.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
-		HazeLocalChangerLol254_.Parent.BorderSizePixel = 2
+	script.Parent.MouseEnter:Connect(function()
+		script.Parent.BorderColor3 = Color3.fromRGB(60, 0, 180)
+		script.Parent.BackgroundColor3 = Color3.fromRGB(35,35,35)
+		script.Parent.BorderSizePixel = 2
 	end)
 	
-	HazeLocalChangerLol254_.Parent.MouseLeave:Connect(function()
-		HazeLocalChangerLol254_.Parent.BorderSizePixel = 1
-		HazeLocalChangerLol254_.Parent.BackgroundColor3 = Color3.fromRGB(29, 29, 29)
-		HazeLocalChangerLol254_.Parent.BorderColor3 = Color3.fromRGB(0, 0, 0)
+	script.Parent.MouseLeave:Connect(function()
+		script.Parent.BorderSizePixel = 1
+		script.Parent.BackgroundColor3 = Color3.fromRGB(29,29,29)
+		script.Parent.BorderColor3 = Color3.fromRGB(0, 0, 0)
 	end)
 	
-	HazeLocalChangerLol254_.Parent.MouseEnter:Connect(function()
-		local HazeLocalChangerLol255_ = game.Players.LocalPlayer
-		local HazeLocalChangerLol256_ = HazeLocalChangerLol255_:GetMouse()
+	script.Parent.MouseEnter:Connect(function()
+		local player = game.Players.LocalPlayer
+		local mouse = player:GetMouse()
 	
-		HazeLocalChangerLol256_.Icon = "rbxassetid://5992580992"
-		HazeLocalChangerLol256_.Color = Color3.fromRGB(255, 0, 0)
+		mouse.Icon = "rbxassetid://5992580992"
+		mouse.Color = Color3.fromRGB(255, 0, 0)
 	
 	end)
 end
-coroutine.wrap(HazeLocalChangerLol93_func)()
-local function HazeLocalChangerLol94_func() -- AimbotButton_2.LocalScript 
-	local HazeLocalChangerLol257_ = Instance.new('LocalScript', HazeLocalChangerLol56_)
+coroutine.wrap(TLBR_fake_script)()
+local function LJHCD_fake_script() -- AimbotButton_2.LocalScript 
+	local script = Instance.new('LocalScript', AimbotButton_2)
 
 	cream = false
-	HazeLocalChangerLol257_.Parent.MouseButton1Down:connect(function()
+	script.Parent.MouseButton1Down:connect(function()
 	
 		if cream == true then 
 			cream = false 
@@ -1569,20 +1543,20 @@ local function HazeLocalChangerLol94_func() -- AimbotButton_2.LocalScript
 			cream = true
 		end
 		if cream == true then 
-			HazeLocalChangerLol257_.Parent.Text = "✓"
+			script.Parent.Text = "✓"
 		end
 		if cream == false then 
-			HazeLocalChangerLol257_.Parent.Text = ""
+			script.Parent.Text = ""
 		end
 	
 		if cream == true then
 			if game.PlaceId == 286090429 then
-				local HazeLocalChangerLol277_ = workspace.CurrentCamera
-				local HazeLocalChangerLol278_ = game:GetService("RunService")
-				local HazeLocalChangerLol279_ = game:GetService("UserInputService")
-				local HazeLocalChangerLol280_ = game:GetService("Players")
-				local HazeLocalChangerLol281_ = HazeLocalChangerLol280_.LocalPlayer
-				local HazeLocalChangerLol282_ = HazeLocalChangerLol281_:GetMouse()
+				local dwCamera = workspace.CurrentCamera
+				local dwRunService = game:GetService("RunService")
+				local dwUIS = game:GetService("UserInputService")
+				local dwEntities = game:GetService("Players")
+				local dwLocalPlayer = dwEntities.LocalPlayer
+				local dwMouse = dwLocalPlayer:GetMouse()
 	
 				getgenv().aimsettings = {
 					Aimbot = true,
@@ -1591,61 +1565,61 @@ local function HazeLocalChangerLol94_func() -- AimbotButton_2.LocalScript
 					Aimbot_TeamCheck = true,
 					Aimbot_Draw_FOV = false,
 					Aimbot_FOV_Radius = 200,
-					Aimbot_FOV_Color = Color3.fromRGB(255, 255, 255)
+					Aimbot_FOV_Color = Color3.fromRGB(255,255,255)
 				}
 	
-				local HazeLocalChangerLol283_ = Drawing.new("Circle")
-				HazeLocalChangerLol283_.Visible = getgenv().aimsettings.Aimbot_Draw_FOV
-				HazeLocalChangerLol283_.Radius = getgenv().aimsettings.Aimbot_FOV_Radius
-				HazeLocalChangerLol283_.Color = getgenv().aimsettings.Aimbot_FOV_Color
-				HazeLocalChangerLol283_.Thickness = 1
-				HazeLocalChangerLol283_.Filled = false
-				HazeLocalChangerLol283_.Transparency = 1
+				local fovcircle = Drawing.new("Circle")
+				fovcircle.Visible = getgenv().aimsettings.Aimbot_Draw_FOV
+				fovcircle.Radius = getgenv().aimsettings.Aimbot_FOV_Radius
+				fovcircle.Color = getgenv().aimsettings.Aimbot_FOV_Color
+				fovcircle.Thickness = 1
+				fovcircle.Filled = false
+				fovcircle.Transparency = 1
 	
-				HazeLocalChangerLol283_.Position = Vector2.new(HazeLocalChangerLol277_.ViewportSize.X / 2, HazeLocalChangerLol277_.ViewportSize.Y / 2)
+				fovcircle.Position = Vector2.new(dwCamera.ViewportSize.X / 2, dwCamera.ViewportSize.Y / 2)
 	
-				HazeLocalChangerLol279_.InputBegan:Connect(function(HazeLocalChangerLol284_arg0)
-					if HazeLocalChangerLol284_arg0.UserInputType == Enum.UserInputType.MouseButton2 then
+				dwUIS.InputBegan:Connect(function(i)
+					if i.UserInputType == Enum.UserInputType.MouseButton2 then
 						getgenv().aimsettings.Aiming = true
 					end
 				end)
 	
-				HazeLocalChangerLol279_.InputEnded:Connect(function(HazeLocalChangerLol285_arg0)
-					if HazeLocalChangerLol285_arg0.UserInputType == Enum.UserInputType.MouseButton2 then
+				dwUIS.InputEnded:Connect(function(i)
+					if i.UserInputType == Enum.UserInputType.MouseButton2 then
 						getgenv().aimsettings.Aiming = false
 					end
 				end)
 	
-				HazeLocalChangerLol278_.RenderStepped:Connect(function()
+				dwRunService.RenderStepped:Connect(function()
 	
-					local HazeLocalChangerLol286_ = math.huge
-					local HazeLocalChangerLol287_ = nil
+					local dist = math.huge
+					local closest_char = nil
 	
 					if getgenv().aimsettings.Aiming then
 	
-						for HazeLocalChangerLol288_forvar0, HazeLocalChangerLol289_forvar1 in next, HazeLocalChangerLol280_:GetChildren() do 
+						for i,v in next, dwEntities:GetChildren() do 
 	
-							if HazeLocalChangerLol289_forvar1 ~= HazeLocalChangerLol281_ and
-								HazeLocalChangerLol289_forvar1.Character and
-								HazeLocalChangerLol289_forvar1.Character:FindFirstChild("HumanoidRootPart") and
-								HazeLocalChangerLol289_forvar1.Character:FindFirstChild("Humanoid") and
-								HazeLocalChangerLol289_forvar1.Character:FindFirstChild("Humanoid").Health > 0 then
+							if v ~= dwLocalPlayer and
+								v.Character and
+								v.Character:FindFirstChild("HumanoidRootPart") and
+								v.Character:FindFirstChild("Humanoid") and
+								v.Character:FindFirstChild("Humanoid").Health > 0 then
 	
 								if getgenv().aimsettings.Aimbot_TeamCheck == true and
-									HazeLocalChangerLol289_forvar1.Team ~= HazeLocalChangerLol281_.Team or
+									v.Team ~= dwLocalPlayer.Team or
 									getgenv().aimsettings.Aimbot_TeamCheck == false then
 	
-									local HazeLocalChangerLol290_ = HazeLocalChangerLol289_forvar1.Character
-									local HazeLocalChangerLol291_, HazeLocalChangerLol292_ = HazeLocalChangerLol277_:WorldToViewportPoint(HazeLocalChangerLol290_[getgenv().aimsettings.Aimbot_AimPart].Position)
+									local char = v.Character
+									local char_part_pos, is_onscreen = dwCamera:WorldToViewportPoint(char[getgenv().aimsettings.Aimbot_AimPart].Position)
 	
-									if HazeLocalChangerLol292_ then
+									if is_onscreen then
 	
-										local HazeLocalChangerLol293_ = (Vector2.new(HazeLocalChangerLol282_.X, HazeLocalChangerLol282_.Y) - Vector2.new(HazeLocalChangerLol291_.X, HazeLocalChangerLol291_.Y)).Magnitude
+										local mag = (Vector2.new(dwMouse.X, dwMouse.Y) - Vector2.new(char_part_pos.X, char_part_pos.Y)).Magnitude
 	
-										if HazeLocalChangerLol293_ < HazeLocalChangerLol286_ and HazeLocalChangerLol293_ < getgenv().aimsettings.Aimbot_FOV_Radius then
+										if mag < dist and mag < getgenv().aimsettings.Aimbot_FOV_Radius then
 	
-											HazeLocalChangerLol286_ = HazeLocalChangerLol293_
-											HazeLocalChangerLol287_ = HazeLocalChangerLol290_
+											dist = mag
+											closest_char = char
 	
 										end
 									end
@@ -1653,12 +1627,12 @@ local function HazeLocalChangerLol94_func() -- AimbotButton_2.LocalScript
 							end
 						end
 	
-						if HazeLocalChangerLol287_ ~= nil and
-							HazeLocalChangerLol287_:FindFirstChild("HumanoidRootPart") and
-							HazeLocalChangerLol287_:FindFirstChild("Humanoid") and
-							HazeLocalChangerLol287_:FindFirstChild("Humanoid").Health > 0 then
+						if closest_char ~= nil and
+							closest_char:FindFirstChild("HumanoidRootPart") and
+							closest_char:FindFirstChild("Humanoid") and
+							closest_char:FindFirstChild("Humanoid").Health > 0 then
 	
-							HazeLocalChangerLol277_.CFrame = CFrame.new(HazeLocalChangerLol277_.CFrame.Position, HazeLocalChangerLol287_[getgenv().aimsettings.Aimbot_AimPart].Position)
+							dwCamera.CFrame = CFrame.new(dwCamera.CFrame.Position, closest_char[getgenv().aimsettings.Aimbot_AimPart].Position)
 						end
 					end
 				end)
@@ -1666,22 +1640,22 @@ local function HazeLocalChangerLol94_func() -- AimbotButton_2.LocalScript
 		else
 	
 	
-			local HazeLocalChangerLol294_ = game:GetService("Workspace")
-			local HazeLocalChangerLol295_ = game:GetService("RunService")
-			local HazeLocalChangerLol296_ = game:GetService("UserInputService")
-			local HazeLocalChangerLol297_ = game:GetService("Players")
-			local HazeLocalChangerLol298_ = HazeLocalChangerLol297_.LocalPlayer
-			local HazeLocalChangerLol299_ = HazeLocalChangerLol298_.Character
-			local HazeLocalChangerLol300_ = HazeLocalChangerLol299_:FindFirstChild("HumanoidRootPart")
-			local HazeLocalChangerLol301_ = HazeLocalChangerLol299_:FindFirstChild("Humanoid")
-			local HazeLocalChangerLol302_ = HazeLocalChangerLol298_:GetMouse()
-			local HazeLocalChangerLol303_ = HazeLocalChangerLol294_.CurrentCamera
-			local HazeLocalChangerLol304_ = HazeLocalChangerLol298_.TeamColor
-			local HazeLocalChangerLol305_ = false
-			local HazeLocalChangerLol306_ = false
-			local HazeLocalChangerLol307_ = false
-			local HazeLocalChangerLol308_ = .100 ---Note: The Bigger The Number, The More Prediction.
-			local HazeLocalChangerLol309_ = Vector3.new(0, .1, 0)
+			local Area = game:GetService("Workspace")
+			local RunService = game:GetService("RunService")
+			local UIS = game:GetService("UserInputService")
+			local Players = game:GetService("Players")
+			local LocalPlayer = Players.LocalPlayer
+			local MyCharacter = LocalPlayer.Character
+			local MyRoot = MyCharacter:FindFirstChild("HumanoidRootPart")
+			local MyHumanoid = MyCharacter:FindFirstChild("Humanoid")
+			local Mouse = LocalPlayer:GetMouse()
+			local MyView = Area.CurrentCamera
+			local MyTeamColor = LocalPlayer.TeamColor
+			local HoldingM2 = false
+			local Active = false
+			local Lock = false
+			local Epitaph = .100 ---Note: The Bigger The Number, The More Prediction.
+			local HeadOffset = Vector3.new(0, .1, 0)
 	
 			_G.TeamCheck = false
 			_G.AimPart = "HumanoidRootPart"
@@ -1694,78 +1668,75 @@ local function HazeLocalChangerLol94_func() -- AimbotButton_2.LocalScript
 			_G.CircleVisible = true
 			_G.CircleThickness = 1
 	
-			local HazeLocalChangerLol310_ = Drawing.new("Circle")
-			HazeLocalChangerLol310_.Position = Vector2.new(HazeLocalChangerLol303_.ViewportSize.X / 2, HazeLocalChangerLol303_.ViewportSize.Y / 2)
-			HazeLocalChangerLol310_.Radius = _G.CircleRadius
-			HazeLocalChangerLol310_.Filled = _G.CircleFilled
-			HazeLocalChangerLol310_.Color = _G.CircleColor
-			HazeLocalChangerLol310_.Visible = _G.CircleVisible
-			HazeLocalChangerLol310_.Transparency = _G.CircleTransparency
-			HazeLocalChangerLol310_.NumSides = _G.CircleSides
-			HazeLocalChangerLol310_.Thickness = _G.CircleThickness
+			local FOVCircle = Drawing.new("Circle")
+			FOVCircle.Position = Vector2.new(MyView.ViewportSize.X / 2, MyView.ViewportSize.Y / 2)
+			FOVCircle.Radius = _G.CircleRadius
+			FOVCircle.Filled = _G.CircleFilled
+			FOVCircle.Color = _G.CircleColor
+			FOVCircle.Visible = _G.CircleVisible
+			FOVCircle.Transparency = _G.CircleTransparency
+			FOVCircle.NumSides = _G.CircleSides
+			FOVCircle.Thickness = _G.CircleThickness
 	
-			local function HazeLocalChangerLol311_func()
-				HazeLocalChangerLol296_.MouseBehavior = Enum.MouseBehavior.LockCenter
+			local function CursorLock()
+				UIS.MouseBehavior = Enum.MouseBehavior.LockCenter
 			end
-			local function HazeLocalChangerLol312_func()
-				HazeLocalChangerLol305_ = false
-				HazeLocalChangerLol306_ = false
-				HazeLocalChangerLol307_ = false 
-				HazeLocalChangerLol296_.MouseBehavior = Enum.MouseBehavior.Default
+			local function UnLockCursor()
+				HoldingM2 = false Active = false Lock = false 
+				UIS.MouseBehavior = Enum.MouseBehavior.Default
 			end
 			function FindNearestPlayer()
-				local HazeLocalChangerLol313_ = math.huge
-				local HazeLocalChangerLol314_ = nil
-				for HazeLocalChangerLol315_forvar0, HazeLocalChangerLol316_forvar1 in pairs(HazeLocalChangerLol297_:GetPlayers()) do
-					if HazeLocalChangerLol316_forvar1 ~= HazeLocalChangerLol298_ and HazeLocalChangerLol316_forvar1.Character:FindFirstChild("Humanoid") and HazeLocalChangerLol316_forvar1.Character:FindFirstChild("Humanoid").Health > 0 and HazeLocalChangerLol316_forvar1.Character:FindFirstChild("HumanoidRootPart") and HazeLocalChangerLol316_forvar1 then
-						local HazeLocalChangerLol317_ = HazeLocalChangerLol316_forvar1.Character
-						local HazeLocalChangerLol318_, HazeLocalChangerLol319_ = HazeLocalChangerLol303_:WorldToViewportPoint(HazeLocalChangerLol317_[_G.AimPart].Position)
-						if HazeLocalChangerLol319_ then
-							local HazeLocalChangerLol320_ = (Vector2.new(HazeLocalChangerLol302_.X, HazeLocalChangerLol302_.Y) - Vector2.new(HazeLocalChangerLol318_.X, HazeLocalChangerLol318_.Y)).Magnitude
-							if HazeLocalChangerLol320_ < HazeLocalChangerLol313_ and HazeLocalChangerLol320_ < HazeLocalChangerLol310_.Radius then
-								HazeLocalChangerLol313_ = HazeLocalChangerLol320_
-								HazeLocalChangerLol314_ = HazeLocalChangerLol317_
+				local dist = math.huge
+				local Target = nil
+				for _, v in pairs(Players:GetPlayers()) do
+					if v ~= LocalPlayer and v.Character:FindFirstChild("Humanoid") and v.Character:FindFirstChild("Humanoid").Health > 0 and v.Character:FindFirstChild("HumanoidRootPart") and v then
+						local TheirCharacter = v.Character
+						local CharacterRoot, Visible = MyView:WorldToViewportPoint(TheirCharacter[_G.AimPart].Position)
+						if Visible then
+							local RealMag = (Vector2.new(Mouse.X, Mouse.Y) - Vector2.new(CharacterRoot.X, CharacterRoot.Y)).Magnitude
+							if RealMag < dist and RealMag < FOVCircle.Radius then
+								dist = RealMag
+								Target = TheirCharacter
 							end
 						end
 					end
 				end
-				return HazeLocalChangerLol314_
+				return Target
 			end
 	
-			HazeLocalChangerLol296_.InputBegan:Connect(function(HazeLocalChangerLol321_arg0)
-				if HazeLocalChangerLol321_arg0.UserInputType == Enum.UserInputType.MouseButton2 then
-					HazeLocalChangerLol305_ = true
-					HazeLocalChangerLol306_ = true
-					HazeLocalChangerLol307_ = true
-					if HazeLocalChangerLol306_ then
-						local HazeLocalChangerLol322_ = FindNearestPlayer()
+			UIS.InputBegan:Connect(function(Input)
+				if Input.UserInputType == Enum.UserInputType.MouseButton2 then
+					HoldingM2 = true
+					Active = true
+					Lock = true
+					if Active then
+						local The_Enemy = FindNearestPlayer()
 	
-						while HazeLocalChangerLol305_ do
-							task.wait(.000001)
-							if HazeLocalChangerLol307_ and HazeLocalChangerLol322_ ~= nil then
-								local HazeLocalChangerLol323_ = HazeLocalChangerLol322_.HumanoidRootPart.CFrame + (HazeLocalChangerLol322_.HumanoidRootPart.Velocity * HazeLocalChangerLol308_ + HazeLocalChangerLol309_)
-								HazeLocalChangerLol303_.CFrame = CFrame.lookAt(HazeLocalChangerLol303_.CFrame.Position, HazeLocalChangerLol323_.Position)
-								HazeLocalChangerLol311_func()
+						while HoldingM2 do task.wait(.000001)
+							if Lock and The_Enemy ~= nil then
+								local Future = The_Enemy.HumanoidRootPart.CFrame + (The_Enemy.HumanoidRootPart.Velocity * Epitaph + HeadOffset)
+								MyView.CFrame = CFrame.lookAt(MyView.CFrame.Position, Future.Position)
+								CursorLock()
 							end
 						end
 					end
 				end
 			end)
-			HazeLocalChangerLol296_.InputEnded:Connect(function(HazeLocalChangerLol324_arg0)
-				if HazeLocalChangerLol324_arg0.UserInputType == Enum.UserInputType.MouseButton2 then
+			UIS.InputEnded:Connect(function(Input)
+				if Input.UserInputType == Enum.UserInputType.MouseButton2 then
 	
-					HazeLocalChangerLol312_func()
+					UnLockCursor()
 				end
 			end)
 	
 		end
 		if cream == false then 
-			local HazeLocalChangerLol325_ = workspace.CurrentCamera
-			local HazeLocalChangerLol326_ = game:GetService("RunService")
-			local HazeLocalChangerLol327_ = game:GetService("UserInputService")
-			local HazeLocalChangerLol328_ = game:GetService("Players")
-			local HazeLocalChangerLol329_ = HazeLocalChangerLol328_.LocalPlayer
-			local HazeLocalChangerLol330_ = HazeLocalChangerLol329_:GetMouse()
+			local dwCamera = workspace.CurrentCamera
+			local dwRunService = game:GetService("RunService")
+			local dwUIS = game:GetService("UserInputService")
+			local dwEntities = game:GetService("Players")
+			local dwLocalPlayer = dwEntities.LocalPlayer
+			local dwMouse = dwLocalPlayer:GetMouse()
 	
 			getgenv().aimsettings = {
 				Aimbot = true,
@@ -1774,61 +1745,61 @@ local function HazeLocalChangerLol94_func() -- AimbotButton_2.LocalScript
 				Aimbot_TeamCheck = true,
 				Aimbot_Draw_FOV = false,
 				Aimbot_FOV_Radius = 200,
-				Aimbot_FOV_Color = Color3.fromRGB(255, 255, 255)
+				Aimbot_FOV_Color = Color3.fromRGB(255,255,255)
 			}
 	
-			local HazeLocalChangerLol331_ = Drawing.new("Circle")
-			HazeLocalChangerLol331_.Visible = getgenv().aimsettings.Aimbot_Draw_FOV
-			HazeLocalChangerLol331_.Radius = getgenv().aimsettings.Aimbot_FOV_Radius
-			HazeLocalChangerLol331_.Color = getgenv().aimsettings.Aimbot_FOV_Color
-			HazeLocalChangerLol331_.Thickness = 1
-			HazeLocalChangerLol331_.Filled = false
-			HazeLocalChangerLol331_.Transparency = 1
+			local fovcircle = Drawing.new("Circle")
+			fovcircle.Visible = getgenv().aimsettings.Aimbot_Draw_FOV
+			fovcircle.Radius = getgenv().aimsettings.Aimbot_FOV_Radius
+			fovcircle.Color = getgenv().aimsettings.Aimbot_FOV_Color
+			fovcircle.Thickness = 1
+			fovcircle.Filled = false
+			fovcircle.Transparency = 1
 	
-			HazeLocalChangerLol331_.Position = Vector2.new(HazeLocalChangerLol325_.ViewportSize.X / 2, HazeLocalChangerLol325_.ViewportSize.Y / 2)
+			fovcircle.Position = Vector2.new(dwCamera.ViewportSize.X / 2, dwCamera.ViewportSize.Y / 2)
 	
-			HazeLocalChangerLol327_.InputBegan:Connect(function(HazeLocalChangerLol332_arg0)
-				if HazeLocalChangerLol332_arg0.UserInputType == Enum.UserInputType.MouseButton2 then
+			dwUIS.InputBegan:Connect(function(i)
+				if i.UserInputType == Enum.UserInputType.MouseButton2 then
 					getgenv().aimsettings.Aiming = true
 				end
 			end)
 	
-			HazeLocalChangerLol327_.InputEnded:Connect(function(HazeLocalChangerLol333_arg0)
-				if HazeLocalChangerLol333_arg0.UserInputType == Enum.UserInputType.MouseButton2 then
+			dwUIS.InputEnded:Connect(function(i)
+				if i.UserInputType == Enum.UserInputType.MouseButton2 then
 					getgenv().aimsettings.Aiming = false
 				end
 			end)
 	
-			HazeLocalChangerLol326_.RenderStepped:Connect(function()
+			dwRunService.RenderStepped:Connect(function()
 	
-				local HazeLocalChangerLol334_ = math.huge
-				local HazeLocalChangerLol335_ = nil
+				local dist = math.huge
+				local closest_char = nil
 	
 				if getgenv().aimsettings.Aiming then
 	
-					for HazeLocalChangerLol336_forvar0, HazeLocalChangerLol337_forvar1 in next, HazeLocalChangerLol328_:GetChildren() do 
+					for i,v in next, dwEntities:GetChildren() do 
 	
-						if HazeLocalChangerLol337_forvar1 ~= HazeLocalChangerLol329_ and
-							HazeLocalChangerLol337_forvar1.Character and
-							HazeLocalChangerLol337_forvar1.Character:FindFirstChild("HumanoidRootPart") and
-							HazeLocalChangerLol337_forvar1.Character:FindFirstChild("Humanoid") and
-							HazeLocalChangerLol337_forvar1.Character:FindFirstChild("Humanoid").Health > 0 then
+						if v ~= dwLocalPlayer and
+							v.Character and
+							v.Character:FindFirstChild("HumanoidRootPart") and
+							v.Character:FindFirstChild("Humanoid") and
+							v.Character:FindFirstChild("Humanoid").Health > 0 then
 	
 							if getgenv().aimsettings.Aimbot_TeamCheck == true and
-								HazeLocalChangerLol337_forvar1.Team ~= HazeLocalChangerLol329_.Team or
+								v.Team ~= dwLocalPlayer.Team or
 								getgenv().aimsettings.Aimbot_TeamCheck == false then
 	
-								local HazeLocalChangerLol338_ = HazeLocalChangerLol337_forvar1.Character
-								local HazeLocalChangerLol339_, HazeLocalChangerLol340_ = HazeLocalChangerLol325_:WorldToViewportPoint(HazeLocalChangerLol338_[getgenv().aimsettings.Aimbot_AimPart].Position)
+								local char = v.Character
+								local char_part_pos, is_onscreen = dwCamera:WorldToViewportPoint(char[getgenv().aimsettings.Aimbot_AimPart].Position)
 	
-								if HazeLocalChangerLol340_ then
+								if is_onscreen then
 	
-									local HazeLocalChangerLol341_ = (Vector2.new(HazeLocalChangerLol330_.X, HazeLocalChangerLol330_.Y) - Vector2.new(HazeLocalChangerLol339_.X, HazeLocalChangerLol339_.Y)).Magnitude
+									local mag = (Vector2.new(dwMouse.X, dwMouse.Y) - Vector2.new(char_part_pos.X, char_part_pos.Y)).Magnitude
 	
-									if HazeLocalChangerLol341_ < HazeLocalChangerLol334_ and HazeLocalChangerLol341_ < getgenv().aimsettings.Aimbot_FOV_Radius then
+									if mag < dist and mag < getgenv().aimsettings.Aimbot_FOV_Radius then
 	
-										HazeLocalChangerLol334_ = HazeLocalChangerLol341_
-										HazeLocalChangerLol335_ = HazeLocalChangerLol338_
+										dist = mag
+										closest_char = char
 	
 									end
 								end
@@ -1836,135 +1807,138 @@ local function HazeLocalChangerLol94_func() -- AimbotButton_2.LocalScript
 						end
 					end
 	
-					if HazeLocalChangerLol335_ ~= nil and
-						HazeLocalChangerLol335_:FindFirstChild("HumanoidRootPart") and
-						HazeLocalChangerLol335_:FindFirstChild("Humanoid") and
-						HazeLocalChangerLol335_:FindFirstChild("Humanoid").Health > 0 then
+					if closest_char ~= nil and
+						closest_char:FindFirstChild("HumanoidRootPart") and
+						closest_char:FindFirstChild("Humanoid") and
+						closest_char:FindFirstChild("Humanoid").Health > 0 then
 	
-						HazeLocalChangerLol325_.CFrame = CFrame.new(HazeLocalChangerLol325_.CFrame.Position, HazeLocalChangerLol335_[getgenv().aimsettings.Aimbot_AimPart].Position)
+						dwCamera.CFrame = CFrame.new(dwCamera.CFrame.Position, closest_char[getgenv().aimsettings.Aimbot_AimPart].Position)
 					end
 				end
 			end)
 		end
-		local HazeLocalChangerLol258_ = game:GetService("Workspace")
-		local HazeLocalChangerLol259_ = game:GetService("RunService")
-		local HazeLocalChangerLol260_ = game:GetService("UserInputService")
-		local HazeLocalChangerLol261_ = game:GetService("Players")
-		local HazeLocalChangerLol262_ = HazeLocalChangerLol261_.LocalPlayer
-		local HazeLocalChangerLol263_ = HazeLocalChangerLol262_.Character
-		local HazeLocalChangerLol264_ = HazeLocalChangerLol263_:FindFirstChild("HumanoidRootPart")
-		local HazeLocalChangerLol265_ = HazeLocalChangerLol263_:FindFirstChild("Humanoid")
-		local HazeLocalChangerLol266_ = HazeLocalChangerLol262_:GetMouse()
-		local HazeLocalChangerLol267_ = HazeLocalChangerLol258_.CurrentCamera
-		local HazeLocalChangerLol268_ = HazeLocalChangerLol262_.TeamColor
-		local HazeLocalChangerLol269_ = false
-		local HazeLocalChangerLol270_ = false
-		local HazeLocalChangerLol271_ = false
-		local HazeLocalChangerLol272_ = .100 ---Note: The Bigger The Number, The More Prediction.
-		local HazeLocalChangerLol273_ = Vector3.new(0, .1, 0)
-		_G.TeamCheck = false
-		_G.AimPart = ""
-		_G.Sensitivity = 0
-		_G.CircleSides = 64
-		_G.CircleColor = Color3.fromRGB(255, 0, 130)
-		_G.CircleTransparency = 0
-		_G.CircleRadius = 200
-		_G.CircleFilled = false
-		_G.CircleVisible = true
-		_G.CircleThickness = 1
-		local HazeLocalChangerLol274_ = Drawing.new("Circle")
-		HazeLocalChangerLol274_.Position = Vector2.new(HazeLocalChangerLol267_.ViewportSize.X / 2, HazeLocalChangerLol267_.ViewportSize.Y / 2)
-		HazeLocalChangerLol274_.Radius = _G.CircleRadius
-		HazeLocalChangerLol274_.Filled = _G.CircleFilled
-		HazeLocalChangerLol274_.Color = _G.CircleColor
-		HazeLocalChangerLol274_.Visible = _G.CircleVisible
-		HazeLocalChangerLol274_.Transparency = _G.CircleTransparency
-		HazeLocalChangerLol274_.NumSides = _G.CircleSides
-		HazeLocalChangerLol274_.Thickness = _G.CircleThickness
-		local function HazeLocalChangerLol275_func()
-			HazeLocalChangerLol260_.MouseBehavior = Enum.MouseBehavior.LockCenter
-		end
-		local function HazeLocalChangerLol276_func()
-			HazeLocalChangerLol269_ = false
-			HazeLocalChangerLol270_ = false
-			HazeLocalChangerLol271_ = false
-			HazeLocalChangerLol260_.MouseBehavior = Enum.MouseBehavior.Default
-		end
-		function FindNearestPlayer()
-			local HazeLocalChangerLol342_ = math.huge
-			local HazeLocalChangerLol343_ = nil
-			for HazeLocalChangerLol344_forvar0, HazeLocalChangerLol345_forvar1 in pairs(HazeLocalChangerLol261_:GetPlayers()) do
-				if HazeLocalChangerLol345_forvar1 ~= HazeLocalChangerLol262_ and HazeLocalChangerLol345_forvar1.Character:FindFirstChild("Humanoid") and HazeLocalChangerLol345_forvar1.Character:FindFirstChild("Humanoid").Health > 0 and HazeLocalChangerLol345_forvar1.Character:FindFirstChild("HumanoidRootPart") and HazeLocalChangerLol345_forvar1 then
-					local HazeLocalChangerLol346_ = HazeLocalChangerLol345_forvar1.Character
-					local HazeLocalChangerLol347_, HazeLocalChangerLol348_ = HazeLocalChangerLol267_:WorldToViewportPoint(HazeLocalChangerLol346_[_G.AimPart].Position)
-					if HazeLocalChangerLol348_ then
-						local HazeLocalChangerLol349_ = (Vector2.new(HazeLocalChangerLol266_.X, HazeLocalChangerLol266_.Y) - Vector2.new(HazeLocalChangerLol347_.X, HazeLocalChangerLol347_.Y)).Magnitude
-						if HazeLocalChangerLol349_ < HazeLocalChangerLol342_ and HazeLocalChangerLol349_ < HazeLocalChangerLol274_.Radius then
-							HazeLocalChangerLol342_ = HazeLocalChangerLol349_
-							HazeLocalChangerLol343_ = HazeLocalChangerLol346_
+	
+	
+			local Area = game:GetService("Workspace")
+			local RunService = game:GetService("RunService")
+			local UIS = game:GetService("UserInputService")
+			local Players = game:GetService("Players")
+			local LocalPlayer = Players.LocalPlayer
+			local MyCharacter = LocalPlayer.Character
+			local MyRoot = MyCharacter:FindFirstChild("HumanoidRootPart")
+			local MyHumanoid = MyCharacter:FindFirstChild("Humanoid")
+			local Mouse = LocalPlayer:GetMouse()
+			local MyView = Area.CurrentCamera
+			local MyTeamColor = LocalPlayer.TeamColor
+			local HoldingM2 = false
+			local Active = false
+			local Lock = false
+			local Epitaph = .100 ---Note: The Bigger The Number, The More Prediction.
+			local HeadOffset = Vector3.new(0, .1, 0)
+	
+			_G.TeamCheck = false
+			_G.AimPart = ""
+			_G.Sensitivity = 0
+			_G.CircleSides = 64
+			_G.CircleColor = Color3.fromRGB(255, 0, 130)
+			_G.CircleTransparency = 0
+			_G.CircleRadius = 200
+			_G.CircleFilled = false
+			_G.CircleVisible = true
+			_G.CircleThickness = 1
+	
+			local Fre = Drawing.new("Circle")
+			Fre.Position = Vector2.new(MyView.ViewportSize.X / 2, MyView.ViewportSize.Y / 2)
+			Fre.Radius = _G.CircleRadius
+			Fre.Filled = _G.CircleFilled
+			Fre.Color = _G.CircleColor
+			Fre.Visible = _G.CircleVisible
+			Fre.Transparency = _G.CircleTransparency
+			Fre.NumSides = _G.CircleSides
+			Fre.Thickness = _G.CircleThickness
+	
+			local function CursorLock()
+				UIS.MouseBehavior = Enum.MouseBehavior.LockCenter
+			end
+			local function UnLockCursor()
+				HoldingM2 = false Active = false Lock = false 
+				UIS.MouseBehavior = Enum.MouseBehavior.Default
+			end
+			function FindNearestPlayer()
+				local dist = math.huge
+				local Target = nil
+				for _, v in pairs(Players:GetPlayers()) do
+					if v ~= LocalPlayer and v.Character:FindFirstChild("Humanoid") and v.Character:FindFirstChild("Humanoid").Health > 0 and v.Character:FindFirstChild("HumanoidRootPart") and v then
+						local TheirCharacter = v.Character
+						local CharacterRoot, Visible = MyView:WorldToViewportPoint(TheirCharacter[_G.AimPart].Position)
+						if Visible then
+							local RealMag = (Vector2.new(Mouse.X, Mouse.Y) - Vector2.new(CharacterRoot.X, CharacterRoot.Y)).Magnitude
+							if RealMag < dist and RealMag < Fre.Radius then
+								dist = RealMag
+								Target = TheirCharacter
+							end
 						end
 					end
 				end
+				return Target
 			end
-			return HazeLocalChangerLol343_
-		end
-		HazeLocalChangerLol260_.InputBegan:Connect(function(HazeLocalChangerLol350_arg0)
-			if HazeLocalChangerLol350_arg0.UserInputType == Enum.UserInputType.MouseButton2 then
-				HazeLocalChangerLol269_ = true
-				HazeLocalChangerLol270_ = true
-				HazeLocalChangerLol271_ = true
-				if HazeLocalChangerLol270_ then
-					local HazeLocalChangerLol351_ = FindNearestPlayer()
-					while HazeLocalChangerLol269_ do
-						task.wait(.000001)
-						if HazeLocalChangerLol271_ and HazeLocalChangerLol351_ ~= nil then
-							local HazeLocalChangerLol352_ = HazeLocalChangerLol351_.HumanoidRootPart.CFrame + (HazeLocalChangerLol351_.HumanoidRootPart.Velocity * HazeLocalChangerLol272_ + HazeLocalChangerLol273_)
-							HazeLocalChangerLol267_.CFrame = CFrame.lookAt(HazeLocalChangerLol267_.CFrame.Position, HazeLocalChangerLol352_.Position)
-							HazeLocalChangerLol275_func()
+	
+			UIS.InputBegan:Connect(function(Input)
+				if Input.UserInputType == Enum.UserInputType.MouseButton2 then
+					HoldingM2 = true
+					Active = true
+					Lock = true
+					if Active then
+						local The_Enemy = FindNearestPlayer()
+						while HoldingM2 do task.wait(.000001)
+							if Lock and The_Enemy ~= nil then
+								local Future = The_Enemy.HumanoidRootPart.CFrame + (The_Enemy.HumanoidRootPart.Velocity * Epitaph + HeadOffset)
+								MyView.CFrame = CFrame.lookAt(MyView.CFrame.Position, Future.Position)
+								CursorLock()
+							end
 						end
 					end
 				end
-			end
-		end)
-		HazeLocalChangerLol260_.InputEnded:Connect(function(HazeLocalChangerLol353_arg0)
-			if HazeLocalChangerLol353_arg0.UserInputType == Enum.UserInputType.MouseButton2 then
-				HazeLocalChangerLol276_func()
-			end
-		end)
+			end)
+			UIS.InputEnded:Connect(function(Input)
+				if Input.UserInputType == Enum.UserInputType.MouseButton2 then
+					UnLockCursor()
+				end
+			end)
 	end)
 	
 end
-coroutine.wrap(HazeLocalChangerLol94_func)()
-local function HazeLocalChangerLol95_func() -- FovButton_2.Colours 
-	local HazeLocalChangerLol354_ = Instance.new('LocalScript', HazeLocalChangerLol61_)
+coroutine.wrap(LJHCD_fake_script)()
+local function BSRNW_fake_script() -- FovButton_2.Colours 
+	local script = Instance.new('LocalScript', FovButton_2)
 
-	HazeLocalChangerLol354_.Parent.MouseEnter:Connect(function()
-		HazeLocalChangerLol354_.Parent.BorderColor3 = Color3.fromRGB(60, 0, 180)
-		HazeLocalChangerLol354_.Parent.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
-		HazeLocalChangerLol354_.Parent.BorderSizePixel = 2
+	script.Parent.MouseEnter:Connect(function()
+		script.Parent.BorderColor3 = Color3.fromRGB(60, 0, 180)
+		script.Parent.BackgroundColor3 = Color3.fromRGB(35,35,35)
+		script.Parent.BorderSizePixel = 2
 	end)
 	
-	HazeLocalChangerLol354_.Parent.MouseLeave:Connect(function()
-		HazeLocalChangerLol354_.Parent.BorderSizePixel = 1
-		HazeLocalChangerLol354_.Parent.BackgroundColor3 = Color3.fromRGB(29, 29, 29)
-		HazeLocalChangerLol354_.Parent.BorderColor3 = Color3.fromRGB(0, 0, 0)
+	script.Parent.MouseLeave:Connect(function()
+		script.Parent.BorderSizePixel = 1
+		script.Parent.BackgroundColor3 = Color3.fromRGB(29,29,29)
+		script.Parent.BorderColor3 = Color3.fromRGB(0, 0, 0)
 	end)
 	
-	HazeLocalChangerLol354_.Parent.MouseEnter:Connect(function()
-		local HazeLocalChangerLol355_ = game.Players.LocalPlayer
-		local HazeLocalChangerLol356_ = HazeLocalChangerLol355_:GetMouse()
+	script.Parent.MouseEnter:Connect(function()
+		local player = game.Players.LocalPlayer
+		local mouse = player:GetMouse()
 	
-		HazeLocalChangerLol356_.Icon = "rbxassetid://5992580992"
-		HazeLocalChangerLol356_.Color = Color3.fromRGB(255, 0, 0)
+		mouse.Icon = "rbxassetid://5992580992"
+		mouse.Color = Color3.fromRGB(255, 0, 0)
 	
 	end)
 end
-coroutine.wrap(HazeLocalChangerLol95_func)()
-local function HazeLocalChangerLol96_func() -- FovButton_2.NormalCircle 
-	local HazeLocalChangerLol357_ = Instance.new('LocalScript', HazeLocalChangerLol61_)
+coroutine.wrap(BSRNW_fake_script)()
+local function JTQOGW_fake_script() -- FovButton_2.NormalCircle 
+	local script = Instance.new('LocalScript', FovButton_2)
 
 	normal = false
-	HazeLocalChangerLol357_.Parent.MouseButton1Down:Connect(function()
+	script.Parent.MouseButton1Down:Connect(function()
 	
 		if normal == true then 
 			normal = false 
@@ -1972,19 +1946,19 @@ local function HazeLocalChangerLol96_func() -- FovButton_2.NormalCircle
 			normal = true
 		end
 		if normal == true then 
-			HazeLocalChangerLol357_.Parent.Text = "✓"
+			script.Parent.Text = "✓"
 		end
 		if normal == false then 
-			HazeLocalChangerLol357_.Parent.Text = ""
+			script.Parent.Text = ""
 		end
 	
 		if normal == true then
 			getgenv().Fov = true
 			while getgenv().Fov  and wait() do
-				local HazeLocalChangerLol358_ = game:GetService("Players")
-				local HazeLocalChangerLol359_ = HazeLocalChangerLol358_.LocalPlayer
-				local HazeLocalChangerLol360_ = HazeLocalChangerLol359_:GetMouse()
-				local HazeLocalChangerLol361_ = workspace.CurrentCamera
+				local dwEntities = game:GetService("Players")
+				local dwLocalPlayer = dwEntities.LocalPlayer
+				local dwMouse = dwLocalPlayer:GetMouse()
+				local dwCamera = workspace.CurrentCamera
 	
 	
 				_G.fovcircle = Drawing.new("Circle")
@@ -1998,7 +1972,7 @@ local function HazeLocalChangerLol96_func() -- FovButton_2.NormalCircle
 	
 				repeat
 					wait(0)
-					_G.fovcircle.Position = Vector2.new(HazeLocalChangerLol361_.ViewportSize.X / 2, HazeLocalChangerLol361_.ViewportSize.Y / 2)
+					_G.fovcircle.Position = Vector2.new(dwCamera.ViewportSize.X / 2, dwCamera.ViewportSize.Y / 2)
 				until normal == false
 			end
 		end
@@ -2009,56 +1983,56 @@ local function HazeLocalChangerLol96_func() -- FovButton_2.NormalCircle
 		end
 	end)
 end
-coroutine.wrap(HazeLocalChangerLol96_func)()
-local function HazeLocalChangerLol97_func() -- User.LocalScript 
-	local HazeLocalChangerLol362_ = Instance.new('LocalScript', HazeLocalChangerLol66_)
+coroutine.wrap(JTQOGW_fake_script)()
+local function ECWR_fake_script() -- User.LocalScript 
+	local script = Instance.new('LocalScript', User)
 
-	local HazeLocalChangerLol363_ = game:GetService("Players")
+	local Players = game:GetService("Players")
 	
-	local HazeLocalChangerLol364_ = HazeLocalChangerLol363_.LocalPlayer
+	local player = Players.LocalPlayer
 	
 	-- Fetch the thumbnail
-	local HazeLocalChangerLol365_ = HazeLocalChangerLol364_.UserId
-	local HazeLocalChangerLol366_ = Enum.ThumbnailType.HeadShot
-	local HazeLocalChangerLol367_ = Enum.ThumbnailSize.Size420x420
-	local HazeLocalChangerLol368_, HazeLocalChangerLol369_ = HazeLocalChangerLol363_:GetUserThumbnailAsync(HazeLocalChangerLol365_, HazeLocalChangerLol366_, HazeLocalChangerLol367_)
+	local userId = player.UserId
+	local thumbType = Enum.ThumbnailType.HeadShot
+	local thumbSize = Enum.ThumbnailSize.Size420x420
+	local content, isReady = Players:GetUserThumbnailAsync(userId, thumbType, thumbSize)
 	
 	-- Set the ImageLabel's content to the user thumbnail
-	local HazeLocalChangerLol370_ = HazeLocalChangerLol362_.Parent
-	HazeLocalChangerLol370_.Image = HazeLocalChangerLol368_
-	HazeLocalChangerLol370_.Size = UDim2.new(0, 64, 0, 66)
+	local imageLabel = script.Parent
+	imageLabel.Image = content
+	imageLabel.Size = UDim2.new(0, 64,0, 66)
 end
-coroutine.wrap(HazeLocalChangerLol97_func)()
-local function HazeLocalChangerLol98_func() -- FovButton_3.Colours 
-	local HazeLocalChangerLol371_ = Instance.new('LocalScript', HazeLocalChangerLol70_)
+coroutine.wrap(ECWR_fake_script)()
+local function UXIKFOI_fake_script() -- FovButton_3.Colours 
+	local script = Instance.new('LocalScript', FovButton_3)
 
-	HazeLocalChangerLol371_.Parent.MouseEnter:Connect(function()
-		HazeLocalChangerLol371_.Parent.BorderColor3 = Color3.fromRGB(60, 0, 180)
-		HazeLocalChangerLol371_.Parent.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
-		HazeLocalChangerLol371_.Parent.BorderSizePixel = 2
+	script.Parent.MouseEnter:Connect(function()
+		script.Parent.BorderColor3 = Color3.fromRGB(60, 0, 180)
+		script.Parent.BackgroundColor3 = Color3.fromRGB(35,35,35)
+		script.Parent.BorderSizePixel = 2
 	end)
 	
-	HazeLocalChangerLol371_.Parent.MouseLeave:Connect(function()
-		HazeLocalChangerLol371_.Parent.BorderSizePixel = 1
-		HazeLocalChangerLol371_.Parent.BackgroundColor3 = Color3.fromRGB(29, 29, 29)
-		HazeLocalChangerLol371_.Parent.BorderColor3 = Color3.fromRGB(0, 0, 0)
+	script.Parent.MouseLeave:Connect(function()
+		script.Parent.BorderSizePixel = 1
+		script.Parent.BackgroundColor3 = Color3.fromRGB(29,29,29)
+		script.Parent.BorderColor3 = Color3.fromRGB(0, 0, 0)
 	end)
 	
-	HazeLocalChangerLol371_.Parent.MouseEnter:Connect(function()
-		local HazeLocalChangerLol372_ = game.Players.LocalPlayer
-		local HazeLocalChangerLol373_ = HazeLocalChangerLol372_:GetMouse()
+	script.Parent.MouseEnter:Connect(function()
+		local player = game.Players.LocalPlayer
+		local mouse = player:GetMouse()
 	
-		HazeLocalChangerLol373_.Icon = "rbxassetid://5992580992"
-		HazeLocalChangerLol373_.Color = Color3.fromRGB(255, 0, 0)
+		mouse.Icon = "rbxassetid://5992580992"
+		mouse.Color = Color3.fromRGB(255, 0, 0)
 	
 	end)
 end
-coroutine.wrap(HazeLocalChangerLol98_func)()
-local function HazeLocalChangerLol99_func() -- FovButton_3.NormalCircle 
-	local HazeLocalChangerLol374_ = Instance.new('LocalScript', HazeLocalChangerLol70_)
+coroutine.wrap(UXIKFOI_fake_script)()
+local function FWUCYO_fake_script() -- FovButton_3.NormalCircle 
+	local script = Instance.new('LocalScript', FovButton_3)
 
 	normal = false
-	HazeLocalChangerLol374_.Parent.MouseButton1Down:Connect(function()
+	script.Parent.MouseButton1Down:Connect(function()
 	
 		if normal == true then 
 			normal = false 
@@ -2066,69 +2040,70 @@ local function HazeLocalChangerLol99_func() -- FovButton_3.NormalCircle
 			normal = true
 		end
 		if normal == true then 
-			HazeLocalChangerLol374_.Parent.Text = "✓"
+			script.Parent.Text = "✓"
 		end
 		if normal == false then 
-			HazeLocalChangerLol374_.Parent.Text = ""
+			script.Parent.Text = ""
 		end
 	
 		if normal == true then
-		end
+			
+			end
 	
 		if normal == false then
 			
 		end
 	end)
 end
-coroutine.wrap(HazeLocalChangerLol99_func)()
-local function HazeLocalChangerLol100_func() -- NotPasted.DragControl 
-	local HazeLocalChangerLol375_ = Instance.new('LocalScript', HazeLocalChangerLol5_)
+coroutine.wrap(FWUCYO_fake_script)()
+local function QVSU_fake_script() -- NotPasted.DragControl 
+	local script = Instance.new('LocalScript', NotPasted)
 
-	local HazeLocalChangerLol376_ = game:GetService("UserInputService")
+	local UserInputService = game:GetService("UserInputService")
 	
-	local HazeLocalChangerLol377_ = HazeLocalChangerLol375_.Parent
+	local gui = script.Parent
 	
-	local HazeLocalChangerLol378_
-	local HazeLocalChangerLol379_
-	local HazeLocalChangerLol380_
-	local HazeLocalChangerLol381_
+	local dragging
+	local dragInput
+	local dragStart
+	local startPos
 	
-	local function HazeLocalChangerLol382_func(HazeLocalChangerLol383_arg0)
-		local HazeLocalChangerLol384_ = HazeLocalChangerLol383_arg0.Position - HazeLocalChangerLol380_
-		HazeLocalChangerLol377_.Position = HazeLocalChangerLol377_:TweenPosition(UDim2.new(HazeLocalChangerLol381_.X.Scale, HazeLocalChangerLol381_.X.Offset + HazeLocalChangerLol384_.X, HazeLocalChangerLol381_.Y.Scale, HazeLocalChangerLol381_.Y.Offset + HazeLocalChangerLol384_.Y), 'Out', 'Linear', 0.06, true); -- drag speed
+	local function update(input)
+		local delta = input.Position - dragStart
+		gui.Position = gui:TweenPosition(UDim2.new(startPos.X.Scale, startPos.X.Offset + delta.X, startPos.Y.Scale, startPos.Y.Offset + delta.Y), 'Out', 'Linear', 0.06, true); -- drag speed
 	end
 	
-	HazeLocalChangerLol377_.InputBegan:Connect(function(HazeLocalChangerLol385_arg0)
-		if HazeLocalChangerLol385_arg0.UserInputType == Enum.UserInputType.MouseButton1 or HazeLocalChangerLol385_arg0.UserInputType == Enum.UserInputType.Touch then
-			HazeLocalChangerLol378_ = true
-			HazeLocalChangerLol380_ = HazeLocalChangerLol385_arg0.Position
-			HazeLocalChangerLol381_ = HazeLocalChangerLol377_.Position
+	gui.InputBegan:Connect(function(input)
+		if input.UserInputType == Enum.UserInputType.MouseButton1 or input.UserInputType == Enum.UserInputType.Touch then
+			dragging = true
+			dragStart = input.Position
+			startPos = gui.Position
 	
-			HazeLocalChangerLol385_arg0.Changed:Connect(function()
-				if HazeLocalChangerLol385_arg0.UserInputState == Enum.UserInputState.End then
-					HazeLocalChangerLol378_ = false
+			input.Changed:Connect(function()
+				if input.UserInputState == Enum.UserInputState.End then
+					dragging = false
 				end
 			end)
 		end
 	end)
 	
-	HazeLocalChangerLol377_.InputChanged:Connect(function(HazeLocalChangerLol386_arg0)
-		if HazeLocalChangerLol386_arg0.UserInputType == Enum.UserInputType.MouseMovement or HazeLocalChangerLol386_arg0.UserInputType == Enum.UserInputType.Touch then
-			HazeLocalChangerLol379_ = HazeLocalChangerLol386_arg0
+	gui.InputChanged:Connect(function(input)
+		if input.UserInputType == Enum.UserInputType.MouseMovement or input.UserInputType == Enum.UserInputType.Touch then
+			dragInput = input
 		end
 	end)
 	
-	HazeLocalChangerLol376_.InputChanged:Connect(function(HazeLocalChangerLol387_arg0)
-		if HazeLocalChangerLol387_arg0 == HazeLocalChangerLol379_ and HazeLocalChangerLol378_ then
-			HazeLocalChangerLol382_func(HazeLocalChangerLol387_arg0)
+	UserInputService.InputChanged:Connect(function(input)
+		if input == dragInput and dragging then
+			update(input)
 		end
 	end)
 end
-coroutine.wrap(HazeLocalChangerLol100_func)()
-local function HazeLocalChangerLol101_func() -- NotPasted.LocalScript 
-	local HazeLocalChangerLol388_ = Instance.new('LocalScript', HazeLocalChangerLol5_)
+coroutine.wrap(QVSU_fake_script)()
+local function BHBSOND_fake_script() -- NotPasted.LocalScript 
+	local script = Instance.new('LocalScript', NotPasted)
 
 	print("Welcome", game.Players.LocalPlayer.Name, "To CherryX Universal Hub")
 		
 end
-coroutine.wrap(HazeLocalChangerLol101_func)()
+coroutine.wrap(BHBSOND_fake_script)()
